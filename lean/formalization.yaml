@@ -19,15 +19,6 @@
   },
   "sources": [
     {
-      "title": "Author-supplied argument for an improved large-values bound and zero-density estimates",
-      "authors": [
-        "Mark Lewko"
-      ],
-      "type": "other",
-      "relationship": "formalizes",
-      "note": "The development formalizes and supplements the author-supplied argument. The precise claims are the approved abstract and the compared Lean statements. No complete manuscript-fidelity or upstream endorsement claim is made."
-    },
-    {
       "title": "Selected Lean analytic proofs from Scott McColm repository, later pinned source",
       "authors": [
         "Scott McColm"
@@ -151,11 +142,10 @@
     "methods": [
       {
         "method": "agent",
-        "framework": "OpenAI Codex",
         "tool_setup": "User-directed formalization, adaptation of attributed proof sources, Lean builds and kernel checks; separate AI source and statement review of the migration."
       }
     ],
-    "notes": "Material AI assistance in development and review. No human peer review or unspecified model/run evidence is claimed."
+    "notes": "The formalization and release preparation used AI assistance. Separate AI-assisted internal checks are described in VERIFICATION.json; they are not human peer review."
   },
   "fidelity": {
     "divergences": "The exact-curve statement fixes sigma before its constant; only the separate 39/17 bound is uniform over the full strip. Exact-curve uniformity is additionally proved away from the 3/4 boundary as specified in the interface. Whole-strip uniformity for the sharp curve is not claimed. Migration changes module visibility, compiler/library versions and file organization, without intended changes to mathematical claims."
@@ -163,7 +153,7 @@
   "review": {
     "status": "Independent AI source-equivalence and interface review passed; local build, fresh replay and sandboxed Lean/NanoDa Comparator checks passed",
     "reviewers": [
-      "Independent OpenAI Codex agent"
+      "Independent AI-assisted internal review"
     ],
     "notes": "The published Lean 4.34.1 release has separate receipts. Fresh Lean 4.35 evidence is summarized in VERIFICATION.json. Comparator reused source-hash-matched project artifacts; no separate clean-source Comparator rebuild or full hosted preflight is claimed. No human peer review or registry acceptance is claimed."
   },
@@ -173,11 +163,6 @@
     "registration_ready": false,
     "source_commit": "6a2c941b69f2ae91bfa0a63a8b867bfa829db6df",
     "metadata_license_identifier_note": "Proposed legacy detector spelling AGPL-3.0; original-contribution grant remains AGPL-3.0-only under LICENSING.md, with inherited licenses retained. Detector match must be checked in the full hosted preflight before intake.",
-    "pending_metadata_approval": [
-      "Responsible-maintainer designation for intake",
-      "Source-based origin and source descriptions",
-      "Legacy license detector spelling; no change to legal grant",
-      "math.NT classification"
-    ]
+    "pending_metadata_approval": []
   }
 }
