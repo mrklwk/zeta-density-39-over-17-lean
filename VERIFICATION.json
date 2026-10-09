@@ -1,0 +1,107 @@
+{
+  "status": "PASS: approved release candidate; public publication recorded separately",
+  "source_revision": "d2649c42418d2e240f38ac35f377fdaf24ffeeb3",
+  "source_signoff_revision": "0ed38e4c28d9171dbeb94ca81021175ff39baeca",
+  "toolchain": {
+    "lean": "4.34.1",
+    "compiler": "5045d0056413266e57c625dcd7c365b10e377c52",
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "transitive_pins": "lean/lake-manifest.json"
+  },
+  "project_sources": 822,
+  "comment_only_changes_from_reviewed_git": 49,
+  "source_equivalence": "Every non-comment character span equals reviewed git source. All candidate sources equal the isolated build-test sources; every project .olean exists.",
+  "candidate_checks": {
+    "resumed-build": {
+      "command": "lake --no-cache build",
+      "exit_code": 0,
+      "seconds": 1151.921,
+      "compiler_limit": 2,
+      "log_sha256": "e42cfd533782bf8643c093f1a9b202ad2acba5b9711ae066ecf93a3f40f84ad6"
+    },
+    "advertised-build": {
+      "command": "lake build",
+      "exit_code": 0,
+      "seconds": 10.14,
+      "compiler_limit": 2,
+      "log_sha256": "28bd881fe0178455f410e3fc94e472463acebdc054da6a6c353688bf61807762"
+    },
+    "statement-checks": {
+      "command": "lake env lean -DwarningAsError=true -DautoImplicit=false ../verification/StatementChecks.lean",
+      "exit_code": 0,
+      "seconds": 4.489,
+      "compiler_limit": 2,
+      "log_sha256": "68515d3e39a48fb1e6c3f53e2e697c7e69003f11910343e3809e1881dfadab0f"
+    },
+    "trust-replay": {
+      "command": "lake env lean -DwarningAsError=true -DautoImplicit=false ../verification/TrustReplay.lean",
+      "exit_code": 0,
+      "seconds": 102.752,
+      "compiler_limit": 2,
+      "log_sha256": "7d60b30da189ee65b7a872fce4168c1963a25e6a5dc293b9c84aab343333df97"
+    },
+    "coefficient-checks": {
+      "command": "lake env lean -DwarningAsError=true -DautoImplicit=false ../verification/CoefficientChecks.lean",
+      "exit_code": 0,
+      "seconds": 4.62,
+      "compiler_limit": 2,
+      "log_sha256": "7f783725e1b31b158abcf0b4244271c435a50cb0fb2df29f5e107d1b090351d5"
+    }
+  },
+  "build_scope": "Started with an empty project artifact directory and private copies of nine installed pinned external dependency trees/caches. Execution session ended without an exit receipt after214 project artifacts; resumed same build tree. Successful prior artifacts belong to this same clean-origin run. No project cache was imported from an older run.",
+  "fresh_kernel_replay": {
+    "declarations": 82951,
+    "roots": 11,
+    "theorem_roots": 11,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "unsafe_partial": "rejected",
+    "harness": "verification/TrustReplay.lean",
+    "harness_sha256": "c3499af4b51e8c6903bdb398f1f32847e6a9ca499f19a88e2185687fd6f7acdb"
+  },
+  "statement_checks": {
+    "harness": "verification/StatementChecks.lean",
+    "sha256": "9198d3f05f8767ea39378fe77f12a41c39ac597f730b77017a1f2cba80c784a4",
+    "scope": "Literal actual-zero count, complete fixed-sigma exponent, delta-gap uniformity, global uniform39/17, relevant axioms."
+  },
+  "coefficient_check": {
+    "harness": "verification/CoefficientChecks.lean",
+    "sha256": "147fbfe72809a33b6cac0a357c60f94b28e433f622fc56e6cf7fc99e7d16940b",
+    "result": "Maximum proved coefficient envelope39/17 at9/13; envelope exceeds9/4 there. This is not optimality of actual zeta exponent."
+  },
+  "independent_review": {
+    "result": "PASS",
+    "scope": "Release prose, exact theorem signatures/quantifiers, independent non-comment source comparison, independently authored coefficient probe. Not external peer review or a new whole-proof analytic audit. Candidate build/replay performed by release owner.",
+    "report_sha256": "1a2d98e2b1f9a1dfa4a688024d5eea608674eb3e035450894acd8f1e72d02cfa",
+    "approved_public_prose_addendum_sha256": "d85337b7593952c1264b14cac0bfcad9ec32df011297c8d3b1c8835d2ebe8468",
+    "short_abstract_addendum_sha256": "9e9a4c7ae44fd7b0c2cd55f3c17b31acb224f161cebd89cfbcffe6eae174e5ff",
+    "approved_full_coefficient_abstract_addendum_sha256": "a3302cfff777b6614c3ddbd8d0aef39bea7bbe15e2fb897826cf3874397b62b4"
+  },
+  "warnings": {
+    "unique_warning_lines": [
+      "warning: GuthMaynard/NativeSource/GuthMaynard/HalaszMontgomery.lean:1:0: 'Mathlib.Data.Complex.Basic' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/GuthMaynard/KloostermanPrime.lean:2:0: 'Mathlib.Data.Fintype.Units' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/GuthMaynard/MeanValue.lean:2:0: 'Mathlib.Data.Complex.Basic' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/GuthMaynard/MeanValueCS.lean:2:0: 'Mathlib.Data.Complex.Basic' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/GuthMaynard/Pigeonhole.lean:1:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/GuthMaynard/ZeroDetector.lean:3:0: 'Mathlib.Data.Complex.Basic' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/GuthMaynard/ZeroDetector.lean:4:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by",
+      "warning: GuthMaynard/NativeSource/PrimeNumberTheoremAnd/Mathlib/Analysis/SpecialFunctions/GammaBounds.lean:15:0: 'Mathlib.Data.Real.StarOrdered' has been deprecated: please replace this import by"
+    ],
+    "note": "Deprecated-import warnings may remain nonfatal despite warningAsError=true on probes. No warning-free build is claimed."
+  },
+  "inherited_evidence": {
+    "full_curve_kernel_replay": {
+      "declarations": 82951,
+      "roots": 11,
+      "note": "Prior receiving-worktree evidence; current candidate replay separately recorded above."
+    },
+    "original_frozen_release": "Preserved; not overwritten by this candidate."
+  },
+  "remaining_mathematical_limit": "Whole-strip single-constant uniformity for the exact discontinuous piecewise curve is unproved. Fixed-sigma, left-uniform, delta-gap and separate global uniform39/17 statements are retained.",
+  "license_status": "AGPL-3.0-only for new material by Mark Lewko; existing third-party licenses and attribution retained. See LICENSING.md.",
+  "public_actions": "None at candidate verification time; publication recorded separately"
+}

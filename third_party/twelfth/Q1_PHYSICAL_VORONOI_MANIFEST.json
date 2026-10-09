@@ -1,0 +1,25 @@
+{
+  "kind": "Source provenance extract; historical build/status and machine-local fields omitted.",
+  "upstream_repository": "https://github.com/smccolm/Lean",
+  "upstream_revision": "6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1",
+  "license_scope": "Selected McColm proof slices: MIT-0, Copyright 2026 S. McColm. PNT and mathlib material retain Apache-2.0; source headers and THIRD_PARTY_NOTICES.md govern attribution. Local compositions do not acquire upstream authorship by inclusion here.",
+  "original_record_sha256": "5a22542d17d46d23b6a1d8d4a19205f1bc2c0d341a0ee1618f067800675f3993",
+  "upstream_source_records": [
+    {
+      "sha256": "5e38f8388adbbc7345089d097dcd883cb7044871851c893ee0dc18bbfa710f2e",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIVoronoiDual.lean"
+    },
+    {
+      "sha256": "b8c1c49429619f709ebbb7b4e06dd2586c998cd80cd795271514de1d7e64c7e2",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaDivisorVoronoi.lean"
+    },
+    {
+      "sha256": "a4238003c03d75171abae6f7c34070c8dbfb11f7bd4342f3128899b0eba0b403",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaAtkinsonVoronoi.lean"
+    },
+    {
+      "sha256": "651f7f53742f73ce31fb9b78adab0f8575af446a09b05c73b25db22c1aa8f3cf",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaNeumannSeries.lean"
+    }
+  ]
+}

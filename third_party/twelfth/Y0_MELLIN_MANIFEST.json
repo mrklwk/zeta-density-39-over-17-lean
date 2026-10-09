@@ -1,0 +1,37 @@
+{
+  "kind": "Source provenance extract; historical build/status and machine-local fields omitted.",
+  "upstream_repository": "https://github.com/smccolm/Lean",
+  "upstream_revision": "6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1",
+  "license_scope": "Selected McColm proof slices: MIT-0, Copyright 2026 S. McColm. PNT and mathlib material retain Apache-2.0; source headers and THIRD_PARTY_NOTICES.md govern attribution. Local compositions do not acquire upstream authorship by inclusion here.",
+  "original_record_sha256": "ff77e37b0c484b670726e652e3faa611a2271597d5b487e583745294e4f72ae0",
+  "upstream_source_records": [
+    {
+      "sha256": "1f79e5847fb9cb9e3e3d1a61fa62f9043ecf9b362c643fc06f42730607473bf9",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIComplexLaplace.lean"
+    },
+    {
+      "sha256": "96573717b9da29c9ccbb6635630302ea93c172c6a111f03e7effa8ecf10a3b31",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIY0Abel.lean"
+    },
+    {
+      "sha256": "23c6398998677dd9facf55480f495a69233a22896bdf20961c1fa026136b8138",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIY0Mellin.lean"
+    },
+    {
+      "sha256": "f64faaf8ac5a810cda871cc6ef46011015636ee92182efe570a52b2c20ddb7a2",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIBesselKernel.lean"
+    },
+    {
+      "sha256": "3355157db297ce4ad0122f088ca52e55a48d6131905977fb667058438f978aef",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIY0PhysicalMellin.lean"
+    },
+    {
+      "sha256": "9df5c810db748807f4f065abf53ffe74d2598ad8fb8925cf473deb47920854b7",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIMellinPairing.lean"
+    },
+    {
+      "sha256": "d1dc9be9fffa1e85e65f730bf7e548de0824960bb70ad1614e3457112b95c5d7",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/DFIBesselTransformBridge.lean"
+    }
+  ]
+}

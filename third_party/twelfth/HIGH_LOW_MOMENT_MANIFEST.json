@@ -1,0 +1,8 @@
+{
+  "kind": "Source provenance extract; historical build/status and machine-local fields omitted.",
+  "upstream_repository": "https://github.com/smccolm/Lean",
+  "upstream_revision": "6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1",
+  "license_scope": "Selected McColm proof slices: MIT-0, Copyright 2026 S. McColm. PNT and mathlib material retain Apache-2.0; source headers and THIRD_PARTY_NOTICES.md govern attribution. Local compositions do not acquire upstream authorship by inclusion here.",
+  "original_record_sha256": "589fe57d424383d32b7ced0579cdc6ff0bbff6182664a4fe39a4efa2a7beec76",
+  "upstream_source_records": []
+}

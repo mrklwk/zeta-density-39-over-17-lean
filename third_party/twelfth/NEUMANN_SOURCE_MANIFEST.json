@@ -1,0 +1,17 @@
+{
+  "kind": "Source provenance extract; historical build/status and machine-local fields omitted.",
+  "upstream_repository": "https://github.com/smccolm/Lean",
+  "upstream_revision": "6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1",
+  "license_scope": "Selected McColm proof slices: MIT-0, Copyright 2026 S. McColm. PNT and mathlib material retain Apache-2.0; source headers and THIRD_PARTY_NOTICES.md govern attribution. Local compositions do not acquire upstream authorship by inclusion here.",
+  "original_record_sha256": "e2627a0e863f4c11f2ecc1ca646e38e725f824d99bc65d92bc87e7e8680aa3a4",
+  "upstream_source_records": [
+    {
+      "sha256": "f6aecc8463d1fded14b6504ec5eefe95276d64c8c0a589966d652da3518a4393",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaNeumannRemainder.lean"
+    },
+    {
+      "sha256": "651f7f53742f73ce31fb9b78adab0f8575af446a09b05c73b25db22c1aa8f3cf",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaNeumannSeries.lean"
+    }
+  ]
+}

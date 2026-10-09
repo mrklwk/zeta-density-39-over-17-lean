@@ -1,0 +1,94 @@
+{
+  "kind": "Source provenance extract; historical build/status and machine-local fields omitted.",
+  "upstream_repository": "https://github.com/smccolm/Lean",
+  "upstream_revision": "6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1",
+  "license_scope": "Selected McColm proof slices: MIT-0, Copyright 2026 S. McColm. PNT and mathlib material retain Apache-2.0; source headers and THIRD_PARTY_NOTICES.md govern attribution. Local compositions do not acquire upstream authorship by inclusion here.",
+  "original_record_sha256": "4133116d0dd22b6914dbad7d1eece88836fa31f102a78cf28ed8ae4a7d37231c",
+  "upstream_source_records": [
+    {
+      "module": "GuthMaynard.MeanValueCS",
+      "sha256": "56875e88b46c3a7ebf5f763db18c09fafd37096bada88c6c508ea565fcf09115",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/MeanValueCS.lean"
+    },
+    {
+      "module": "GuthMaynard.MeanValueProof",
+      "sha256": "293be0eaf515bc16c19a1094790e91e85cdb479a814c9b1be7b995181a0326eb",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/MeanValueProof.lean"
+    },
+    {
+      "module": "GuthMaynard.QuadraticDivisor",
+      "sha256": "3abe07b4aef6d570444a0bdcca2b45255c647c6d6fa5d2782eb325b6a23c2144",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/QuadraticDivisor.lean"
+    },
+    {
+      "module": "GuthMaynard.SmoothZetaAFE",
+      "sha256": "54c2f8456a30483b885592ff5d7f06808cabf61279f81ac7ad959277a93bd182",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/SmoothZetaAFE.lean"
+    },
+    {
+      "module": "GuthMaynard.HughesYoungAFE",
+      "sha256": "fd83c2a67d8864f464b2faef437025db4ec69e95735a94abcc4c9dc059df9109",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/HughesYoungAFE.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.ZetaFourthTerm",
+      "sha256": "de1971a1961aeb33e2598c9af7a74e4bd8b04fc95bd0fe07066f20f2f2c74e94",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaFourthTerm.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.ZetaFourthCoefficients",
+      "sha256": "f93b600d52fb7d4c7d65db14b7539ad8a4a5dbae47aed763c62e940ae8e74583",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaFourthCoefficients.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.ZetaFourthCoefficientMass",
+      "sha256": "4241aeb875f038992326efb1f4afe59459d5ccd2058b65d357a430597e74746a",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaFourthCoefficientMass.lean"
+    },
+    {
+      "module": "GuthMaynard.ClassicalLargeValues",
+      "sha256": "8aafffdf10626e39dd4a74e194443b3976cdc2dcaa8a16044fb3333506540b7d",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/71 Guth-Maynard, 2026/GuthMaynard/ClassicalLargeValues.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.DirichletMeanSquareTranslation",
+      "sha256": "219ef321fb3aa0d2c5e30b80d3586df69a8d95ebd45edc2f8473b661fcf8d551",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/DirichletMeanSquareTranslation.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.DirichletPrefixBlocks",
+      "sha256": "b8ab2338d5d8409567fd585f3c162260643682c77341040c7a441ca931c3942d",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/DirichletPrefixBlocks.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.DirichletPrefixMeanSquare",
+      "sha256": "1b9bf16835ce1ec19ab20554d75c1db606689f2fad11a3da8f81bb930692ee35",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/DirichletPrefixMeanSquare.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.ZetaFourthCoefficients",
+      "sha256": "f93b600d52fb7d4c7d65db14b7539ad8a4a5dbae47aed763c62e940ae8e74583",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaFourthCoefficients.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.DirichletPrefixBounded",
+      "sha256": "2230ad35621a0716ac81529db4ed4ceccefa62e677a8bc110aca8efd1292c1da",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/DirichletPrefixBounded.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.ZetaFourthPolynomialMean",
+      "sha256": "85a4af1a9bbb422fb21d16d515addc1ef99b3534aec3e79f7ad6f42624d82909",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaFourthPolynomialMean.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.GaussianPrefixMean",
+      "sha256": "95d13ae8988d12935cb5cf643cadd478627ab1ba5433d678875e3d5d1de3e26f",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/GaussianPrefixMean.lean"
+    },
+    {
+      "module": "TaoTrudgianYang2025.ZetaFourthDyadicBudget",
+      "sha256": "6c5712e2ecd6a92815a87a5e94efbef33d22c4a30f4944d8b622b49bc5132ec9",
+      "upstream_path": "Riemann Zeta/9. Zero Density, Large Values and Prime Transfer/63 Tao-Trudgian-Yang, 2025/Extension/TaoTrudgianYang2025/ZetaFourthDyadicBudget.lean"
+    }
+  ]
+}
