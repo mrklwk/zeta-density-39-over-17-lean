@@ -1,13 +1,16 @@
+module
 /-
 Native composition of the verified point-mean and actual stationary-source producers.
 The narrowly ported analytic inputs retain McColm's MIT-0 attribution;
 Mathlib and other imported foundations retain their Apache-2.0 attribution.
 See third_party/twelfth/NATIVE_ENDPOINTS_MANIFEST.json.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonNativeLocalMean
-import MathCollab.Density.Stronger.PointMean.PeaksInput
-import MathCollab.Density.Stronger.Peaks.WidthRanges
-import MathCollab.Density.Stronger.MomentFromPeaks
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonNativeLocalMean
+public import MathCollab.Density.Stronger.PointMean.PeaksInput
+public import MathCollab.Density.Stronger.Peaks.WidthRanges
+public import MathCollab.Density.Stronger.MomentFromPeaks
+
+@[expose] public section
 
 open Filter MeasureTheory Set
 set_option autoImplicit false

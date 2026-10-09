@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.TruncatedSourceMomentRaw
-import GuthMaynard.Improvement.MiddleRangeIdentities
+module
+public import GuthMaynard.Improvement.TruncatedSourceMomentRaw
+public import GuthMaynard.Improvement.MiddleRangeIdentities
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

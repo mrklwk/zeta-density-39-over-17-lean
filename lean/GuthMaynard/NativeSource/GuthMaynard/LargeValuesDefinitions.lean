@@ -1,10 +1,13 @@
-import Mathlib.Analysis.Calculus.ContDiff.Defs
-import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Data.Finset.Prod
-import Mathlib.Analysis.Normed.Group.Bounded
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.SmoothExistence
-import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+module
+public import Mathlib.Analysis.Calculus.ContDiff.Defs
+public import Mathlib.Analysis.Calculus.ContDiff.FTaylorSeries
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Data.Finset.Prod
+public import Mathlib.Analysis.Normed.Group.Bounded
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.SmoothExistence
+public import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators ContDiff

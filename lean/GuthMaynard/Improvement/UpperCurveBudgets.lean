@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.UpperWindowBudgets
+module
+public import GuthMaynard.Improvement.UpperWindowBudgets
+
+@[expose] public section
 
 set_option autoImplicit false
 noncomputable section

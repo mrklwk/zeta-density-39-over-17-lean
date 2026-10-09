@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OperatorMixedBound
-import GuthMaynard.Improvement.ReflectionSourceRow
+module
+public import GuthMaynard.Improvement.OperatorMixedBound
+public import GuthMaynard.Improvement.ReflectionSourceRow
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

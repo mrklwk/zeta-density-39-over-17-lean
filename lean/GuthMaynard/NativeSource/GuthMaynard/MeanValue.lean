@@ -1,9 +1,12 @@
-import Mathlib.Basic.Real.Basic
-import Mathlib.Data.Complex.Basic
-import Mathlib.Data.Finset.Basic
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import GuthMaynard.NativeSource.GuthMaynard.Separated
+module
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Complex.Basic
+public import Mathlib.Data.Finset.Basic
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import GuthMaynard.NativeSource.GuthMaynard.Separated
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

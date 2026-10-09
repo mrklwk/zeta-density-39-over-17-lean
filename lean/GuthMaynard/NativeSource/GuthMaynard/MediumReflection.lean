@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaAppendix
+module
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaAppendix
+
+@[expose] public section
 
 open Complex Finset Set Filter Topology
 open scoped BigOperators FourierTransform

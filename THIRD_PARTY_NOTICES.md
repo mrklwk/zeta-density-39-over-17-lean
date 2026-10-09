@@ -118,7 +118,9 @@ import the remainder of the upstream project.
 
 Repository: <https://github.com/leanprover-community/mathlib4>, revision
 `d13f23b723b8a846827a245b89c10fc7d3f11612`. License: Apache 2.0.
-Mathlib is also an external build dependency. Copied or adapted proof fragments
+This is the source revision for retained adaptations. The private compatibility
+migration uses external Mathlib dependency revision
+`065356127b1dc0016f66b7283ce0ce2c4055aa55`. Mathlib is also an external build dependency. Copied or adapted proof fragments
 retain their applicable source attribution.
 
 In particular, `lean/WeylPort/AFE/FiniteExponentialSums.lean` adapts the

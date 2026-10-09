@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.SourceReproducingKernel
+module
+public import GuthMaynard.Improvement.SourceReproducingKernel
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,8 +1,11 @@
-import Mathlib.Analysis.Matrix.PosDef
-import Mathlib.Analysis.CStarAlgebra.Matrix
-import Mathlib.LinearAlgebra.Matrix.Hermitian
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-import GuthMaynard.NativeSource.GuthMaynard.LargeValuesDefinitions
+module
+public import Mathlib.Analysis.Matrix.PosDef
+public import Mathlib.Analysis.CStarAlgebra.Matrix
+public import Mathlib.LinearAlgebra.Matrix.Hermitian
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import GuthMaynard.NativeSource.GuthMaynard.LargeValuesDefinitions
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators ComplexOrder Matrix Matrix.Norms.L2Operator

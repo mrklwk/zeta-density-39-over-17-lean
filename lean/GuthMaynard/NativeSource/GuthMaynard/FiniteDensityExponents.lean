@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynard.InghamBound
+module
+public import GuthMaynard.NativeSource.GuthMaynard.InghamBound
+
+@[expose] public section
 
 namespace GuthMaynard.NativeMoment
 

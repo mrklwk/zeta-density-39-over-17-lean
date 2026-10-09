@@ -1,3 +1,4 @@
+module
 /-
 Selected finite exponential-overlap/point-mean consumer proofs adapted from
 Scott McColm, PointMeanEquation44.lean, exact revision
@@ -5,8 +6,10 @@ Scott McColm, PointMeanEquation44.lean, exact revision
 Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0.
 The repository's literal actual-zeta norm and oneSeparated predicate are used.
 -/
-import MathCollab.Density.Stronger.PointMean.Native
-import MathCollab.Density.Stronger.PointMean.IntegralOverlap
+public import MathCollab.Density.Stronger.PointMean.Native
+public import MathCollab.Density.Stronger.PointMean.IntegralOverlap
+
+@[expose] public section
 
 open Finset MeasureTheory
 open scoped BigOperators Interval

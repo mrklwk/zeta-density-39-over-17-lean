@@ -1,7 +1,10 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalDetector
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalLargeValues
-import GuthMaynard.NativeSource.GuthMaynard.BetaDependence
-import Mathlib.Analysis.Complex.PhragmenLindelof
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalDetector
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalLargeValues
+public import GuthMaynard.NativeSource.GuthMaynard.BetaDependence
+public import Mathlib.Analysis.Complex.PhragmenLindelof
+
+@[expose] public section
 
 open Complex Finset Set Topology
 open scoped BigOperators

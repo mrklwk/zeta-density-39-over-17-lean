@@ -1,5 +1,8 @@
-import MathCollab.Density.MollifierCoefficients
-import Mathlib.Analysis.SpecialFunctions.Sqrt
+module
+public import MathCollab.Density.MollifierCoefficients
+public import Mathlib.Analysis.SpecialFunctions.Sqrt
+
+@[expose] public section
 
 open scoped BigOperators
 set_option autoImplicit false

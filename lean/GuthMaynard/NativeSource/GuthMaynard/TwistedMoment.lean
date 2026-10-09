@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.ArithmeticCoefficients
-import GuthMaynard.NativeSource.GuthMaynard.PolynomialPowers
-import GuthMaynard.NativeSource.GuthMaynard.TypeIIZeros
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ArithmeticCoefficients
+public import GuthMaynard.NativeSource.GuthMaynard.PolynomialPowers
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIIZeros
+
+@[expose] public section
 
 open Complex Finset
 open Filter Topology

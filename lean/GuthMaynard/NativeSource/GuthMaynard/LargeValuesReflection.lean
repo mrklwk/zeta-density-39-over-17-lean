@@ -1,6 +1,9 @@
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-import GuthMaynard.NativeSource.GuthMaynard.LargeValuesPoisson
+module
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+public import GuthMaynard.NativeSource.GuthMaynard.LargeValuesPoisson
+
+@[expose] public section
 
 open Complex MeasureTheory Real Set
 open scoped ContDiff FourierTransform SchwartzMap

@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.OperatorPositiveCompact
+module
+public import GuthMaynard.Improvement.OperatorPositiveCompact
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory InnerProductSpace Filter

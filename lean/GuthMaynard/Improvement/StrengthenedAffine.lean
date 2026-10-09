@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.UnequalFullInput
+module
+public import GuthMaynard.Improvement.UnequalFullInput
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

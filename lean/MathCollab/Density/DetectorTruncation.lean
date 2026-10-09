@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorError
+module
+public import MathCollab.Density.DetectorError
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology

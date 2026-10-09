@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OrdinaryFourierMoments
-import GuthMaynard.Improvement.RatioFourierBridge
+module
+public import GuthMaynard.Improvement.OrdinaryFourierMoments
+public import GuthMaynard.Improvement.RatioFourierBridge
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

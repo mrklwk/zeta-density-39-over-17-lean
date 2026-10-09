@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.SourceRatioSampling
+module
+public import GuthMaynard.Improvement.SourceRatioSampling
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Finset

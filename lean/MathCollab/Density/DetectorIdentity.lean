@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorContour
-import MathCollab.Density.DetectorEstimates
+module
+public import MathCollab.Density.DetectorContour
+public import MathCollab.Density.DetectorEstimates
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open MathCollab.Density.Contour

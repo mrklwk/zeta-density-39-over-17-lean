@@ -1,15 +1,18 @@
+module
 /-
 Adapted from Scott McColm's ZetaBounds.lean at
 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be; MIT.
 See the root THIRD_PARTY_NOTICES.md for the port boundary.
 -/
-import Mathlib.NumberTheory.AbelSummation
-import Mathlib.NumberTheory.LSeries.RiemannZeta
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.NumberTheory.LSeries.SumCoeff
-import Mathlib.Analysis.MellinTransform
-import Mathlib.Analysis.Complex.RemovableSingularity
-import Mathlib.Analysis.Complex.JensenFormula
+public import Mathlib.NumberTheory.AbelSummation
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.LSeries.SumCoeff
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.Complex.JensenFormula
+
+@[expose] public section
 
 open Complex Filter Set MeasureTheory Asymptotics
 open scoped Topology

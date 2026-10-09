@@ -1,4 +1,7 @@
-import MathCollab.Density.CompletePairs
+module
+public import MathCollab.Density.CompletePairs
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators

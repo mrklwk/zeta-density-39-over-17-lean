@@ -1,4 +1,7 @@
-import GuthMaynard.WeylExplicit
+module
+public import GuthMaynard.WeylExplicit
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

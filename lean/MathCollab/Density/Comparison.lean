@@ -1,4 +1,7 @@
-import MathCollab.Density.ComparisonExpansion
+module
+public import MathCollab.Density.ComparisonExpansion
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators ComplexConjugate

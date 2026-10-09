@@ -1,3 +1,4 @@
+module
 /-
 Native bounds for the literal DFI Bessel multipliers. Definitions and contour
 target: S. McColm, DFIEquation29.lean, revision
@@ -5,7 +6,9 @@ target: S. McColm, DFIEquation29.lean, revision
 The direct Gamma estimate uses the proved GammaStrip Apache-2.0 infrastructure
 adapted from Conor Grogan f369f267b4dcfebf010c8e7baa2c9602e2960eba.
 -/
-import MathCollab.Density.Stronger.Atkinson.VoronoiZetaGrowth
+public import MathCollab.Density.Stronger.Atkinson.VoronoiZetaGrowth
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 set_option autoImplicit false

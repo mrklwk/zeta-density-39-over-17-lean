@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.QuarticCellGeometry
-import GuthMaynard.Improvement.ClassicalLargeValues
+module
+public import GuthMaynard.Improvement.QuarticCellGeometry
+public import GuthMaynard.Improvement.ClassicalLargeValues
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

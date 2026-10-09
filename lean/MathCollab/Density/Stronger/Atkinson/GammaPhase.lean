@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Released under MIT-0; see ../../../../../third_party/twelfth/LICENSE-MIT-0.
@@ -6,8 +7,11 @@ Adapted from source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 Only the listed proof slices are retained. Mathlib retains Apache-2.0 attribution.
 No upstream project or Architect module is imported.
 -/
-import MathCollab.Density.Stronger.Fourth.GammaShiftLog
-import MathCollab.Density.Stronger.Fourth.SquareNormalized
+public import MathCollab.Density.Stronger.Fourth.GammaShiftLog
+public import MathCollab.Density.Stronger.Fourth.SquareNormalized
+public import Mathlib.Analysis.Calculus.Deriv.Star
+
+@[expose] public section
 
 open Complex MeasureTheory
 open scoped ComplexConjugate

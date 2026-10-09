@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SmoothingFourier
-import MathCollab.Density.Packing
+module
+public import GuthMaynard.Improvement.SmoothingFourier
+public import MathCollab.Density.Packing
+
+@[expose] public section
 set_option autoImplicit false
 set_option maxHeartbeats 1000000
 noncomputable section

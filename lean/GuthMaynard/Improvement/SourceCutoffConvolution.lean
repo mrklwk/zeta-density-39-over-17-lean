@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SourceFourierCutoff
-import GuthMaynard.Improvement.SecondKernelError
+module
+public import GuthMaynard.Improvement.SourceFourierCutoff
+public import GuthMaynard.Improvement.SecondKernelError
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

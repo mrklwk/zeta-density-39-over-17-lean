@@ -1,6 +1,9 @@
+module
 /- From PNT pin 4ecb950126c4290293c5662dfe0e884123171df5, Apache-2.0. -/
 
-import Mathlib.NumberTheory.AbelSummation
+public import Mathlib.NumberTheory.AbelSummation
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility; kernel checking stays enabled.
 set_option backward.isDefEq.respectTransparency false

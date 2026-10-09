@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.ReflectionMellinIntegral
-import GuthMaynard.Improvement.ReflectedBandMeanValue
-import GuthMaynard.Improvement.CubicTimeMeasure
+module
+public import GuthMaynard.Improvement.ReflectionMellinIntegral
+public import GuthMaynard.Improvement.ReflectedBandMeanValue
+public import GuthMaynard.Improvement.CubicTimeMeasure
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

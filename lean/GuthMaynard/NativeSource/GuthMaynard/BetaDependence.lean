@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.ExtractSeparated
-import Mathlib.Analysis.Complex.PhragmenLindelof
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ExtractSeparated
+public import Mathlib.Analysis.Complex.PhragmenLindelof
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+
+@[expose] public section
 
 open Complex Set
 open scoped BigOperators

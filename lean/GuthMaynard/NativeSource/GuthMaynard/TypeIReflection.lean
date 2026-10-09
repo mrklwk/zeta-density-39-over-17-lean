@@ -1,9 +1,12 @@
-import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
-import Mathlib.Analysis.Fourier.PoissonSummation
-import Mathlib.Analysis.MellinInversion
-import GuthMaynard.NativeSource.GuthMaynard.LargeValuesReflection
-import GuthMaynard.NativeSource.GuthMaynard.MediumReflection
-import GuthMaynard.NativeSource.GuthMaynard.TypeISmoothing
+module
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
+public import Mathlib.Analysis.Fourier.PoissonSummation
+public import Mathlib.Analysis.MellinInversion
+public import GuthMaynard.NativeSource.GuthMaynard.LargeValuesReflection
+public import GuthMaynard.NativeSource.GuthMaynard.MediumReflection
+public import GuthMaynard.NativeSource.GuthMaynard.TypeISmoothing
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Real Set
 open scoped BigOperators ContDiff FourierTransform SchwartzMap Topology
@@ -28,7 +31,7 @@ integral, which is controlled by the weighted B-process estimate in
 `LargeValuesReflection.lean`.
 -/
 
-private noncomputable def typeIDyadicCutoffComplex (x : ℝ) : ℂ :=
+noncomputable def typeIDyadicCutoffComplex (x : ℝ) : ℂ :=
   (typeIDyadicCutoff x : ℂ)
 
 private theorem contDiff_typeIDyadicCutoffComplex :
@@ -1156,7 +1159,7 @@ noncomputable def typeINormalizedKernel (σ t x : ℝ) : ℂ :=
   typeINormalizedAmplitude σ x *
     Complex.exp ((((-t * Real.log x : ℝ) : ℂ) * I))
 
-private theorem contDiff_typeINormalizedKernel (σ t : ℝ) :
+theorem contDiff_typeINormalizedKernel (σ t : ℝ) :
     ContDiff ℝ ∞ (typeINormalizedKernel σ t) := by
   rw [contDiff_iff_contDiffAt]
   intro x
@@ -1176,7 +1179,7 @@ private theorem contDiff_typeINormalizedKernel (σ t : ℝ) :
         (contDiffAt_const.mul hlog)).mul contDiffAt_const).cexp
     exact hamp.mul hphase
 
-private theorem hasCompactSupport_typeINormalizedKernel (σ t : ℝ) :
+theorem hasCompactSupport_typeINormalizedKernel (σ t : ℝ) :
     HasCompactSupport (typeINormalizedKernel σ t) := by
   apply HasCompactSupport.intro
     (isCompact_Icc : IsCompact (Set.Icc (1 / 2 : ℝ) 2))
@@ -1839,14 +1842,14 @@ noncomputable def typeINormalizedScaledKernel
     (σ t Q x : ℝ) : ℂ :=
   typeINormalizedKernel σ t (x / Q)
 
-private theorem contDiff_typeINormalizedScaledKernel
+theorem contDiff_typeINormalizedScaledKernel
     (σ t Q : ℝ) :
     ContDiff ℝ ∞ (typeINormalizedScaledKernel σ t Q) := by
   unfold typeINormalizedScaledKernel
   exact (contDiff_typeINormalizedKernel σ t).comp
     (contDiff_id.div_const Q)
 
-private theorem hasCompactSupport_typeINormalizedScaledKernel
+theorem hasCompactSupport_typeINormalizedScaledKernel
     (σ t Q : ℝ) (hQ : 0 < Q) :
     HasCompactSupport (typeINormalizedScaledKernel σ t Q) := by
   apply HasCompactSupport.intro

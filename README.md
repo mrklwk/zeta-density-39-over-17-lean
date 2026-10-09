@@ -89,19 +89,26 @@ has an unproved analytic estimate as a premise.
 
 ## Build and checks
 
-The project lives in `lean/`. It uses Lean 4.34.1 and mathlib revision
-`d13f23b723b8a846827a245b89c10fc7d3f11612`; `lake-manifest.json` locks
+This private compatibility migration passed the local checks summarized in
+`VERIFICATION.json`, including fresh kernel replay and sandboxed Lean/NanoDa
+Comparator checks. The full hosted Palomar preflight has not run. The
+verified public Lean 4.34.1 release remains available at commit
+`6a2c941b69f2ae91bfa0a63a8b867bfa829db6df`. Its receipts do not certify this migration.
+
+The project lives in `lean/`. It uses Lean 4.35.0-rc2 and mathlib revision
+`065356127b1dc0016f66b7283ce0ce2c4055aa55`; `lake-manifest.json` locks
 transitive revisions. With that toolchain and the locked dependencies available:
 
 ```sh
 cd lean
-lake build
+lake build MathCollab GuthMaynard WeylPort Solution VerificationStatements Challenge
 lake env lean -DwarningAsError=true -DautoImplicit=false ../verification/StatementChecks.lean
 lake env lean -DwarningAsError=true -DautoImplicit=false ../verification/TrustReplay.lean
 lake env lean -DwarningAsError=true -DautoImplicit=false ../verification/CoefficientChecks.lean
 ```
 
-The package contains 822 project Lean sources, including the selected stronger
+This private migration contains 823 production Lean sources plus three interface
+and verification modules, including the selected stronger
 endpoint dependency closure. The default target registers all packaged
 GuthMaynard submodules and their MathCollab and WeylPort dependencies. External
 dependency trees and build caches are not bundled. `SOURCE_INVENTORY.json`

@@ -1,4 +1,7 @@
-import MathCollab.Density.Oscillatory
+module
+public import MathCollab.Density.Oscillatory
+
+@[expose] public section
 
 open Complex MeasureTheory Real Set
 

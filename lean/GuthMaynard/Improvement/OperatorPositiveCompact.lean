@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OperatorCentered
-import GuthMaynard.Improvement.OperatorKernel
+module
+public import GuthMaynard.Improvement.OperatorCentered
+public import GuthMaynard.Improvement.OperatorKernel
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set InnerProductSpace

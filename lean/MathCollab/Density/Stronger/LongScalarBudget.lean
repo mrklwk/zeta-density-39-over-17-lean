@@ -1,5 +1,8 @@
-import MathCollab.Density.Stronger.Parameters
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+module
+public import MathCollab.Density.Stronger.Parameters
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+
+@[expose] public section
 
 open Filter
 open scoped Topology

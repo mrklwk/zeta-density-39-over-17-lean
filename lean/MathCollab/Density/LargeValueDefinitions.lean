@@ -1,5 +1,8 @@
-import MathCollab.Density.Reflection
-import Mathlib.NumberTheory.Divisors
+module
+public import MathCollab.Density.Reflection
+public import Mathlib.NumberTheory.Divisors
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators ContDiff

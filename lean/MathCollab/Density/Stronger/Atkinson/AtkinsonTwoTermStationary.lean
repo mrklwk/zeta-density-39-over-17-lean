@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Source-scale algebra adapted from AtkinsonLeadingSource at exact revision
@@ -5,10 +6,12 @@ Source-scale algebra adapted from AtkinsonLeadingSource at exact revision
 See third_party/twelfth/ATKINSON_LEADING_CONVERGENCE_MANIFEST.json.
 Mathlib dependencies retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonLeadingSeriesConvergence
-import MathCollab.Density.Stronger.Atkinson.AtkinsonStationarySumError
-import MathCollab.Density.Stronger.Atkinson.SmoothDivisorSupport
-import MathCollab.Density.Stronger.Atkinson.SourceLogScales
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonLeadingSeriesConvergence
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonStationarySumError
+public import MathCollab.Density.Stronger.Atkinson.SmoothDivisorSupport
+public import MathCollab.Density.Stronger.Atkinson.SourceLogScales
+
+@[expose] public section
 
 noncomputable section
 open Complex Filter

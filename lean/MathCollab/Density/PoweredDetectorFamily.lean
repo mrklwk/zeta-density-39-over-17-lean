@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorPoweredHeight
+module
+public import MathCollab.Density.DetectorPoweredHeight
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology

@@ -1,3 +1,4 @@
+module
 /-
 Native modulus-one specialization using Mathlib's actual zeta functional equation
 and the exact McColm Voronoi multiplier conventions (MIT-0, revision
@@ -5,7 +6,9 @@ and the exact McColm Voronoi multiplier conventions (MIT-0, revision
 See repository-root third_party/twelfth/LICENSE-MIT-0. Mathlib Apache attribution retained.
 No general-modulus Estermann input or assumed Voronoi identity is used.
 -/
-import MathCollab.Density.Stronger.Atkinson.VoronoiTransforms
+public import MathCollab.Density.Stronger.Atkinson.VoronoiTransforms
+
+@[expose] public section
 
 open Complex
 set_option autoImplicit false

@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Selected proof slices adapted from revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
@@ -5,11 +6,13 @@ Released under MIT-0; see third_party/twelfth/LICENSE-MIT-0.
 Provenance: third_party/twelfth/ATKINSON_WEIGHT_VARIATION_MANIFEST.json.
 Mathlib dependencies retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.FiniteWeightVariation
-import MathCollab.Density.Stronger.Atkinson.QuadraticGaussian
-import Mathlib.Analysis.SpecialFunctions.Arsinh
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.DistLEIntegral
+public import MathCollab.Density.Stronger.Atkinson.FiniteWeightVariation
+public import MathCollab.Density.Stronger.Atkinson.QuadraticGaussian
+public import Mathlib.Analysis.SpecialFunctions.Arsinh
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.DistLEIntegral
+
+@[expose] public section
 
 open Complex MeasureTheory Set
 set_option autoImplicit false

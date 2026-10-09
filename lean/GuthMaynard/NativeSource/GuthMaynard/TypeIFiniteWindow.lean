@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.FiniteScaleAssembly
-import GuthMaynard.NativeSource.GuthMaynard.TypeIFiniteEstimates
-import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityEndpoint
+module
+public import GuthMaynard.NativeSource.GuthMaynard.FiniteScaleAssembly
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIFiniteEstimates
+public import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityEndpoint
+
+@[expose] public section
 
 open Finset Set
 

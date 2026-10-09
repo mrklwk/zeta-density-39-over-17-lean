@@ -1,7 +1,10 @@
-import WeylPort.AFE.HarmonicDigamma
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Analysis.SpecialFunctions.Exp
-import Mathlib.Analysis.Real.Pi.Bounds
+module
+public import WeylPort.AFE.HarmonicDigamma
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Analysis.SpecialFunctions.Exp
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 namespace WeylPort
 open Filter

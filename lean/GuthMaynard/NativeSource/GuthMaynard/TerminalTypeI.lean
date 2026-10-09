@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalDichotomy
-import GuthMaynard.NativeSource.GuthMaynard.WeylZeta
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalDichotomy
+public import GuthMaynard.NativeSource.GuthMaynard.WeylZeta
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

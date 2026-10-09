@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.ShortTypeIICount
-import GuthMaynard.Improvement.WeakShortMoment
+module
+public import GuthMaynard.Improvement.ShortTypeIICount
+public import GuthMaynard.Improvement.WeakShortMoment
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Complex MeasureTheory Set Filter MathCollab.Density

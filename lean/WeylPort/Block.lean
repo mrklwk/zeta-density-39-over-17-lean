@@ -1,4 +1,7 @@
-import GuthMaynard.WeylZeta
+module
+public import GuthMaynard.WeylZeta
+
+@[expose] public section
 
 /-!
 # Classical Weyl cancellation on physical critical-line blocks

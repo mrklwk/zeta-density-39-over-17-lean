@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.AffineBox
-import GuthMaynard.Improvement.AffineSupportTransfer
+module
+public import GuthMaynard.Improvement.AffineBox
+public import GuthMaynard.Improvement.AffineSupportTransfer
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

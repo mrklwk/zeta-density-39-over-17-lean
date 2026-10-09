@@ -1,3 +1,4 @@
+module
 /-
 New native modulus-one absolute dual-series exchange. Exact multiplier
 conventions originate in S. McColm's DFIVoronoiDual.lean, revision
@@ -5,8 +6,10 @@ conventions originate in S. McColm's DFIVoronoiDual.lean, revision
 The q=1 exchange proof below is derived directly from the actual divisor
 Dirichlet series and Mathlib integral exchange. Apache attribution retained.
 -/
-import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorContourShift
-import MathCollab.Density.Stronger.Fourth.SquareDivisorSeries
+public import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorContourShift
+public import MathCollab.Density.Stronger.Fourth.SquareDivisorSeries
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Stronger.Fourth

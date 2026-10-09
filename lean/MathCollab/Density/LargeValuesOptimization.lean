@@ -1,4 +1,7 @@
-import MathCollab.Density.UniformThreshold
+module
+public import MathCollab.Density.UniformThreshold
+
+@[expose] public section
 
 open Real Set
 open scoped BigOperators

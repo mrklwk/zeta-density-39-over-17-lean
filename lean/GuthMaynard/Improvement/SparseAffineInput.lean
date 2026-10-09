@@ -1,5 +1,8 @@
-import GuthMaynard.AffineSource.LargeValuesAffineHeight
-import GuthMaynard.Improvement.CompactNormalization
+module
+public import GuthMaynard.AffineSource.LargeValuesAffineHeight
+public import GuthMaynard.Improvement.CompactNormalization
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

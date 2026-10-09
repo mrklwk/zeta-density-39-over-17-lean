@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.UpperWindowBudgets
+module
+public import GuthMaynard.Improvement.UpperWindowBudgets
+
+@[expose] public section
 
 open Finset Set
 set_option autoImplicit false

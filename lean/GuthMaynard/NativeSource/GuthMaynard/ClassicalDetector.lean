@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalDensity
-import GuthMaynard.NativeSource.GuthMaynard.ZetaTruncation
-import GuthMaynard.NativeSource.GuthMaynard.ArithmeticCoefficients
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalDensity
+public import GuthMaynard.NativeSource.GuthMaynard.ZetaTruncation
+public import GuthMaynard.NativeSource.GuthMaynard.ArithmeticCoefficients
+
+@[expose] public section
 
 open Complex Finset
 open scoped ArithmeticFunction.Moebius BigOperators

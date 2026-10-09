@@ -1,10 +1,13 @@
+module
 /-
 The Jensen proof is adapted from Scott McColm's ExtractSeparated.lean at
 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be, MIT. The original Type-I set is
 replaced by the existing actual-zero set; only rectangle membership is used.
 -/
-import MathCollab.Density.ZetaJensenInputs
-import MathCollab.Density.ZeroSeparation
+public import MathCollab.Density.ZetaJensenInputs
+public import MathCollab.Density.ZeroSeparation
+
+@[expose] public section
 
 open Complex Filter Set MeasureTheory
 open scoped Topology BigOperators

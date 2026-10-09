@@ -1,6 +1,9 @@
+module
 /- Adapted from audited Density.DetectorDyadic; actual short coefficient support. -/
-import MathCollab.Density.DetectorDyadic
-import GuthMaynard.Improvement.ShortFiniteDetector
+public import MathCollab.Density.DetectorDyadic
+public import GuthMaynard.Improvement.ShortFiniteDetector
+
+@[expose] public section
 
 open Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

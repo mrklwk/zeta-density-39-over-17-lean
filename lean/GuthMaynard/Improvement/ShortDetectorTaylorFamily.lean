@@ -1,5 +1,8 @@
+module
 /- Adapted from audited Density proofs; reused scalar Taylor weights unchanged. -/
-import GuthMaynard.Improvement.ShortDetectorDyadic
+public import GuthMaynard.Improvement.ShortDetectorDyadic
+
+@[expose] public section
 
 open Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

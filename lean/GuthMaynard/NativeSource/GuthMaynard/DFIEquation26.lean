@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.KloostermanPrime
-import Mathlib.NumberTheory.ArithmeticFunction.Moebius
+module
+public import GuthMaynard.NativeSource.GuthMaynard.KloostermanPrime
+public import Mathlib.NumberTheory.ArithmeticFunction.Moebius
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

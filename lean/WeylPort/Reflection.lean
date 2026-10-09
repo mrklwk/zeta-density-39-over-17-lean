@@ -1,5 +1,8 @@
-import WeylPort.ShortSum
-import Mathlib.NumberTheory.LSeries.RiemannZeta
+module
+public import WeylPort.ShortSum
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators ComplexConjugate

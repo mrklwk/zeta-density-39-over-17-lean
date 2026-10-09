@@ -1,3 +1,4 @@
+module
 /-
 Selected rectangle geometry and single-pole residue proofs from McColm's
 External/PNT/{Rectangle,ResidueCalcOnRectangles}.lean at exact revision
@@ -5,11 +6,13 @@ External/PNT/{Rectangle,ResidueCalcOnRectangles}.lean at exact revision
 Apache-2.0; copyright belongs to its contributors. Existing notice retained.
 No general residue machinery or upstream project module is imported.
 -/
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Complex.Convex
-import Mathlib.Analysis.Complex.RemovableSingularity
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-import Mathlib.Tactic
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Complex BigOperators Nat Classical Real Topology Filter
 open Set MeasureTheory intervalIntegral

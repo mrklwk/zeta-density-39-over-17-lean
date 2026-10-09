@@ -1,23 +1,26 @@
+module
 /- Adapted from PrimeNumberTheoremAnd/IEANTN/ZetaAppendix.lean at upstream
 revision 4ecb950126c4290293c5662dfe0e884123171df5 (Apache-2.0). The unrelated
 Mertens import is omitted from this local proof closure. -/
 
-import Mathlib.Algebra.Lie.OfAssociative
-import Mathlib.Algebra.Order.Ring.Star
-import Mathlib.Analysis.Complex.AbelLimit
-import Mathlib.Analysis.ConstantSpeed
-import Mathlib.Analysis.CStarAlgebra.Classes
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Analysis.SpecialFunctions.Complex.Circle
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent
-import Mathlib.Data.Int.Star
-import Mathlib.Analysis.Real.Sqrt
-import Mathlib.Tactic.ContinuousFunctionalCalculus
-import Mathlib.MeasureTheory.Integral.DominatedConvergence
-import Mathlib.NumberTheory.ZetaValues
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Pow.Deriv
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaBoundsUpstream
+public import Mathlib.Algebra.Lie.OfAssociative
+public import Mathlib.Algebra.Order.Ring.Star
+public import Mathlib.Analysis.Complex.AbelLimit
+public import Mathlib.Analysis.ConstantSpeed
+public import Mathlib.Analysis.CStarAlgebra.Classes
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Complex.Circle
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.Cotangent
+public import Mathlib.Data.Int.Star
+public import Mathlib.Analysis.Real.Sqrt
+public import Mathlib.Tactic.ContinuousFunctionalCalculus
+public import Mathlib.MeasureTheory.Integral.DominatedConvergence
+public import Mathlib.NumberTheory.ZetaValues
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Complex.LogBounds
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaBoundsUpstream
+
+@[expose] public section
 
 
 namespace ZetaAppendix
@@ -585,7 +588,8 @@ private theorem lemma_IBP_bound_C1 {a b : ℝ} (hab : a < b) (g : ℝ → ℝ) (
             hcont.integrableOn_Icc.mono_set Ioo_subset_Icc_self
           exact hintg''.congr_fun (fun x hx ↦
             by exact derivWithin_of_mem_nhds (Icc_mem_nhds hx.1 hx.2)) measurableSet_Ioo
-        rwa [IntegrableOn, Measure.restrict_congr_set Ioo_ae_eq_Ioc] at *
+        rw [IntegrableOn, Measure.restrict_congr_set Ioo_ae_eq_Ioc] at *
+        assumption
       have hintFg : IntegrableOn (fun x ↦ F x * deriv g x) (Ioc a b) := by
         have hbdd : ∃ C, ∀ x ∈ Ioc a b, ‖F x‖ ≤ C :=
           IsCompact.exists_bound_of_continuousOn isCompact_Icc hF.continuousOn |>

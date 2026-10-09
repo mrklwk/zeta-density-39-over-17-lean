@@ -1,5 +1,8 @@
+module
 /- Isolated from Scott McColm, smccolm/Lean pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1. MIT-0. See the root THIRD_PARTY_NOTICES.md. -/
-import GuthMaynard.AffineSource.LargeValuesAffineIteration
+public import GuthMaynard.AffineSource.LargeValuesAffineIteration
+
+@[expose] public section
 
 open Complex Finset Filter FourierTransform MeasureTheory Real Set
 open scoped ContDiff FourierTransform Topology

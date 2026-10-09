@@ -1,4 +1,7 @@
-import GuthMaynard.SecondOrderMeanValue
+module
+public import GuthMaynard.SecondOrderMeanValue
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators InnerProductSpace

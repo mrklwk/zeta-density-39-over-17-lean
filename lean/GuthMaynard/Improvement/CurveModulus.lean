@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.FullDensityCurve
-import GuthMaynard.Improvement.CurveUniformization
+module
+public import GuthMaynard.Improvement.FullDensityCurve
+public import GuthMaynard.Improvement.CurveUniformization
+
+@[expose] public section
 
 set_option autoImplicit false
 noncomputable section

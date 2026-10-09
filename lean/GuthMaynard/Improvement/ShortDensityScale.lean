@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.MiddleLargeValues
-import GuthMaynard.Improvement.SeparatedSecondMoment
+module
+public import GuthMaynard.Improvement.MiddleLargeValues
+public import GuthMaynard.Improvement.SeparatedSecondMoment
+
+@[expose] public section
 
 set_option autoImplicit false
 noncomputable section

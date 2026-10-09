@@ -1,15 +1,18 @@
+module
 /-
 Contour core adapted from PNT+ commit 80c12dfd93 (Lean 4.30).
 General residue section adapted from current PrimeNumberTheoremAnd/ResidueCalcOnRectangles.lean.
 Copyright belongs to the upstream contributors. Released under Apache License 2.0:
 https://github.com/AlexKontorovich/PrimeNumberTheoremAnd/blob/main/LICENSE
 -/
-import Mathlib
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Complex.Convex
-import Mathlib.Analysis.Complex.RemovableSingularity
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.Rectangle
+public import Mathlib
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.Rectangle
+
+@[expose] public section
 
 open Complex BigOperators Nat Classical Real Topology Filter
 open Set MeasureTheory intervalIntegral Asymptotics

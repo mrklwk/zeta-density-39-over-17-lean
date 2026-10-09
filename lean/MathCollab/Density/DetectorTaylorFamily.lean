@@ -1,4 +1,7 @@
-import MathCollab.Density.FiniteDetector
+module
+public import MathCollab.Density.FiniteDetector
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology

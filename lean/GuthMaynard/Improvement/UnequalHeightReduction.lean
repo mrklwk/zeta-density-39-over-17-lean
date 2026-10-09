@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.UnequalPoissonBridge
+module
+public import GuthMaynard.Improvement.UnequalPoissonBridge
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

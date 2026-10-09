@@ -1,13 +1,16 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Ported from McColm 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 Narrow extraction; see third_party/twelfth/ATKINSON_CORRECTION_SERIES_MANIFEST.json.
 Mathlib and the nonstationary foundations retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonFrequencyTail
-import MathCollab.Density.Stronger.Atkinson.AtkinsonPowerPairBound
-import MathCollab.Density.Stronger.Atkinson.AtkinsonLeadingFinite
-import MathCollab.Density.Stronger.Atkinson.NeumannRemainderSeries
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonFrequencyTail
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonPowerPairBound
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonLeadingFinite
+public import MathCollab.Density.Stronger.Atkinson.NeumannRemainderSeries
+
+@[expose] public section
 
 set_option backward.isDefEq.respectTransparency false
 set_option backward.isDefEq.respectTransparency.types false

@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.SourceTailConditional
+module
+public import GuthMaynard.Improvement.SourceTailConditional
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,4 +1,7 @@
-import MathCollab.Density.BootstrapShells
+module
+public import MathCollab.Density.BootstrapShells
+
+@[expose] public section
 
 open Real Set
 open scoped BigOperators

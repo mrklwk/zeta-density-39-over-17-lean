@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.RetainedCubicKernel
-import GuthMaynard.Improvement.CubicKernelError
-import GuthMaynard.Improvement.MeasureGate
+module
+public import GuthMaynard.Improvement.RetainedCubicKernel
+public import GuthMaynard.Improvement.CubicKernelError
+public import GuthMaynard.Improvement.MeasureGate
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

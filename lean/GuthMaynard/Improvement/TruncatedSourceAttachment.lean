@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.SourceDirichletTail
-import GuthMaynard.Improvement.FixedCutoffs
-import GuthMaynard.Improvement.ReflectionNearRow
-import GuthMaynard.Improvement.SeparatedSecondMoment
+module
+public import GuthMaynard.Improvement.SourceDirichletTail
+public import GuthMaynard.Improvement.FixedCutoffs
+public import GuthMaynard.Improvement.ReflectionNearRow
+public import GuthMaynard.Improvement.SeparatedSecondMoment
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

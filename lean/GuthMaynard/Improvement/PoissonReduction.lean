@@ -1,4 +1,7 @@
-import Mathlib
+module
+public import Mathlib
+
+@[expose] public section
 
 /-! Exact Fourier/Poisson identities for the unequal-scale reduction.
 Quantitative tails and divisor-counting estimates are separate obligations.

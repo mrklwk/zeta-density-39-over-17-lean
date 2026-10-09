@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalLargeValues
-import GuthMaynard.NativeSource.GuthMaynard.TerminalTypeI
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalLargeValues
+public import GuthMaynard.NativeSource.GuthMaynard.TerminalTypeI
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

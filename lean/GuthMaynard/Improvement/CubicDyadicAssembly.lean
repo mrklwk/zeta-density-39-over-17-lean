@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.CubicDyadicCover
-import GuthMaynard.Improvement.CubicModeSymmetry
-import GuthMaynard.Improvement.CubicScaleClosure
+module
+public import GuthMaynard.Improvement.CubicDyadicCover
+public import GuthMaynard.Improvement.CubicModeSymmetry
+public import GuthMaynard.Improvement.CubicScaleClosure
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

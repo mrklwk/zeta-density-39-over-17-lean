@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Adapted from AtkinsonLeadingSeries at exact source revision
@@ -5,7 +6,9 @@ Adapted from AtkinsonLeadingSeries at exact source revision
 See third_party/twelfth/ATKINSON_LEADING_CONVERGENCE_MANIFEST.json.
 Mathlib dependencies retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonCorrectionSeries
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonCorrectionSeries
+
+@[expose] public section
 
 noncomputable section
 open Complex

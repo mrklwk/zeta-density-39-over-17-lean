@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.LogModulated
+module
+public import GuthMaynard.Improvement.LogModulated
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

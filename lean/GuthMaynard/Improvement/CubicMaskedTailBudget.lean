@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CubicMaskedStrip
-import GuthMaynard.Improvement.RadialScaleBudget
+module
+public import GuthMaynard.Improvement.CubicMaskedStrip
+public import GuthMaynard.Improvement.RadialScaleBudget
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

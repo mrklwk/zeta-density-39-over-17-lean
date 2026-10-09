@@ -1,3 +1,4 @@
+module
 /-
 New native q=1 Voronoi proof, with both complete dual series absolutely convergent.
 The exact statement follows S. McColm, ZetaDivisorVoronoi.lean, revision
@@ -6,8 +7,10 @@ This proof uses the genuine compact-test contour shift and actual zeta functiona
 equation; no general Estermann summation formula is imported or assumed.
 Mathlib dependencies retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorDualSeries
-import MathCollab.Density.Stronger.Atkinson.VoronoiMultiplierBounds
+public import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorDualSeries
+public import MathCollab.Density.Stronger.Atkinson.VoronoiMultiplierBounds
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Stronger.Fourth

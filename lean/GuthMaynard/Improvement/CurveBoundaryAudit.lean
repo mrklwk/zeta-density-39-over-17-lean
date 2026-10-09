@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CombinedDensityCurve
+module
+public import GuthMaynard.Improvement.CombinedDensityCurve
+
+@[expose] public section
 
 set_option autoImplicit false
 noncomputable section

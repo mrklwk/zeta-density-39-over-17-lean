@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OperatorFiniteTrace
-import GuthMaynard.Improvement.FiniteOperatorWitness
+module
+public import GuthMaynard.Improvement.OperatorFiniteTrace
+public import GuthMaynard.Improvement.FiniteOperatorWitness
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory InnerProductSpace Filter Set

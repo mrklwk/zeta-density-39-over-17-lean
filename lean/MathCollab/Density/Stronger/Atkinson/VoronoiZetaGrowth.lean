@@ -1,11 +1,14 @@
+module
 /-
 Native q=1 estimates derived from the existing proved Gamma half-line formula,
 beta comparison and actual zeta Abel bound. Existing Gamma/contour Apache
 and McColm MIT-0 attributions remain; no Estermann input or assumed source bound.
 -/
-import MathCollab.Density.Stronger.Atkinson.VoronoiZetaFunctional
-import MathCollab.Density.Stronger.PointMean.GammaKernel
-import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.Stronger.Atkinson.VoronoiZetaFunctional
+public import MathCollab.Density.Stronger.PointMean.GammaKernel
+public import MathCollab.Density.AbelZetaGrowth
+
+@[expose] public section
 
 open Complex
 open MathCollab.Density.GammaBounds MathCollab.Density.ZetaGrowth

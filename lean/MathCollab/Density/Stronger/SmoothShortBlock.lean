@@ -1,5 +1,8 @@
-import MathCollab.Density.Stronger.GenericTaylorFamily
-import MathCollab.Density.Stronger.SmoothPartition
+module
+public import MathCollab.Density.Stronger.GenericTaylorFamily
+public import MathCollab.Density.Stronger.SmoothPartition
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology

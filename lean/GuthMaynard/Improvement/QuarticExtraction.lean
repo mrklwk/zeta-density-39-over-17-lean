@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.QuarticMomentExtraction
-import GuthMaynard.Improvement.QuarticBadCells
+module
+public import GuthMaynard.Improvement.QuarticMomentExtraction
+public import GuthMaynard.Improvement.QuarticBadCells
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

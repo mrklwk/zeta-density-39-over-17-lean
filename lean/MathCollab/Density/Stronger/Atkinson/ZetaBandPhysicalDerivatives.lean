@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Selected proof slices adapted from revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
@@ -5,7 +6,9 @@ Released under MIT-0; see third_party/twelfth/LICENSE-MIT-0.
 Provenance: third_party/twelfth/ATKINSON_CUTOFF_C2_MANIFEST.json.
 Mathlib dependencies retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.ZetaBandSecondDerivatives
+public import MathCollab.Density.Stronger.Atkinson.ZetaBandSecondDerivatives
+
+@[expose] public section
 
 open Complex Set Filter Topology
 open scoped ContDiff

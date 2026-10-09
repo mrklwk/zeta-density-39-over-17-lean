@@ -1,11 +1,14 @@
+module
 /-
 Adapted from Conor Grogan's GammaCompactStrip.lean at
 f369f267b4dcfebf010c8e7baa2c9602e2960eba; Apache-2.0.
 See the root THIRD_PARTY_NOTICES.md for exact slices and hashes.
 -/
-import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
-import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 open Set MeasureTheory
 open scoped Real
@@ -15,7 +18,7 @@ set_option autoImplicit false
 noncomputable section
 namespace MathCollab.Density.GammaBounds
 
-private def centralPoint (t : ℝ) : ℂ := (1 / 2 : ℝ) + t * Complex.I
+def centralPoint (t : ℝ) : ℂ := (1 / 2 : ℝ) + t * Complex.I
 
 theorem one_sub_centralPoint (t : ℝ) :
     1 - centralPoint t = (starRingEnd ℂ) (centralPoint t) := by

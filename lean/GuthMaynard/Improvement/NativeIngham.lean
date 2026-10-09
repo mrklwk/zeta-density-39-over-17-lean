@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.GlobalDensityConditional
-import GuthMaynard.Improvement.NativeDensitySourceBridge
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalEndpointDensity
+module
+public import GuthMaynard.Improvement.GlobalDensityConditional
+public import GuthMaynard.Improvement.NativeDensitySourceBridge
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalEndpointDensity
+
+@[expose] public section
 
 set_option autoImplicit false
 noncomputable section

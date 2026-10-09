@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.AmplifierNorm
-import GuthMaynard.Improvement.OperatorKernel
+module
+public import GuthMaynard.Improvement.AmplifierNorm
+public import GuthMaynard.Improvement.OperatorKernel
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Finset InnerProductSpace

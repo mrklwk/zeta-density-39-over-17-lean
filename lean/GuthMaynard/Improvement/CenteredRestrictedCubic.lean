@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.CubicRetainedMasked
-import GuthMaynard.Improvement.CenteredCubicApprox
-import GuthMaynard.Improvement.CenteredCubicBoundedHeight
-import GuthMaynard.Improvement.CubicOrdinaryClosure
+module
+public import GuthMaynard.Improvement.CubicRetainedMasked
+public import GuthMaynard.Improvement.CenteredCubicApprox
+public import GuthMaynard.Improvement.CenteredCubicBoundedHeight
+public import GuthMaynard.Improvement.CubicOrdinaryClosure
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

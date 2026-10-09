@@ -1,8 +1,11 @@
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Combinatorics.Pigeonhole
-import Mathlib.NumberTheory.Harmonic.Bounds
-import GuthMaynard.NativeSource.GuthMaynard.HalaszMontgomery
-import GuthMaynard.NativeSource.GuthMaynard.LogarithmicKernel
+module
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Combinatorics.Pigeonhole
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import GuthMaynard.NativeSource.GuthMaynard.HalaszMontgomery
+public import GuthMaynard.NativeSource.GuthMaynard.LogarithmicKernel
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators ComplexConjugate

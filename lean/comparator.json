@@ -1,0 +1,20 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "GuthMaynardStatement.full_curve",
+    "GuthMaynardStatement.global_uniform",
+    "GuthMaynardStatement.uniform_away_boundary",
+    "GuthMaynardStatement.middle_large_values"
+  ],
+  "definition_names": [
+    "GuthMaynardStatement.densityCoefficient",
+    "GuthMaynardStatement.actualZeroBound",
+    "GuthMaynardStatement.dirichletPolynomial"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

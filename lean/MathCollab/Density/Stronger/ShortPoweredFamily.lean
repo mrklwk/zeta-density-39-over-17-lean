@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.ShortPoweredHeight
+module
+public import MathCollab.Density.Stronger.ShortPoweredHeight
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

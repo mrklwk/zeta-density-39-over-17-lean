@@ -1,7 +1,10 @@
-import MathCollab.Density.Stronger.SmoothPartition
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.Normed.Group.InfiniteSum
-import Mathlib.Topology.Algebra.InfiniteSum.Real
+module
+public import MathCollab.Density.Stronger.SmoothPartition
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.Normed.Group.InfiniteSum
+public import Mathlib.Topology.Algebra.InfiniteSum.Real
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology

@@ -1,4 +1,7 @@
-import MathCollab.Density.WeightedSquare
+module
+public import MathCollab.Density.WeightedSquare
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators ContDiff

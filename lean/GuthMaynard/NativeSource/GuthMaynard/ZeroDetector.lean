@@ -1,13 +1,16 @@
-import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
-import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
-import Mathlib.Data.Complex.Basic
-import Mathlib.Data.Real.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Analysis.SpecialFunctions.Log.Base
-import Mathlib.Analysis.SpecialFunctions.Exp
-import Mathlib.NumberTheory.ArithmeticFunction.Moebius
-import Mathlib.NumberTheory.Divisors
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
+public import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
+public import Mathlib.Data.Complex.Basic
+public import Mathlib.Data.Real.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Analysis.SpecialFunctions.Log.Base
+public import Mathlib.Analysis.SpecialFunctions.Exp
+public import Mathlib.NumberTheory.ArithmeticFunction.Moebius
+public import Mathlib.NumberTheory.Divisors
+
+@[expose] public section
 
 open Complex
 open scoped BigOperators

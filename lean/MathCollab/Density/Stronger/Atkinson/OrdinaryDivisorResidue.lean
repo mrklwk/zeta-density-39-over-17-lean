@@ -1,3 +1,4 @@
+module
 /-
 Native modulus-one adaptation of selected McColm divisor Voronoi residues,
 source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0,
@@ -5,9 +6,11 @@ Copyright (c) 2026 S. McColm. See repository-root third_party/twelfth/LICENSE-MI
 Mathlib ZetaAsymp and existing rectangle sources retain Apache-2.0 attribution.
 No periodic Estermann or upstream project is imported.
 -/
-import MathCollab.Density.Stronger.Atkinson.VoronoiMellinDecay
-import MathCollab.Density.Stronger.PointMean.DoublePole
-import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+public import MathCollab.Density.Stronger.Atkinson.VoronoiMellinDecay
+public import MathCollab.Density.Stronger.PointMean.DoublePole
+public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Contour

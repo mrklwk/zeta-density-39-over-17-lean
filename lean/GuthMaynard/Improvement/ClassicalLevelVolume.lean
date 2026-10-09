@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SeparatedLevelVolume
-import GuthMaynard.Improvement.ClassicalLargeValues
+module
+public import GuthMaynard.Improvement.SeparatedLevelVolume
+public import GuthMaynard.Improvement.ClassicalLargeValues
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

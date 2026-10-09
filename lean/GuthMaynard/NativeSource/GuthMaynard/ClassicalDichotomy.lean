@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityTransfer
+module
+public import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityTransfer
+
+@[expose] public section
 
 open Complex Finset Filter Topology
 open scoped BigOperators

@@ -1,8 +1,11 @@
-import MathCollab.Density.Stronger.DampedCutoff
-import Mathlib.Analysis.MellinInversion
-import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-import Mathlib.Analysis.Calculus.IteratedDeriv.FaaDiBruno
+module
+public import MathCollab.Density.Stronger.DampedCutoff
+public import Mathlib.Analysis.MellinInversion
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Analysis.Calculus.IteratedDeriv.FaaDiBruno
+
+@[expose] public section
 
 /-!
 Uniform Mellin estimates for smooth exponentially damped cutoffs supported

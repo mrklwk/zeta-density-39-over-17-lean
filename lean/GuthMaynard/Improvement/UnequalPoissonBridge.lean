@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.UnequalSourceScales
+module
+public import GuthMaynard.Improvement.UnequalSourceScales
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

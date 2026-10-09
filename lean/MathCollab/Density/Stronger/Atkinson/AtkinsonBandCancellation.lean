@@ -1,9 +1,12 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Selected exact source slices from revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 See third_party/twelfth/ATKINSON_SOURCE_TAIL_MANIFEST.json. Mathlib/PNT foundations retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonRootBand
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonRootBand
+
+@[expose] public section
 
 /-!
 # Cancellation outside the actual source-scale frequency band

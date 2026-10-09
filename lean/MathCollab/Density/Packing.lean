@@ -1,5 +1,8 @@
-import MathCollab.Density.LargeValueDefinitions
-import Mathlib.Analysis.PSeries
+module
+public import MathCollab.Density.LargeValueDefinitions
+public import Mathlib.Analysis.PSeries
+
+@[expose] public section
 
 open Real Set MeasureTheory
 open scoped BigOperators

@@ -1,4 +1,7 @@
-import MathCollab.Density.ComparisonCutoff
+module
+public import MathCollab.Density.ComparisonCutoff
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators

@@ -1,4 +1,7 @@
-import Mathlib
+module
+public import Mathlib
+
+@[expose] public section
 
 /-! Measure-theoretic parts of the candidate gate. No affine or trace estimate
 is assumed in these inequalities. -/

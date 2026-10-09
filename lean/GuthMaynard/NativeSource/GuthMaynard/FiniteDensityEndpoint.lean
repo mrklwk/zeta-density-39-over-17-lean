@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityTransfer
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalPowering
+module
+public import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityTransfer
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalPowering
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorTaylorFamily
-import Mathlib.Analysis.Analytic.Binomial
+module
+public import MathCollab.Density.DetectorTaylorFamily
+public import Mathlib.Analysis.Analytic.Binomial
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology

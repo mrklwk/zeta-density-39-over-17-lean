@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Series algebra adapted from AtkinsonLeadingSeries at exact source revision
@@ -5,8 +6,10 @@ Series algebra adapted from AtkinsonLeadingSeries at exact source revision
 See third_party/twelfth/ATKINSON_LEADING_CONVERGENCE_MANIFEST.json.
 Mathlib dependencies retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonLeadingSeriesAlgebra
-import MathCollab.Density.Stronger.Atkinson.AtkinsonSharpTruncation
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonLeadingSeriesAlgebra
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonSharpTruncation
+
+@[expose] public section
 
 noncomputable section
 open Complex

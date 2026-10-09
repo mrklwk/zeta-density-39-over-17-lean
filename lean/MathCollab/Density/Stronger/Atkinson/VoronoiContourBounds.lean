@@ -1,13 +1,16 @@
+module
 /-
 Native q=1 contour convergence from proved actual-zeta growth and genuine
 compact-test Mellin decay. McColm's selected strip-tail proof pattern is
 adapted at revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1 (MIT-0).
 Mathlib and existing rectangle Apache attributions retained.
 -/
-import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorResidue
-import MathCollab.Density.Stronger.Atkinson.VoronoiZetaGrowth
-import Mathlib.MeasureTheory.Integral.Asymptotics
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorResidue
+public import MathCollab.Density.Stronger.Atkinson.VoronoiZetaGrowth
+public import Mathlib.MeasureTheory.Integral.Asymptotics
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology Asymptotics
 open MathCollab.Density.Contour

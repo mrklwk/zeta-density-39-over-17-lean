@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.PolynomialPowers
-import GuthMaynard.NativeSource.GuthMaynard.ArithmeticCoefficients
+module
+public import GuthMaynard.NativeSource.GuthMaynard.PolynomialPowers
+public import GuthMaynard.NativeSource.GuthMaynard.ArithmeticCoefficients
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

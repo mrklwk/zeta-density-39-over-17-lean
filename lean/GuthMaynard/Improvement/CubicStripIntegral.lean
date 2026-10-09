@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CompactTransverse
-import GuthMaynard.Improvement.CubicStripGeometry
+module
+public import GuthMaynard.Improvement.CompactTransverse
+public import GuthMaynard.Improvement.CubicStripGeometry
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,3 +1,4 @@
+module
 /-
 Selected exponential-critical-moment convergence proofs adapted from Scott
 McColm, PointMeanOffCritical.lean, exact revision
@@ -5,8 +6,10 @@ McColm, PointMeanOffCritical.lean, exact revision
 Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0.
 The critical norm is the repository's literal actual-zeta norm.
 -/
-import MathCollab.Density.Stronger.PointMean.MellinVertical
-import MathCollab.Density.Stronger.CriticalMoment
+public import MathCollab.Density.Stronger.PointMean.MellinVertical
+public import MathCollab.Density.Stronger.CriticalMoment
+
+@[expose] public section
 
 open Complex Set MeasureTheory
 open MathCollab.Density.ZetaGrowth

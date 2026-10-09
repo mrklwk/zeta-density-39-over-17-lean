@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OperatorDensityVector
-import GuthMaynard.Improvement.LogMask
+module
+public import GuthMaynard.Improvement.OperatorDensityVector
+public import GuthMaynard.Improvement.LogMask
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory InnerProductSpace Set

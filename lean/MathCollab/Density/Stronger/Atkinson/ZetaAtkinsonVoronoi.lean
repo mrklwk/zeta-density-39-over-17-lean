@@ -1,14 +1,17 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected ZetaAtkinsonVoronoi.lean proofs,
 revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
 Uses the new native modulus-one contour/absolute-exchange proof and physically
 proved Y0/K0 Mellin bridges. Mathlib attribution remains Apache-2.0.
 -/
-import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorVoronoi
-import MathCollab.Density.Stronger.Atkinson.VoronoiMinusTransport
-import MathCollab.Density.Stronger.Atkinson.BesselTransformBridge
-import MathCollab.Density.Stronger.Atkinson.AtkinsonVoronoiTerms
-import MathCollab.Density.Stronger.Atkinson.SmoothDivisorSource
+public import MathCollab.Density.Stronger.Atkinson.OrdinaryDivisorVoronoi
+public import MathCollab.Density.Stronger.Atkinson.VoronoiMinusTransport
+public import MathCollab.Density.Stronger.Atkinson.BesselTransformBridge
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonVoronoiTerms
+public import MathCollab.Density.Stronger.Atkinson.SmoothDivisorSource
+
+@[expose] public section
 
 open Complex MeasureTheory Set
 open MathCollab.Density.Stronger.Fourth

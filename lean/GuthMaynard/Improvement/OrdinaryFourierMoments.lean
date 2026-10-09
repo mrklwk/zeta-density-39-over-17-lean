@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OrdinaryFourierL2
-import GuthMaynard.Improvement.SmoothingFourier
+module
+public import GuthMaynard.Improvement.OrdinaryFourierL2
+public import GuthMaynard.Improvement.SmoothingFourier
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

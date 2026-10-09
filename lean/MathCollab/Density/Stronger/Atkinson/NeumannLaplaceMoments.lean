@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected proofs adapted from NeumannLaplaceMoments.lean,
 exact source revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1,
@@ -6,7 +7,9 @@ Mathlib dependencies retain their Apache-2.0 attribution.
 The literal classical Bessel kernel, principal half-power branches and
 actual convergent integrals are preserved; no asymptotic bound is assumed.
 -/
-import MathCollab.Density.Stronger.Atkinson.NeumannRayFactorization
+public import MathCollab.Density.Stronger.Atkinson.NeumannRayFactorization
+
+@[expose] public section
 
 /-!
 # Exact Gaussian-half-line moments of the decaying Neumann ray

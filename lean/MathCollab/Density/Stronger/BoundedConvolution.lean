@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorConvolution
-import MathCollab.Density.DivisorGrowth
+module
+public import MathCollab.Density.DetectorConvolution
+public import MathCollab.Density.DivisorGrowth
+
+@[expose] public section
 
 open Real Filter
 open scoped Topology

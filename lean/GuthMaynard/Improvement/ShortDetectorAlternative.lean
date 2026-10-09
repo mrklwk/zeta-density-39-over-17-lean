@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.ShortDetectorIdentity
-import GuthMaynard.Improvement.ShortDetectorResidue
-import GuthMaynard.Improvement.ShortFiniteDetector
+module
+public import GuthMaynard.Improvement.ShortDetectorIdentity
+public import GuthMaynard.Improvement.ShortDetectorResidue
+public import GuthMaynard.Improvement.ShortFiniteDetector
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter MathCollab.Density
 open scoped BigOperators Topology

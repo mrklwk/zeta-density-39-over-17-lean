@@ -1,6 +1,9 @@
-import MathCollab.Density.Packing
-import MathCollab.Density.Stronger.MomentPower
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+module
+public import MathCollab.Density.Packing
+public import MathCollab.Density.Stronger.MomentPower
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped BigOperators

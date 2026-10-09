@@ -1,6 +1,9 @@
-import MathCollab.Density.FixedBandError
-import MathCollab.Density.CompletePairs
-import Mathlib.Data.Nat.Log
+module
+public import MathCollab.Density.FixedBandError
+public import MathCollab.Density.CompletePairs
+public import Mathlib.Data.Nat.Log
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators

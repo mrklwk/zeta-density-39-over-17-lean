@@ -1,10 +1,13 @@
+module
 /-
 A direct positive-argument bound for the literal Schläfli Y0 kernel,
 derived from the verified decaying-ray representation. This proof uses
 no oscillatory asymptotic as a premise. Selected source definitions and
 ray lemmas retain the McColm MIT-0 attribution; see third_party/twelfth/NEUMANN_NATIVE_MANIFEST.json.
 -/
-import MathCollab.Density.Stronger.Atkinson.NeumannLaplaceMoments
+public import MathCollab.Density.Stronger.Atkinson.NeumannLaplaceMoments
+
+@[expose] public section
 
 open Complex MeasureTheory Set
 set_option autoImplicit false

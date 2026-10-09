@@ -1,8 +1,11 @@
-import Mathlib.NumberTheory.LSeries.RiemannZeta
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
-import GuthMaynard.NativeSource.CompletedZetaSymmetry
+module
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import GuthMaynard.NativeSource.CompletedZetaSymmetry
+
+@[expose] public section
 
 open Complex BigOperators Real
 

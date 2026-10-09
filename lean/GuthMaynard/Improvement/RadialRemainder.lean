@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.RadialDecay
-import GuthMaynard.Improvement.CubicTimeMeasure
+module
+public import GuthMaynard.Improvement.RadialDecay
+public import GuthMaynard.Improvement.CubicTimeMeasure
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

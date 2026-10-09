@@ -1,3 +1,4 @@
+module
 /-
 Selected moving-pole proofs from Scott McColm, PointMeanMovingPole.lean,
 exact revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0,
@@ -5,10 +6,12 @@ Copyright 2026 S. McColm. See ../../../../../third_party/twelfth/POINT_MEAN_SHIF
 and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 The pole-removed zeta function is built from local AbelZetaGrowth.
 -/
-import MathCollab.Density.Stronger.PointMean.DoublePole
-import MathCollab.Density.Stronger.PointMean.FiniteRectangle
-import MathCollab.Density.Stronger.Fourth.GammaShiftLog
-import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.Stronger.PointMean.DoublePole
+public import MathCollab.Density.Stronger.PointMean.FiniteRectangle
+public import MathCollab.Density.Stronger.Fourth.GammaShiftLog
+public import MathCollab.Density.AbelZetaGrowth
+
+@[expose] public section
 
 open Complex Set
 open MathCollab.Density.Contour MathCollab.Density.ZetaGrowth

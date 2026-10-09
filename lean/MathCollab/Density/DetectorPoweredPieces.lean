@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorConvolution
-import MathCollab.Density.DetectorPowerScales
+module
+public import MathCollab.Density.DetectorConvolution
+public import MathCollab.Density.DetectorPowerScales
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

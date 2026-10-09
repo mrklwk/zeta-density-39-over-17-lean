@@ -1,5 +1,8 @@
-import MathCollab.Density.ProductGrouping
-import MathCollab.Density.Packing
+module
+public import MathCollab.Density.ProductGrouping
+public import MathCollab.Density.Packing
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators ComplexConjugate

@@ -1,6 +1,9 @@
-import Mathlib.Geometry.Manifold.PartitionOfUnity
-import Mathlib.Tactic.Bound
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support
+module
+public import Mathlib.Geometry.Manifold.PartitionOfUnity
+public import Mathlib.Tactic.Bound
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Algebra.Notation.Support
+
+@[expose] public section
 
 open MeasureTheory Set Real
 open scoped ContDiff

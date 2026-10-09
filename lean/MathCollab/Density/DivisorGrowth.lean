@@ -1,7 +1,10 @@
-import MathCollab.Density.ProductGrouping
-import Mathlib.NumberTheory.ArithmeticFunction.Misc
-import Mathlib.Analysis.SpecificLimits.Normed
-import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+module
+public import MathCollab.Density.ProductGrouping
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.Analysis.SpecificLimits.Normed
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+
+@[expose] public section
 
 open Real Set
 open scoped BigOperators

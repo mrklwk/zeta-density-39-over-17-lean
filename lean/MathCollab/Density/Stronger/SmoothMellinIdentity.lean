@@ -1,5 +1,8 @@
-import MathCollab.Density.Stronger.UniformMellin
-import MathCollab.Density.DetectorMellin
+module
+public import MathCollab.Density.Stronger.UniformMellin
+public import MathCollab.Density.DetectorMellin
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators ContDiff

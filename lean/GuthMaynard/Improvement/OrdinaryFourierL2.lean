@@ -1,4 +1,7 @@
-import Mathlib.Analysis.Fourier.LpSpace
+module
+public import Mathlib.Analysis.Fourier.LpSpace
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

@@ -1,6 +1,9 @@
-import MathCollab.Density.GammaStrip
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-import Mathlib.Tactic
+module
+public import MathCollab.Density.GammaStrip
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Set MeasureTheory
 open scoped Topology

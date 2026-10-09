@@ -1,7 +1,10 @@
+module
 /- Adapted from audited Density.LocalZeroCount at eff263d7, whose Jensen
  proof derives from Scott McColm (MIT). The same actual zero count and
  multiplicities are retained; a radius3/2 disk also covers Re(rho)>=3/5. -/
-import MathCollab.Density.LocalZeroCount
+public import MathCollab.Density.LocalZeroCount
+
+@[expose] public section
 open Complex Filter Set MeasureTheory MathCollab.Density
 open scoped Topology BigOperators
 open MathCollab.Density.ZetaGrowth

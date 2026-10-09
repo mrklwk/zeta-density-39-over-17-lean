@@ -1,3 +1,4 @@
+module
 /-
 Selected actual divisor Gamma-Mellin proofs from Scott McColm,
 PointMeanDivisorMellin.lean, exact revision
@@ -7,8 +8,10 @@ and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 The local GammaMellin infrastructure retains its Apache-2.0 attribution.
 No upstream project module or moment premise is imported.
 -/
-import MathCollab.Density.GammaMellin
-import MathCollab.Density.Stronger.Fourth.SquareSource
+public import MathCollab.Density.GammaMellin
+public import MathCollab.Density.Stronger.Fourth.SquareSource
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter ArithmeticFunction
 open MathCollab.Density.Stronger.Fourth

@@ -1,7 +1,10 @@
+module
 /- McColm source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0. -/
-import Mathlib.NumberTheory.LSeries.RiemannZeta
-import Mathlib.Algebra.Order.Floor.Semiring
-import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.Algebra.Order.Floor.Semiring
+public import Mathlib.Algebra.BigOperators.Group.Finset.Basic
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility.
 set_option backward.isDefEq.respectTransparency false

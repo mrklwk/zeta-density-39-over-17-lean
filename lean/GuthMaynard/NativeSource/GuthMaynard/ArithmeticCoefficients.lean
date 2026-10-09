@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.PolynomialPowers
-import Mathlib.NumberTheory.ArithmeticFunction.Misc
-import Mathlib.NumberTheory.SmoothNumbers
+module
+public import GuthMaynard.NativeSource.GuthMaynard.PolynomialPowers
+public import Mathlib.NumberTheory.ArithmeticFunction.Misc
+public import Mathlib.NumberTheory.SmoothNumbers
+
+@[expose] public section
 
 /-!
 # Arithmetic coefficient bounds

@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.Target
-import GuthMaynard.Improvement.CenteredKernelBridge
-import GuthMaynard.Improvement.DivisorMultiplicity
-import MathCollab.Density.DivisorGrowth
+module
+public import GuthMaynard.Improvement.Target
+public import GuthMaynard.Improvement.CenteredKernelBridge
+public import GuthMaynard.Improvement.DivisorMultiplicity
+public import MathCollab.Density.DivisorGrowth
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Finset

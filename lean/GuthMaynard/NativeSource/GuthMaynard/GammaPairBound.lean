@@ -1,5 +1,8 @@
-import Mathlib.Analysis.Convex.Deriv
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Gamma.DigammaSeries
+module
+public import Mathlib.Analysis.Convex.Deriv
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Gamma.DigammaSeries
+
+@[expose] public section
 
 open Complex Set Filter
 
@@ -110,7 +113,7 @@ theorem norm_GammaSeq_vertical {a y : ℝ} {n : ℕ} (hn : 0 < n) :
   all_goals push_cast
   all_goals ring_nf
 
-private noncomputable def gammaDenom (a y : ℝ) (n : ℕ) : ℝ :=
+noncomputable def gammaDenom (a y : ℝ) (n : ℕ) : ℝ :=
   ∏ j ∈ Finset.range (n + 1), Real.sqrt ((a + j) ^ 2 + y ^ 2)
 
 private theorem gammaDenom_pos {a : ℝ} (ha : 0 < a) (y : ℝ) (n : ℕ) :

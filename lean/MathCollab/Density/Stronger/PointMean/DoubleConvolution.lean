@@ -1,11 +1,14 @@
+module
 /-
 Selected literal critical-moment double convolution proofs adapted from
 Scott McColm, PointMeanLemmaThreeDouble.lean, exact revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0,
 Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0.
 -/
-import MathCollab.Density.Stronger.PointMean.OffCriticalPositive
-import MathCollab.Density.Stronger.PointMean.GammaConvolution
+public import MathCollab.Density.Stronger.PointMean.OffCriticalPositive
+public import MathCollab.Density.Stronger.PointMean.GammaConvolution
+
+@[expose] public section
 
 open MeasureTheory
 set_option autoImplicit false

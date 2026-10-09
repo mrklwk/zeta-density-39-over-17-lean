@@ -1,13 +1,16 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected literal Y0 Mellin proofs adapted
 from DFIComplexLaplace.lean, exact revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1,
 MIT-0. See third_party/twelfth/Y0_MELLIN_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0. Mathlib dependencies
 retain Apache-2.0 attribution. No Estermann/Voronoi identity is assumed.
 -/
-import MathCollab.Density.Stronger.Atkinson.BesselK0Mellin
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Analysis.Complex.Convex
-import Mathlib.Analysis.Calculus.ParametricIntegral
+public import MathCollab.Density.Stronger.Atkinson.BesselK0Mellin
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Calculus.ParametricIntegral
+
+@[expose] public section
 
 /-!
 # Complex Gamma--Laplace integral for the DFI Neumann kernel

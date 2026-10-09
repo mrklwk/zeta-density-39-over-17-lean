@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
-import GuthMaynard.NativeSource.GuthMaynard.Statements
+module
+public import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
+public import GuthMaynard.NativeSource.GuthMaynard.Statements
+
+@[expose] public section
 
 namespace GuthMaynard.NativeMoment
 

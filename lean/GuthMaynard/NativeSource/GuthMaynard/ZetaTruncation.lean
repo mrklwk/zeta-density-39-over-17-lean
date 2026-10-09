@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.ZetaBounds
-import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaAppendix
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ZetaBounds
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaAppendix
+
+@[expose] public section
 
 open Complex Set MeasureTheory
 

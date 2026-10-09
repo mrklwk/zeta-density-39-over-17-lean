@@ -1,8 +1,11 @@
-import MathCollab.Density.Stronger.SmoothExpansion
-import MathCollab.Density.Stronger.InitialDetector
-import MathCollab.Density.Stronger.DampedCutoff
-import MathCollab.Density.Stronger.SmoothMellinIdentity
-import Mathlib.Analysis.Complex.ExponentialBounds
+module
+public import MathCollab.Density.Stronger.SmoothExpansion
+public import MathCollab.Density.Stronger.InitialDetector
+public import MathCollab.Density.Stronger.DampedCutoff
+public import MathCollab.Density.Stronger.SmoothMellinIdentity
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology

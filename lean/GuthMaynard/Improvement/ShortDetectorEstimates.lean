@@ -1,12 +1,15 @@
+module
 /-
 Adapted from the verified MathCollab.Density.DetectorEstimates and DetectorGamma.
 The literal kernel and horizontal majorant are reused unchanged. The left-line
 Gamma domination uses ShortDetectorGamma, and right-line Mellin integrability
 uses ShortDetectorMellin, to cover beta >= 9/13. No original source is modified.
 -/
-import GuthMaynard.Improvement.ShortDetectorGamma
-import GuthMaynard.Improvement.ShortDetectorMellin
-import MathCollab.Density.DetectorEstimates
+public import GuthMaynard.Improvement.ShortDetectorGamma
+public import GuthMaynard.Improvement.ShortDetectorMellin
+public import MathCollab.Density.DetectorEstimates
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Complex MeasureTheory Set Filter MathCollab.Density

@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Selected physical-budget proofs released under MIT-0; see
@@ -8,10 +9,12 @@ The new assembly uses the literal native prefix/Gram bound and keeps the
 actual stationary-zeta source-to-prefix inequality as an explicit premise.
 Mathlib dependencies retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonLocalizedGram
-import Mathlib.Analysis.SpecialFunctions.Log.Base
-import Mathlib.NumberTheory.Harmonic.Bounds
-import WeylPort.GrowthAlgebra
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonLocalizedGram
+public import Mathlib.Analysis.SpecialFunctions.Log.Base
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import WeylPort.GrowthAlgebra
+
+@[expose] public section
 open Complex Filter MeasureTheory Set Topology Finset
 open TaoTrudgianYang2025 (eventually_const_log_pow_le_rpow)
 set_option autoImplicit false

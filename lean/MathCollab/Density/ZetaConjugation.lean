@@ -1,6 +1,9 @@
-import MathCollab.Density.ZetaCounting
-import Mathlib.NumberTheory.Harmonic.ZetaAsymp
-import Mathlib.Analysis.Calculus.Deriv.Star
+module
+public import MathCollab.Density.ZetaCounting
+public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+public import Mathlib.Analysis.Calculus.Deriv.Star
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

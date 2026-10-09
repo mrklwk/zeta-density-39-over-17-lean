@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorBinomial
-import MathCollab.Density.DetectorDyadic
+module
+public import MathCollab.Density.DetectorBinomial
+public import MathCollab.Density.DetectorDyadic
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology

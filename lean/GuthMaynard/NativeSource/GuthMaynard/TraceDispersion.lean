@@ -1,5 +1,8 @@
-import Mathlib.Algebra.Order.Chebyshev
-import GuthMaynard.NativeSource.GuthMaynard.LargeValuesMatrix
+module
+public import Mathlib.Algebra.Order.Chebyshev
+public import GuthMaynard.NativeSource.GuthMaynard.LargeValuesMatrix
+
+@[expose] public section
 
 open Finset
 open scoped BigOperators

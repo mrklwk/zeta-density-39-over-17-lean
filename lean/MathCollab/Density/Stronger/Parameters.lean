@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorParameters
+module
+public import MathCollab.Density.DetectorParameters
+
+@[expose] public section
 
 open Filter
 open scoped Topology

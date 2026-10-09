@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected ZetaNeumannSeries.lean proofs,
 revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
@@ -5,8 +6,10 @@ The complete original Y0 series is proved absolutely convergent using the native
 q=1 Voronoi transform, then the actual summable remainder is subtracted.
 Mathlib dependencies retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.ZetaAtkinsonVoronoi
-import MathCollab.Density.Stronger.Atkinson.NeumannRemainderSeries
+public import MathCollab.Density.Stronger.Atkinson.ZetaAtkinsonVoronoi
+public import MathCollab.Density.Stronger.Atkinson.NeumannRemainderSeries
+
+@[expose] public section
 
 open Complex MeasureTheory Set
 open MathCollab.Density.Stronger.Fourth

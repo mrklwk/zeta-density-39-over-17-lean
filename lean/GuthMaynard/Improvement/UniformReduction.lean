@@ -1,4 +1,7 @@
-import Mathlib
+module
+public import Mathlib
+
+@[expose] public section
 
 /-! Conditional quantitative closure of the unequal-scale calculation.
 The two analytic estimates are explicit premises. This file does NOT prove

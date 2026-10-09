@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.MixedPoissonBridge
-import GuthMaynard.Improvement.UnequalHeightReduction
+module
+public import GuthMaynard.Improvement.MixedPoissonBridge
+public import GuthMaynard.Improvement.UnequalHeightReduction
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

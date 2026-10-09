@@ -1,6 +1,9 @@
-import MathCollab.Density.ZetaCounting
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Algebra.Order.Archimedean.Basic
+module
+public import MathCollab.Density.ZetaCounting
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Algebra.Order.Archimedean.Basic
+
+@[expose] public section
 
 open Finset MathCollab.Density
 open scoped BigOperators

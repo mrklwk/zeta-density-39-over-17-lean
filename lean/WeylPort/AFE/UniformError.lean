@@ -1,8 +1,11 @@
-import WeylPort.AFE.AFESecondLimits
-import WeylPort.AFE.UniformCoefficients
-import WeylPort.GapSum
-import WeylPort.Reflection
-import WeylPort.CutoffSelection
+module
+public import WeylPort.AFE.AFESecondLimits
+public import WeylPort.AFE.UniformCoefficients
+public import WeylPort.GapSum
+public import WeylPort.Reflection
+public import WeylPort.CutoffSelection
+
+@[expose] public section
 
 namespace WeylPort
 open DhimanKadiriQuesadaHerrera2026

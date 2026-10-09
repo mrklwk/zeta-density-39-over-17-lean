@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.ReflectedBandMeanValue
-import MathCollab.Density.LargeValueDefinitions
+module
+public import GuthMaynard.Improvement.ReflectedBandMeanValue
+public import MathCollab.Density.LargeValueDefinitions
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Finset

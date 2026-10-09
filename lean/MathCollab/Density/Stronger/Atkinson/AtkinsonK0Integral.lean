@@ -1,10 +1,13 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected proof slice at revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
 See third_party/twelfth/ATKINSON_MAIN_PLUS_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0. Mathlib dependencies retain Apache-2.0.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonVoronoiTerms
-import MathCollab.Density.Stronger.Atkinson.BesselK0SourceIntegral
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonVoronoiTerms
+public import MathCollab.Density.Stronger.Atkinson.BesselK0SourceIntegral
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set
 open MathCollab.Density.Stronger.Fourth

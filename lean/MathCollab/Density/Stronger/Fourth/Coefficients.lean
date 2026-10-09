@@ -1,13 +1,16 @@
+module
 /-
 Selected proof slices adapted from Scott McColm, MIT-0,
 commit 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 See the root THIRD_PARTY_NOTICES.md (MIT-0).
 No upstream project or Architect module is imported.
 -/
-import MathCollab.Density.DivisorGrowth
-import Mathlib.NumberTheory.LSeries.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Tactic
+public import MathCollab.Density.DivisorGrowth
+public import Mathlib.NumberTheory.LSeries.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Complex Set Finset MeasureTheory Filter
 open scoped BigOperators Interval ComplexConjugate

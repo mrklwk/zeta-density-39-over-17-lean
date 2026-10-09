@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.CubicFourierMoments
-import GuthMaynard.Improvement.CubicFourierStrip
-import GuthMaynard.Improvement.CubicMaskedSpatialBound
+module
+public import GuthMaynard.Improvement.CubicFourierMoments
+public import GuthMaynard.Improvement.CubicFourierStrip
+public import GuthMaynard.Improvement.CubicMaskedSpatialBound
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

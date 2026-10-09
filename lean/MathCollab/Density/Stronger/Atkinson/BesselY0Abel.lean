@@ -1,10 +1,13 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected literal Y0 Mellin proofs adapted
 from DFIY0Abel.lean, exact revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1,
 MIT-0. See third_party/twelfth/Y0_MELLIN_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0. Mathlib dependencies
 retain Apache-2.0 attribution. No Estermann/Voronoi identity is assumed.
 -/
-import MathCollab.Density.Stronger.Atkinson.BesselComplexLaplace
+public import MathCollab.Density.Stronger.Atkinson.BesselComplexLaplace
+
+@[expose] public section
 
 /-!
 # Abel-regularized oscillatory Mellin integrals for `Y₀`

@@ -1,4 +1,7 @@
-import GuthMaynard.AffineSource.LargeValuesAffineHeight
+module
+public import GuthMaynard.AffineSource.LargeValuesAffineHeight
+
+@[expose] public section
 /- Unequal-scale refinements of the isolated McColm source, MIT-0.
 The integral objects are unchanged; the separate R,K factors are retained. -/
 set_option autoImplicit false

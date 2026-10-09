@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.MiddleMomentRaw
-import GuthMaynard.Improvement.RemovedMassBound
-import GuthMaynard.Improvement.MomentScalarClosure
+module
+public import GuthMaynard.Improvement.MiddleMomentRaw
+public import GuthMaynard.Improvement.RemovedMassBound
+public import GuthMaynard.Improvement.MomentScalarClosure
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

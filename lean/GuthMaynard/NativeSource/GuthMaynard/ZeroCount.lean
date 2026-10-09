@@ -1,18 +1,21 @@
-import Mathlib.NumberTheory.LSeries.ZetaZeros
-import Mathlib.Analysis.Complex.Basic
+module
+public import Mathlib.NumberTheory.LSeries.ZetaZeros
+public import Mathlib.Analysis.Complex.Basic
 -- Force rebuild
-import Mathlib.Data.Finset.Basic
-import Mathlib.Topology.Instances.Complex
-import Mathlib.Basic.Real.Basic
-import Mathlib.Analysis.Analytic.Order
-import Mathlib.Analysis.Calculus.Deriv.Star
-import Mathlib.Analysis.Complex.CauchyIntegral
-import Mathlib.Analysis.Complex.JensenFormula
-import Mathlib.Analysis.Analytic.Uniqueness
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
-import Mathlib.Analysis.Real.Pi.Bounds
-import GuthMaynard.NativeSource.GuthMaynard.ZetaBounds
+public import Mathlib.Data.Finset.Basic
+public import Mathlib.Topology.Instances.Complex
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Analysis.Analytic.Order
+public import Mathlib.Analysis.Calculus.Deriv.Star
+public import Mathlib.Analysis.Complex.CauchyIntegral
+public import Mathlib.Analysis.Complex.JensenFormula
+public import Mathlib.Analysis.Analytic.Uniqueness
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import GuthMaynard.NativeSource.GuthMaynard.ZetaBounds
+
+@[expose] public section
 
 open Complex Filter MeromorphicOn
 open scoped Topology ArithmeticFunction.Moebius ComplexOrder

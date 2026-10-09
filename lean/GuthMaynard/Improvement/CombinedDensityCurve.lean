@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.FullCurveLeftUniform
-import MathCollab.Density.Stronger.NativeDensity
+module
+public import GuthMaynard.Improvement.FullCurveLeftUniform
+public import MathCollab.Density.Stronger.NativeDensity
+
+@[expose] public section
 
 open MathCollab.Density
 set_option autoImplicit false

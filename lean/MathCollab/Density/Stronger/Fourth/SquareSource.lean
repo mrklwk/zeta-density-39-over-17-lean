@@ -1,3 +1,4 @@
+module
 /-
 Selected proof slices adapted from Scott McColm's Lean repository, revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
@@ -6,11 +7,13 @@ the root THIRD_PARTY_NOTICES.md.
 See the root THIRD_PARTY_NOTICES.md.
 The local rectangle theorem preserves its PNT+ Apache-2.0 attribution.
 -/
-import MathCollab.Density.RectangleResidue
-import MathCollab.Density.Stronger.Fourth.Coefficients
-import MathCollab.Density.Stronger.CriticalMoment
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+public import MathCollab.Density.RectangleResidue
+public import MathCollab.Density.Stronger.Fourth.Coefficients
+public import MathCollab.Density.Stronger.CriticalMoment
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.Harmonic.ZetaAsymp
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology ArithmeticFunction
 open MathCollab.Density.Contour MathCollab.Density.Stronger

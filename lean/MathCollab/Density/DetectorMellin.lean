@@ -1,11 +1,14 @@
+module
 /-
 The termwise Mellin proof is adapted from McColm TypeIICoverage at
 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be, MIT. The cutoff X and smoothing
 variable x are independent real parameters. No upstream project imports.
 -/
-import MathCollab.Density.MollifierDirichlet
-import MathCollab.Density.GammaMellin
-import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
+public import MathCollab.Density.MollifierDirichlet
+public import MathCollab.Density.GammaMellin
+public import Mathlib.NumberTheory.LSeries.MellinEqDirichlet
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped ArithmeticFunction.Moebius BigOperators Topology

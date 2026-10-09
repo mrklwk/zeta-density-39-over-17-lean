@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.ShortLocalZeroCount
-import GuthMaynard.Improvement.ShortDetectorAlternative
+module
+public import GuthMaynard.Improvement.ShortLocalZeroCount
+public import GuthMaynard.Improvement.ShortDetectorAlternative
+
+@[expose] public section
 
 open Complex Filter Set MathCollab.Density
 open scoped Topology BigOperators

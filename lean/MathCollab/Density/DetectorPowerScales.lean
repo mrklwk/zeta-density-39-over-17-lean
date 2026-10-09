@@ -1,4 +1,7 @@
-import MathCollab.Density.FixedDetectorCover
+module
+public import MathCollab.Density.FixedDetectorCover
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

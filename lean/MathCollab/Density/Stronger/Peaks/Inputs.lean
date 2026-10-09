@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Released under MIT-0; see ../../../../../third_party/twelfth/LICENSE-MIT-0.
@@ -8,9 +9,11 @@ PointMeanInput is supplied by PointMean.PeaksInput. LocalMeanPacketInput is
 reduced to the stationary source inequality by Atkinson.AtkinsonSourceAssembly.
 No unconditional high-value, twelfth-moment or stronger-density bound is asserted.
 -/
-import MathCollab.Density.Stronger.MomentGrowth
-import MathCollab.Density.Stronger.AtkinsonGlobalCardinality
-import WeylPort.GrowthAlgebra
+public import MathCollab.Density.Stronger.MomentGrowth
+public import MathCollab.Density.Stronger.AtkinsonGlobalCardinality
+public import WeylPort.GrowthAlgebra
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology Finset
 open scoped Interval

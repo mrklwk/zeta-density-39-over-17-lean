@@ -1,5 +1,8 @@
-import MathCollab.Density.Stronger.WeightedCriticalMean
-import MathCollab.Density.Stronger.SmallResidue
+module
+public import MathCollab.Density.Stronger.WeightedCriticalMean
+public import MathCollab.Density.Stronger.SmallResidue
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology ContDiff

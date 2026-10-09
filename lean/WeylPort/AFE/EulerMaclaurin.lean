@@ -1,7 +1,10 @@
+module
 /- McColm source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0. -/
-import WeylPort.AFE.PoissonFourier
-import WeylPort.Analytic.EulerMaclaurin
-import Mathlib.Analysis.Calculus.Deriv.Shift
+public import WeylPort.AFE.PoissonFourier
+public import WeylPort.Analytic.EulerMaclaurin
+public import Mathlib.Analysis.Calculus.Deriv.Shift
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility.
 set_option backward.isDefEq.respectTransparency false

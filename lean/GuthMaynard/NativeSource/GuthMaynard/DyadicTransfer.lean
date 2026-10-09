@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.ExponentArithmetic
-import Mathlib.Analysis.SpecialFunctions.Log.Base
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ExponentArithmetic
+public import Mathlib.Analysis.SpecialFunctions.Log.Base
+
+@[expose] public section
 
 open Filter Asymptotics
 open scoped BigOperators

@@ -1,3 +1,4 @@
+module
 /-
 Selected actual contour convergence proofs adapted from Scott McColm,
 PointMeanMellinVertical.lean and PointMeanContourBasic.lean, exact revision
@@ -6,11 +7,13 @@ Copyright 2026 S. McColm. See ../../../../../third_party/twelfth/POINT_MEAN_SHIF
 and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 The local proved Gamma kernel and Abel continuation replace source imports.
 -/
-import MathCollab.Density.Stronger.PointMean.FiniteRectangle
-import MathCollab.Density.Stronger.PointMean.GammaKernel
-import MathCollab.Density.AbelZetaGrowth
-import MathCollab.Density.GammaMellin
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import MathCollab.Density.Stronger.PointMean.FiniteRectangle
+public import MathCollab.Density.Stronger.PointMean.GammaKernel
+public import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.GammaMellin
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Contour MathCollab.Density.ZetaGrowth

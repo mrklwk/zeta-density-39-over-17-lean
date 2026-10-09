@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.OperatorMixedTrace
+module
+public import GuthMaynard.Improvement.OperatorMixedTrace
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set InnerProductSpace

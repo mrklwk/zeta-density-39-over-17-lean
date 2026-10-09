@@ -1,4 +1,7 @@
-import MathCollab.Density.LargeValuesOptimization
+module
+public import MathCollab.Density.LargeValuesOptimization
+
+@[expose] public section
 
 open Real Complex Set
 open scoped BigOperators

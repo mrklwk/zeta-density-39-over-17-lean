@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorNormalization
+module
+public import MathCollab.Density.DetectorNormalization
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology

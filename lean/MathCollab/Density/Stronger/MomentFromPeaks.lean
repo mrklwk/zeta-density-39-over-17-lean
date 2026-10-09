@@ -1,7 +1,10 @@
-import MathCollab.Density.Stronger.ConditionalMoment
-import MathCollab.Density.Stronger.SeparatedVolume
-import MathCollab.Density.Stronger.Fourth.FourthMoment
-import MathCollab.Density.Stronger.ConditionalDensity
+module
+public import MathCollab.Density.Stronger.ConditionalMoment
+public import MathCollab.Density.Stronger.SeparatedVolume
+public import MathCollab.Density.Stronger.Fourth.FourthMoment
+public import MathCollab.Density.Stronger.ConditionalDensity
+
+@[expose] public section
 
 open MeasureTheory Filter Set
 open scoped Interval

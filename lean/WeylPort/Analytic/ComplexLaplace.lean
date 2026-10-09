@@ -1,7 +1,10 @@
-import WeylPort.Analytic.RealLaplace
-import Mathlib.Analysis.Analytic.IsolatedZeros
-import Mathlib.Analysis.Complex.Convex
-import Mathlib.Analysis.Calculus.ParametricIntegral
+module
+public import WeylPort.Analytic.RealLaplace
+public import Mathlib.Analysis.Analytic.IsolatedZeros
+public import Mathlib.Analysis.Complex.Convex
+public import Mathlib.Analysis.Calculus.ParametricIntegral
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility; kernel checking stays enabled.
 set_option backward.isDefEq.respectTransparency false

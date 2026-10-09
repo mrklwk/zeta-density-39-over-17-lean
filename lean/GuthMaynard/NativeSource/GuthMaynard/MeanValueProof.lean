@@ -1,10 +1,13 @@
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.DistLEIntegral
-import Mathlib.Analysis.InnerProductSpace.Calculus
-import GuthMaynard.NativeSource.GuthMaynard.MeanValueCS
-import GuthMaynard.NativeSource.GuthMaynard.MeanValue
-import GuthMaynard.NativeSource.GuthMaynard.Separated
+module
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.DistLEIntegral
+public import Mathlib.Analysis.InnerProductSpace.Calculus
+public import GuthMaynard.NativeSource.GuthMaynard.MeanValueCS
+public import GuthMaynard.NativeSource.GuthMaynard.MeanValue
+public import GuthMaynard.NativeSource.GuthMaynard.Separated
+
+@[expose] public section
 
 open Complex Set
 open scoped Interval ComplexConjugate

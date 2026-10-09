@@ -1,5 +1,8 @@
-import MathCollab.Density.ZeroLargeValues
-import MathCollab.Density.MollifierCoefficients
+module
+public import MathCollab.Density.ZeroLargeValues
+public import MathCollab.Density.MollifierCoefficients
+
+@[expose] public section
 
 open Filter
 open scoped Topology

@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CubicMixedBox
+module
+public import GuthMaynard.Improvement.CubicMixedBox
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,3 +1,4 @@
+module
 /-
 Selected proof slices adapted from Scott McColm, MIT-0,
 commit 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
@@ -6,9 +7,11 @@ See the root THIRD_PARTY_NOTICES.md
 and the root THIRD_PARTY_NOTICES.md.
 No global-order, Hadamard, Architect, or upstream project module is imported.
 -/
-import MathCollab.Density.Stronger.Fourth.SquareGrowth
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+public import MathCollab.Density.Stronger.Fourth.SquareGrowth
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology
 open MathCollab.Density.Stronger.Fourth

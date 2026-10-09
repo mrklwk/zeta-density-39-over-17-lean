@@ -1,6 +1,9 @@
-import MathCollab.Density.Stronger.Parameters
-import MathCollab.Density.DetectorTruncation
-import MathCollab.Density.WeylInput
+module
+public import MathCollab.Density.Stronger.Parameters
+public import MathCollab.Density.DetectorTruncation
+public import MathCollab.Density.WeylInput
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology

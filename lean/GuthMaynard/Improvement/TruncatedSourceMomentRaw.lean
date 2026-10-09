@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.TruncatedSourceCubic
-import GuthMaynard.Improvement.SpectralScaleBudget
+module
+public import GuthMaynard.Improvement.TruncatedSourceCubic
+public import GuthMaynard.Improvement.SpectralScaleBudget
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

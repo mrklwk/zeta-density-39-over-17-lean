@@ -1,11 +1,14 @@
+module
 /-
 Adapted from Scott McColm, RiemannZeta/GuthMaynard/LargeValuesReflection.lean,
 commit 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be (MIT).
 See the root THIRD_PARTY_NOTICES.md and THIRD_PARTY_NOTICES.md.
 Only the oscillatory endpoint dependency slice is ported here.
 -/
-import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+public import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.IntegrationByParts
+
+@[expose] public section
 
 open Complex MeasureTheory Real Set
 

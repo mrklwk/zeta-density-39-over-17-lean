@@ -1,5 +1,8 @@
-import MathCollab.Density.ZeroSeparation
-import MathCollab.Density.LargeValues
+module
+public import MathCollab.Density.ZeroSeparation
+public import MathCollab.Density.LargeValues
+
+@[expose] public section
 
 open Set
 open scoped BigOperators

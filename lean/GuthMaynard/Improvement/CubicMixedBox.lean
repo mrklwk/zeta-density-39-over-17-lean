@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.CubicStripIntegral
-import GuthMaynard.Improvement.MixedMaskedAffine
-import GuthMaynard.Improvement.InverseRatioIntegral
-import GuthMaynard.Improvement.MaskedBox
+module
+public import GuthMaynard.Improvement.CubicStripIntegral
+public import GuthMaynard.Improvement.MixedMaskedAffine
+public import GuthMaynard.Improvement.InverseRatioIntegral
+public import GuthMaynard.Improvement.MaskedBox
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

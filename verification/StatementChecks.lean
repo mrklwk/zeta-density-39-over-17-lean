@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CurveBoundaryAudit
+module
+public import GuthMaynard.Improvement.CurveBoundaryAudit
+
+@[expose] public section
 
 open scoped BigOperators
 set_option autoImplicit false

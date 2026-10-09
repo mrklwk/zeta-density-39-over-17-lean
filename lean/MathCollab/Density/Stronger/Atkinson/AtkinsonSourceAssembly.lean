@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Selected physical-budget proofs released under MIT-0; see
@@ -8,8 +9,10 @@ The new assembly uses the literal native prefix/Gram bound and keeps the
 actual stationary-zeta source-to-prefix inequality as an explicit premise.
 Mathlib dependencies retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonPhysicalBudget
-import MathCollab.Density.Stronger.Peaks.Inputs
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonPhysicalBudget
+public import MathCollab.Density.Stronger.Peaks.Inputs
+
+@[expose] public section
 open Complex Filter MeasureTheory Set Topology Finset
 open scoped Interval
 open MathCollab.Density.Stronger

@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected proofs adapted from NeumannSourceBounds.lean,
 exact source revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1,
@@ -6,8 +7,10 @@ Mathlib dependencies retain their Apache-2.0 attribution.
 The literal classical Bessel kernel, principal half-power branches and
 actual convergent integrals are preserved; no asymptotic bound is assumed.
 -/
-import MathCollab.Density.Stronger.Atkinson.NeumannTwoTermExpansion
-import MathCollab.Density.Stronger.Atkinson.BesselY0Bounds
+public import MathCollab.Density.Stronger.Atkinson.NeumannTwoTermExpansion
+public import MathCollab.Density.Stronger.Atkinson.BesselY0Bounds
+
+@[expose] public section
 
 /-!
 # Measurability and physical-source bounds for the Neumann remainder

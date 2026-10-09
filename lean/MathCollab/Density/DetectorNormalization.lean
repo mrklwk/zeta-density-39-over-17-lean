@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorPoweredPieces
+module
+public import MathCollab.Density.DetectorPoweredPieces
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

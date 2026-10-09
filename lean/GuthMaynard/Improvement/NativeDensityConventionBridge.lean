@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.GlobalDensityConditional
-import Mathlib.Analysis.Asymptotics.Basic
+module
+public import GuthMaynard.Improvement.GlobalDensityConditional
+public import Mathlib.Analysis.Asymptotics.Basic
+
+@[expose] public section
 
 open Complex Filter MathCollab.Density
 open scoped Topology

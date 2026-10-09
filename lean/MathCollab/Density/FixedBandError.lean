@@ -1,4 +1,7 @@
-import MathCollab.Density.CutoffTransforms
+module
+public import MathCollab.Density.CutoffTransforms
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators ContDiff

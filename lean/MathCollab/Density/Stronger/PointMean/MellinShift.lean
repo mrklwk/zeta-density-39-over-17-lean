@@ -1,3 +1,4 @@
+module
 /-
 Selected exact two-pole Gamma-zeta-square shifts adapted from Scott McColm,
 PointMeanMellinShift.lean and PointMeanContourBasic.lean, exact revision
@@ -7,10 +8,12 @@ and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 All residues, horizontal limits, vertical integrability and the actual
 smoothed divisor identity are proved imports, not theorem hypotheses.
 -/
-import MathCollab.Density.Stronger.PointMean.MovingPole
-import MathCollab.Density.Stronger.PointMean.DivisorMellin
-import MathCollab.Density.Stronger.PointMean.MellinHorizontal
-import MathCollab.Density.Stronger.PointMean.MellinVertical
+public import MathCollab.Density.Stronger.PointMean.MovingPole
+public import MathCollab.Density.Stronger.PointMean.DivisorMellin
+public import MathCollab.Density.Stronger.PointMean.MellinHorizontal
+public import MathCollab.Density.Stronger.PointMean.MellinVertical
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Contour

@@ -1,6 +1,9 @@
+module
 /- Adapted actual short coefficients; generic audited arithmetic and phases reused. -/
-import MathCollab.Density.DetectorConvolution
-import GuthMaynard.Improvement.ShortFixedDetectorFamily
+public import MathCollab.Density.DetectorConvolution
+public import GuthMaynard.Improvement.ShortFixedDetectorFamily
+
+@[expose] public section
 
 open Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

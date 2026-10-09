@@ -1,8 +1,11 @@
-import MathCollab.Density.Oscillatory
-import Mathlib.Analysis.Calculus.ContDiff.Deriv
-import Mathlib.Analysis.Calculus.Deriv.Support
-import Mathlib.Topology.Order.Compact
-import Mathlib.Analysis.Real.Pi.Bounds
+module
+public import MathCollab.Density.Oscillatory
+public import Mathlib.Analysis.Calculus.ContDiff.Deriv
+public import Mathlib.Analysis.Calculus.Deriv.Support
+public import Mathlib.Topology.Order.Compact
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped ContDiff

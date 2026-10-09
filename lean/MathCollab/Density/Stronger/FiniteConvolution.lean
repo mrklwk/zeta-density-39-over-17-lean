@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorPoweredPieces
-import MathCollab.Density.Stronger.BoundedConvolution
+module
+public import MathCollab.Density.DetectorPoweredPieces
+public import MathCollab.Density.Stronger.BoundedConvolution
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.SecondKernelError
+module
+public import GuthMaynard.Improvement.SecondKernelError
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

@@ -1,7 +1,10 @@
-import Mathlib.Analysis.Fourier.ZMod
-import Mathlib.Data.Int.Interval
-import Mathlib.Data.Nat.Totient
-import GuthMaynard.NativeSource.GuthMaynard.SmoothZetaAFE
+module
+public import Mathlib.Analysis.Fourier.ZMod
+public import Mathlib.Data.Int.Interval
+public import Mathlib.Data.Nat.Totient
+public import GuthMaynard.NativeSource.GuthMaynard.SmoothZetaAFE
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

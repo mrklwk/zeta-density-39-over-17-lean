@@ -1,7 +1,10 @@
-import Mathlib.Data.Real.Basic
-import Mathlib.Data.Finset.Basic
-import Mathlib.Tactic.Linarith
-import Mathlib.Tactic.Positivity
+module
+public import Mathlib.Data.Real.Basic
+public import Mathlib.Data.Finset.Basic
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.Positivity
+
+@[expose] public section
 
 open Finset
 open scoped BigOperators

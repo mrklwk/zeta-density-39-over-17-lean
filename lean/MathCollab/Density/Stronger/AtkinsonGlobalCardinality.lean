@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.AtkinsonHeightCover
+module
+public import MathCollab.Density.Stronger.AtkinsonHeightCover
+
+@[expose] public section
 
 /-!
 Adapted from Scott McColm, source commit 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.

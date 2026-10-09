@@ -1,4 +1,7 @@
-import MathCollab.Density.ReflectionDefinitions
+module
+public import MathCollab.Density.ReflectionDefinitions
+
+@[expose] public section
 
 open Complex
 open scoped BigOperators ComplexConjugate

@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.DirichletProductEnergy
-import GuthMaynard.Improvement.Target
-import MathCollab.Density.Reflection
+module
+public import GuthMaynard.Improvement.DirichletProductEnergy
+public import GuthMaynard.Improvement.Target
+public import MathCollab.Density.Reflection
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Finset

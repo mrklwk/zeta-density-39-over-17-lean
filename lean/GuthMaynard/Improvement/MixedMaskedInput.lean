@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.MaskedAffine
+module
+public import GuthMaynard.Improvement.MaskedAffine
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

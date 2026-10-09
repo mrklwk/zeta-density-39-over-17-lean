@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.ReflectionKernelBridge
+module
+public import GuthMaynard.Improvement.ReflectionKernelBridge
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

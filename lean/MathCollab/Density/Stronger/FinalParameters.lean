@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.Parameters
+module
+public import MathCollab.Density.Stronger.Parameters
+
+@[expose] public section
 open Filter
 set_option autoImplicit false
 noncomputable section

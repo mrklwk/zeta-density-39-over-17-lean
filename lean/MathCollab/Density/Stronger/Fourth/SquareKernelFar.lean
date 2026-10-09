@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Released under the MIT-0 license. See the root THIRD_PARTY_NOTICES.md.
@@ -5,7 +6,9 @@ Adapted from exact source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 Provenance: see the root THIRD_PARTY_NOTICES.md.
 Mathlib dependencies retain their Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Fourth.SquareNormalized
+public import MathCollab.Density.Stronger.Fourth.SquareNormalized
+
+@[expose] public section
 
 open Complex
 open MathCollab.Density.Stronger.Fourth

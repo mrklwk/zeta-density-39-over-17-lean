@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.CubicMaskPartition
-import GuthMaynard.Improvement.CenteredTruncation
-import GuthMaynard.Improvement.CubicModeCount
+module
+public import GuthMaynard.Improvement.CubicMaskPartition
+public import GuthMaynard.Improvement.CenteredTruncation
+public import GuthMaynard.Improvement.CubicModeCount
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

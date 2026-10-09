@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorTaylorFamily
+module
+public import MathCollab.Density.DetectorTaylorFamily
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology

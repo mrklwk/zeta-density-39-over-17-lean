@@ -1,3 +1,4 @@
+module
 /-
 Selected actual displaced reflection proofs adapted from Scott McColm,
 PointMeanReflection.lean and PointMeanOffCriticalStrong.lean, exact revision
@@ -6,8 +7,10 @@ Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.jso
 The Gamma quotient is proved at positive heights from the local digamma
 error and Gronwall, keeping the exact coefficient of log(height).
 -/
-import MathCollab.Density.Stronger.PointMean.GammaDisplacement
-import MathCollab.Density.Stronger.PointMean.OffCriticalPositive
+public import MathCollab.Density.Stronger.PointMean.GammaDisplacement
+public import MathCollab.Density.Stronger.PointMean.OffCriticalPositive
+
+@[expose] public section
 
 open Complex
 open MathCollab.Density.Stronger.Fourth

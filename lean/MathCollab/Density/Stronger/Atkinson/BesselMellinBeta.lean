@@ -1,14 +1,17 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Selected proofs adapted from DFIBesselMellin.lean,
 exact revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
 See third_party/twelfth/BESSEL_MELLIN_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0. Mathlib dependencies retain
 Apache-2.0 attribution. No Estermann or general-modulus source closure is imported.
 -/
-import MathCollab.Density.Stronger.Atkinson.BesselK0
-import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
-import Mathlib.Analysis.SpecialFunctions.Artanh
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
-import Mathlib.Analysis.MellinTransform
+public import MathCollab.Density.Stronger.Atkinson.BesselK0
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Beta
+public import Mathlib.Analysis.SpecialFunctions.Artanh
+public import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
+public import Mathlib.Analysis.MellinTransform
+
+@[expose] public section
 
 open Complex Set MeasureTheory
 open scoped Topology Interval

@@ -1,6 +1,9 @@
-import MathCollab.Density.Stronger.WeightedTwelfth
-import MathCollab.Density.WeylInput
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+module
+public import MathCollab.Density.Stronger.WeightedTwelfth
+public import MathCollab.Density.WeylInput
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+
+@[expose] public section
 
 open Filter MeasureTheory Set Complex Real
 open scoped BigOperators

@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.UpperCurveTypeICount
-import GuthMaynard.Improvement.WeakShortDensity
+module
+public import GuthMaynard.Improvement.UpperCurveTypeICount
+public import GuthMaynard.Improvement.WeakShortDensity
+
+@[expose] public section
 
 open Complex Filter Set MathCollab.Density
 open scoped Topology

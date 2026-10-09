@@ -1,8 +1,11 @@
+module
 /- A weak actual mollified fourth moment from the ordinary fourth moment.
 The fixed power loss 1/25 is intentional; this does not assert
 ShortMobiusFourthMoment. -/
-import GuthMaynard.Improvement.ShortDetectorLocalMass
-import MathCollab.Density.Stronger.Fourth.FourthMoment
+public import GuthMaynard.Improvement.ShortDetectorLocalMass
+public import MathCollab.Density.Stronger.Fourth.FourthMoment
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set MathCollab.Density MathCollab.Density.Stronger

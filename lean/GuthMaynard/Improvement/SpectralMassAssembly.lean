@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.AmplifierQuantitative
-import GuthMaynard.Improvement.OperatorNuclearSpectral
-import GuthMaynard.Improvement.OperatorSchur
-import GuthMaynard.Improvement.SourceDirichletPairing
+module
+public import GuthMaynard.Improvement.AmplifierQuantitative
+public import GuthMaynard.Improvement.OperatorNuclearSpectral
+public import GuthMaynard.Improvement.OperatorSchur
+public import GuthMaynard.Improvement.SourceDirichletPairing
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory InnerProductSpace Set

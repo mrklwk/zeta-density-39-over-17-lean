@@ -1,3 +1,4 @@
+module
 /-
 Selected proof adapted from Scott McColm's Lean repository, revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
@@ -5,8 +6,10 @@ Copyright 2026 S. McColm.
 See ../../../../../third_party/twelfth/ATKINSON_PREFIX_MANIFEST.json
 and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonIndexFirstDerivative
-import MathCollab.Density.Stronger.Atkinson.AtkinsonPrefixMax
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonIndexFirstDerivative
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonPrefixMax
+
+@[expose] public section
 
 /-!
 # Cancellation for every prefix of the actual source Gram entry

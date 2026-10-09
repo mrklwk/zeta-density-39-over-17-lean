@@ -1,5 +1,8 @@
-import MathCollab.Density.LargeValueDefinitions
-import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+module
+public import MathCollab.Density.LargeValueDefinitions
+public import Mathlib.Analysis.Calculus.BumpFunction.FiniteDimension
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped ContDiff FourierTransform SchwartzMap

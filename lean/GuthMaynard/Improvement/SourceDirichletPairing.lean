@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.SourceRatioAssembly
-import GuthMaynard.Improvement.Target
-import GuthMaynard.Improvement.OperatorPhase
-import GuthMaynard.Improvement.CenteredKernelBridge
+module
+public import GuthMaynard.Improvement.SourceRatioAssembly
+public import GuthMaynard.Improvement.Target
+public import GuthMaynard.Improvement.OperatorPhase
+public import GuthMaynard.Improvement.CenteredKernelBridge
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

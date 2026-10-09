@@ -1,4 +1,7 @@
-import MathCollab.Density.Packing
+module
+public import MathCollab.Density.Packing
+
+@[expose] public section
 
 open Real Set
 open scoped BigOperators

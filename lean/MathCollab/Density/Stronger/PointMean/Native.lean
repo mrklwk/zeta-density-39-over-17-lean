@@ -1,3 +1,4 @@
+module
 /-
 Selected exponential-tail truncation and compact-height extension proofs
 adapted from Scott McColm, PointMeanLemmaThreeTail.lean, exact revision
@@ -6,8 +7,10 @@ Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.jso
 This module proves the literal point-mean proposition from the native
 Gamma-zeta-square contour chain; no moment bound is assumed.
 -/
-import MathCollab.Density.Stronger.PointMean.VerticalEdges
-import MathCollab.Density.Stronger.PointMean.Statement
+public import MathCollab.Density.Stronger.PointMean.VerticalEdges
+public import MathCollab.Density.Stronger.PointMean.Statement
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology
 open MathCollab.Density.ZetaGrowth

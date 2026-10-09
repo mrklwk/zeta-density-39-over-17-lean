@@ -1,7 +1,10 @@
-import Mathlib.NumberTheory.ArithmeticFunction.Moebius
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Tactic
+module
+public import Mathlib.NumberTheory.ArithmeticFunction.Moebius
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open scoped BigOperators
 

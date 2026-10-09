@@ -1,4 +1,7 @@
-import GuthMaynard.AffineSource.LargeValuesAffineHeight
+module
+public import GuthMaynard.AffineSource.LargeValuesAffineHeight
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.SourceQuarticTail
-import GuthMaynard.Improvement.QuarticCellGeometry
-import GuthMaynard.Improvement.TruncatedSourceAttachment
+module
+public import GuthMaynard.Improvement.SourceQuarticTail
+public import GuthMaynard.Improvement.QuarticCellGeometry
+public import GuthMaynard.Improvement.TruncatedSourceAttachment
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

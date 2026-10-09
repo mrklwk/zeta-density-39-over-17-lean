@@ -1,13 +1,16 @@
+module
 /-
 Pole-removal and finite contour argument adapted from McColm TypeIICoverage,
 exact pin 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be, MIT.
 X, Y and rectangle height R are independent parameters. The actual zeta
 function and the existing floor-cutoff mollifier are retained.
 -/
-import MathCollab.Density.DetectorMellin
-import MathCollab.Density.AbelZetaGrowth
-import MathCollab.Density.DetectorGamma
-import MathCollab.Density.RectangleResidue
+public import MathCollab.Density.DetectorMellin
+public import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.DetectorGamma
+public import MathCollab.Density.RectangleResidue
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open MathCollab.Density.ZetaGrowth MathCollab.Density.Contour

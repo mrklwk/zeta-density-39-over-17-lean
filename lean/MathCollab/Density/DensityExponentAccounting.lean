@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorAdmissibility
+module
+public import MathCollab.Density.DetectorAdmissibility
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.QuadraticDivisor
-import Mathlib.Data.Int.GCD
+module
+public import GuthMaynard.NativeSource.GuthMaynard.QuadraticDivisor
+public import Mathlib.Data.Int.GCD
+
+@[expose] public section
 
 /-!
 # Chinese-remainder factorization of Kloosterman sums

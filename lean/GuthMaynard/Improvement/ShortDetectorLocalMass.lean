@@ -1,7 +1,10 @@
+module
 /- Actual short-detector critical-line input, using the audited zeta and
 mollifier bounds. This file does not assume a fourth moment. -/
-import GuthMaynard.Improvement.ShortDetectorIdentity
-import MathCollab.Density.BandEnergy
+public import GuthMaynard.Improvement.ShortDetectorIdentity
+public import MathCollab.Density.BandEnergy
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Complex MeasureTheory Set Filter MathCollab.Density

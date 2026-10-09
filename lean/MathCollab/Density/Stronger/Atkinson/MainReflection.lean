@@ -1,11 +1,14 @@
+module
 /-
 Native source-interval weighted reflection, using the preserved all-frequency
 oscillatory theorem and actual C1 variation. Target pattern from McColm
 IntervalAmplitudeBounds.lean, revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1,
 MIT-0, copyright 2026. Mathlib and existing calculus retain Apache-2.0.
 -/
-import MathCollab.Density.Stronger.Atkinson.ContinuousKernelPrimitive
-import MathCollab.Density.AllFrequency
+public import MathCollab.Density.Stronger.Atkinson.ContinuousKernelPrimitive
+public import MathCollab.Density.AllFrequency
+
+@[expose] public section
 
 open Complex MeasureTheory Set
 set_option autoImplicit false

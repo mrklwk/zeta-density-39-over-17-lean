@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SourceQuarticKernel
-import GuthMaynard.Improvement.SeparatedLevelVolume
+module
+public import GuthMaynard.Improvement.SourceQuarticKernel
+public import GuthMaynard.Improvement.SeparatedLevelVolume
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

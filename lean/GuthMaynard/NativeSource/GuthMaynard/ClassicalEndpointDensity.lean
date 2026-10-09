@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalEndpointSlab
-import GuthMaynard.NativeSource.GuthMaynard.MediumTypeIEndpoint
-import GuthMaynard.NativeSource.GuthMaynard.TypeIIFourthMomentReduction
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalEndpointSlab
+public import GuthMaynard.NativeSource.GuthMaynard.MediumTypeIEndpoint
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIIFourthMomentReduction
+
+@[expose] public section
 
 open Asymptotics Filter Topology
 open Complex Finset MeasureTheory Real Set

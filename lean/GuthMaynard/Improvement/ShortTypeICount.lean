@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.ShortPoweredDetectorFamily
-import GuthMaynard.Improvement.ShortWindowLargeValues
-import GuthMaynard.Improvement.RealIntegerSource
-import MathCollab.Density.ZeroSeparation
+module
+public import GuthMaynard.Improvement.ShortPoweredDetectorFamily
+public import GuthMaynard.Improvement.ShortWindowLargeValues
+public import GuthMaynard.Improvement.RealIntegerSource
+public import MathCollab.Density.ZeroSeparation
+
+@[expose] public section
 
 open Complex Filter Set MathCollab.Density
 open scoped Topology BigOperators

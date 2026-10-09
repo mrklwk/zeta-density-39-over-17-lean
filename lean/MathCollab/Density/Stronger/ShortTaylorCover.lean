@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.ShortFixedFamily
+module
+public import MathCollab.Density.Stronger.ShortFixedFamily
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

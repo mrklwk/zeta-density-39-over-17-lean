@@ -1,9 +1,12 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalDichotomy
-import GuthMaynard.NativeSource.GuthMaynard.TypeIFiniteWindow
-import GuthMaynard.NativeSource.GuthMaynard.TypeISmoothing
-import GuthMaynard.NativeSource.GuthMaynard.TypeIReflection
-import GuthMaynard.NativeSource.GuthMaynard.TypeIFourierDeweight
-import GuthMaynard.NativeSource.GuthMaynard.DFIDivisorEpsilon
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalDichotomy
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIFiniteWindow
+public import GuthMaynard.NativeSource.GuthMaynard.TypeISmoothing
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIReflection
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIFourierDeweight
+public import GuthMaynard.NativeSource.GuthMaynard.DFIDivisorEpsilon
+
+@[expose] public section
 
 open Complex Finset MeasureTheory Real Set Filter Asymptotics Topology
 open scoped BigOperators ContDiff FourierTransform SchwartzMap

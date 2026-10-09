@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.PhysicalTwelfthTail
+module
+public import MathCollab.Density.Stronger.PhysicalTwelfthTail
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped BigOperators

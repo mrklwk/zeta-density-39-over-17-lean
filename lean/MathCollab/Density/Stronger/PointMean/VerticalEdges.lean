@@ -1,3 +1,4 @@
+module
 /-
 Selected native vertical-edge and full-convolution point-mean proofs adapted
 from Scott McColm, PointMeanLemmaThreeEdges.lean, exact revision
@@ -6,9 +7,11 @@ Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.jso
 All off-critical estimates, reflection, double integration and horizontal
 edges are proved dependencies; no point-mean or moment endpoint is assumed.
 -/
-import MathCollab.Density.Stronger.PointMean.Reflection
-import MathCollab.Density.Stronger.PointMean.DoubleConvolution
-import MathCollab.Density.Stronger.PointMean.HorizontalEdges
+public import MathCollab.Density.Stronger.PointMean.Reflection
+public import MathCollab.Density.Stronger.PointMean.DoubleConvolution
+public import MathCollab.Density.Stronger.PointMean.HorizontalEdges
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter
 open MathCollab.Density.Contour

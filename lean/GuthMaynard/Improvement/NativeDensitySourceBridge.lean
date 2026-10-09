@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.NativeDensityConventionBridge
-import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
-import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
+module
+public import GuthMaynard.Improvement.NativeDensityConventionBridge
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
+public import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
+
+@[expose] public section
 
 open Complex Filter MathCollab.Density
 set_option autoImplicit false

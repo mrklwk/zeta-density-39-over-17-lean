@@ -1,10 +1,13 @@
-import Mathlib.Basic.Complex.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Data.Finset.Interval
-import Mathlib.Tactic.Linarith
-import Mathlib.Basic.Real.Basic
-import GuthMaynard.NativeSource.FiniteDirichletPolynomial
+module
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Data.Finset.Interval
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Basic.Real.Basic
+public import GuthMaynard.NativeSource.FiniteDirichletPolynomial
+
+@[expose] public section
 
 open Complex Finset
 

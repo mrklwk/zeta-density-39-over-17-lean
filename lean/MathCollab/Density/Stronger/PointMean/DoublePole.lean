@@ -1,3 +1,4 @@
+module
 /-
 Selected double-pole rectangle proofs from Scott McColm, exact revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1: DivisorVoronoi.lean and
@@ -5,8 +6,10 @@ PointMeanDoublePole.lean. MIT-0, Copyright 2026 S. McColm.
 Local RectangleResidue retains its Apache-2.0 attribution.
 See SOURCE-MANIFEST.json and LICENSE-MIT-0; no upstream module is imported.
 -/
-import MathCollab.Density.RectangleResidue
-import Mathlib.Analysis.Complex.RealDeriv
+public import MathCollab.Density.RectangleResidue
+public import Mathlib.Analysis.Complex.RealDeriv
+
+@[expose] public section
 
 open Complex Set MeasureTheory
 open MathCollab.Density.Contour

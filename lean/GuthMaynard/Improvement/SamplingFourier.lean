@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SourceFourierDerivative
-import GuthMaynard.Improvement.SamplingVariation
+module
+public import GuthMaynard.Improvement.SourceFourierDerivative
+public import GuthMaynard.Improvement.SamplingVariation
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set InnerProductSpace

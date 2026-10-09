@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.DFIEquation26
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-import Mathlib.NumberTheory.Harmonic.Bounds
+module
+public import GuthMaynard.NativeSource.GuthMaynard.DFIEquation26
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.NumberTheory.Harmonic.Bounds
+
+@[expose] public section
 
 /-!
 # The epsilon bound for the divisor function

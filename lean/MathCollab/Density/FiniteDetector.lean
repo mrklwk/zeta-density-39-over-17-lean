@@ -1,4 +1,7 @@
-import MathCollab.Density.DetectorTruncation
+module
+public import MathCollab.Density.DetectorTruncation
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology

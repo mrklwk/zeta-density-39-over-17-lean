@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.WeightedTwelfth
+module
+public import MathCollab.Density.Stronger.WeightedTwelfth
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped BigOperators

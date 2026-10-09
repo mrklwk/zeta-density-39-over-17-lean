@@ -1,5 +1,8 @@
-import WeylPort.AFE.SecondCoeffBounds
-import WeylPort.AFE.UniformElementary
+module
+public import WeylPort.AFE.SecondCoeffBounds
+public import WeylPort.AFE.UniformElementary
+
+@[expose] public section
 
 namespace WeylPort
 open DhimanKadiriQuesadaHerrera2026

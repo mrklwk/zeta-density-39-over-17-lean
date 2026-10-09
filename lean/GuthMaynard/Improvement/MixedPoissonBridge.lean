@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.MixedSourceScales
+module
+public import GuthMaynard.Improvement.MixedSourceScales
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

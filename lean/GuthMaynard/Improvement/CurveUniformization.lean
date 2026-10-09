@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.ShortDensityUniform
+module
+public import GuthMaynard.Improvement.ShortDensityUniform
+
+@[expose] public section
 
 open Finset MathCollab.Density
 open scoped BigOperators

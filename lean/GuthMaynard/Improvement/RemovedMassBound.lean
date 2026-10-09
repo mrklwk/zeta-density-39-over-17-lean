@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.RemovedMassDyadic
-import GuthMaynard.Improvement.ClassicalLevelVolume
-import GuthMaynard.Improvement.SourceRatioHeightBudget
-import GuthMaynard.Improvement.FixedCutoffs
+module
+public import GuthMaynard.Improvement.RemovedMassDyadic
+public import GuthMaynard.Improvement.ClassicalLevelVolume
+public import GuthMaynard.Improvement.SourceRatioHeightBudget
+public import GuthMaynard.Improvement.FixedCutoffs
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

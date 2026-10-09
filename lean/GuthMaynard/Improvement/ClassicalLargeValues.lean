@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.SeparatedSecondMoment
-import GuthMaynard.Improvement.RealIntegerSource
-import GuthMaynard.Improvement.ReflectionNearRow
-import MathCollab.Density.LargeValues
+module
+public import GuthMaynard.Improvement.SeparatedSecondMoment
+public import GuthMaynard.Improvement.RealIntegerSource
+public import GuthMaynard.Improvement.ReflectionNearRow
+public import MathCollab.Density.LargeValues
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Finset

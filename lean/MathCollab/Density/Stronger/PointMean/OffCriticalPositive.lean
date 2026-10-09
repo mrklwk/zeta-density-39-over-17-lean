@@ -1,3 +1,4 @@
+module
 /-
 Selected actual positive off-critical estimate adapted from Scott McColm,
 PointMeanOffCriticalStrong.lean, exact revision
@@ -6,9 +7,11 @@ Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.jso
 The literal two-pole identity, uniform harmless-term bounds and critical
 weighted integrability are proved imports, not analytic hypotheses.
 -/
-import MathCollab.Density.Stronger.PointMean.MellinShift
-import MathCollab.Density.Stronger.PointMean.MellinBounds
-import MathCollab.Density.Stronger.PointMean.ExponentialMoments
+public import MathCollab.Density.Stronger.PointMean.MellinShift
+public import MathCollab.Density.Stronger.PointMean.MellinBounds
+public import MathCollab.Density.Stronger.PointMean.ExponentialMoments
+
+@[expose] public section
 
 open Complex Set MeasureTheory
 set_option autoImplicit false

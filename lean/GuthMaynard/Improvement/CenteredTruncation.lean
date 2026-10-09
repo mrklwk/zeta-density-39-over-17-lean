@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CenteredPoisson
-import GuthMaynard.Improvement.LogPoissonBudget
+module
+public import GuthMaynard.Improvement.CenteredPoisson
+public import GuthMaynard.Improvement.LogPoissonBudget
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

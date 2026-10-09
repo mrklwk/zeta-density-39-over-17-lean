@@ -1,11 +1,14 @@
+module
 /-
 Finite-support Dirichlet product proofs adapted from McColm ClassicalDensity,
 exact pin 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be, MIT.
 The existing real floor-cutoff mollifier and integer coefficients are preserved.
 -/
-import MathCollab.Density.MollifierCoefficients
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+public import MathCollab.Density.MollifierCoefficients
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.Analysis.SpecialFunctions.Pow.Deriv
+
+@[expose] public section
 
 open Complex Finset Filter
 open scoped ArithmeticFunction.Moebius BigOperators

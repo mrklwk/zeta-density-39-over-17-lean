@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SourceRatioAssembly
-import GuthMaynard.Improvement.SourceRatioHeightBudget
+module
+public import GuthMaynard.Improvement.SourceRatioAssembly
+public import GuthMaynard.Improvement.SourceRatioHeightBudget
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set Finset

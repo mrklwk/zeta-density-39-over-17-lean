@@ -1,10 +1,13 @@
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.NumberTheory.LSeries.RiemannZetaHadamard
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ResidueCalcOnRectangles
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaBoundsUpstream
-import GuthMaynard.NativeSource.GuthMaynard.GammaPairBound
-import GuthMaynard.NativeSource.GuthMaynard.TwistedDiagonal
+module
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.NumberTheory.LSeries.RiemannZetaHadamard
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ResidueCalcOnRectangles
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ZetaBoundsUpstream
+public import GuthMaynard.NativeSource.GuthMaynard.GammaPairBound
+public import GuthMaynard.NativeSource.GuthMaynard.TwistedDiagonal
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology
 open ArithmeticFunction

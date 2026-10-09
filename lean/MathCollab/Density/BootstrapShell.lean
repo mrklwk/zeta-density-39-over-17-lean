@@ -1,5 +1,8 @@
-import MathCollab.Density.BootstrapSupremum
-import MathCollab.Density.Comparison
+module
+public import MathCollab.Density.BootstrapSupremum
+public import MathCollab.Density.Comparison
+
+@[expose] public section
 
 open Real Set
 open scoped BigOperators

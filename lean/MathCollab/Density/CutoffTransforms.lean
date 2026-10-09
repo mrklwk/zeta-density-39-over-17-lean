@@ -1,5 +1,8 @@
-import MathCollab.Density.ReflectionDefinitions
-import MathCollab.Density.AnalyticTransforms
+module
+public import MathCollab.Density.ReflectionDefinitions
+public import MathCollab.Density.AnalyticTransforms
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators FourierTransform SchwartzMap ContDiff

@@ -1,6 +1,9 @@
-import MathCollab.Density.Stronger.SmoothDetector
-import MathCollab.Density.Stronger.SmoothContourIdentity
-import MathCollab.Density.MollifierBound
+module
+public import MathCollab.Density.Stronger.SmoothDetector
+public import MathCollab.Density.Stronger.SmoothContourIdentity
+public import MathCollab.Density.MollifierBound
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology ContDiff

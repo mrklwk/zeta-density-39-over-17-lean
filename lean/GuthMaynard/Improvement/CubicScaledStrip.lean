@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CubicDyadicAssembly
+module
+public import GuthMaynard.Improvement.CubicDyadicAssembly
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

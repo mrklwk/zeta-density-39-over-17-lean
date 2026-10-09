@@ -1,6 +1,9 @@
+module
 /- Extracted from PNT (Apache-2.0), via pinned McColm source; see analytic-extraction.json. -/
-import Mathlib
-import WeylPort.Analytic.EulerMaclaurin
+public import Mathlib
+public import WeylPort.Analytic.EulerMaclaurin
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility; kernel checking stays enabled.
 set_option backward.isDefEq.respectTransparency false

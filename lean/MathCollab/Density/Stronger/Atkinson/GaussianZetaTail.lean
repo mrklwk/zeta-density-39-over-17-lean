@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Released under MIT-0; see third_party/twelfth/LICENSE-MIT-0.
@@ -5,8 +6,10 @@ Adapted from source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 Only the listed proof slices are retained. Mathlib retains Apache-2.0 attribution.
 No upstream project or Architect module is imported.
 -/
-import MathCollab.Density.Stronger.Atkinson.GaussianAveraging
-import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.Stronger.Atkinson.GaussianAveraging
+public import MathCollab.Density.AbelZetaGrowth
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology
 open MathCollab.Density.Stronger MathCollab.Density.Stronger.Fourth

@@ -1,5 +1,8 @@
-import Mathlib.NumberTheory.LSeries.ZetaZeros
-import Mathlib.Tactic
+module
+public import Mathlib.NumberTheory.LSeries.ZetaZeros
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Filter Set
 open scoped BigOperators Topology

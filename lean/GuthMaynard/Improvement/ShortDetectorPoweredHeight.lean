@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.ShortDetectorNormalization
+module
+public import GuthMaynard.Improvement.ShortDetectorNormalization
+
+@[expose] public section
 
 open Real Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

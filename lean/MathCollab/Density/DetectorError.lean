@@ -1,6 +1,9 @@
-import MathCollab.Density.DetectorIdentity
-import MathCollab.Density.MollifierBound
-import MathCollab.Density.DetectorParameters
+module
+public import MathCollab.Density.DetectorIdentity
+public import MathCollab.Density.MollifierBound
+public import MathCollab.Density.DetectorParameters
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology

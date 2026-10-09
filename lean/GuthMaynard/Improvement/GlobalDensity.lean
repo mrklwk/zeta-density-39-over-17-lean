@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.GlobalDensityIngham
-import GuthMaynard.Improvement.NativeIngham
+module
+public import GuthMaynard.Improvement.GlobalDensityIngham
+public import GuthMaynard.Improvement.NativeIngham
+
+@[expose] public section
 
 open MathCollab.Density
 set_option autoImplicit false

@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.OperatorPositiveCompact
-import GuthMaynard.Improvement.OrdinaryFourierL2
+module
+public import GuthMaynard.Improvement.OperatorPositiveCompact
+public import GuthMaynard.Improvement.OrdinaryFourierL2
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory InnerProductSpace

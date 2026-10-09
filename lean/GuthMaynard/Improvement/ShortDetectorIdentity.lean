@@ -1,9 +1,12 @@
+module
 /- Adapted from the audited MathCollab.Density.DetectorIdentity at
  eff263d7b957f99e73fd226f84b83dd826941151. Only the independently proved
  lower-real-part components are substituted; the literal detector is preserved. -/
-import GuthMaynard.Improvement.ShortDetectorContour
-import GuthMaynard.Improvement.ShortDetectorEstimates
-import MathCollab.Density.DetectorIdentity
+public import GuthMaynard.Improvement.ShortDetectorContour
+public import GuthMaynard.Improvement.ShortDetectorEstimates
+public import MathCollab.Density.DetectorIdentity
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open MathCollab.Density MathCollab.Density.Contour

@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.WeakUpperDensity
-import GuthMaynard.Improvement.GlobalDensityConditional
-import MathCollab.Density.DensityTheorem
+module
+public import GuthMaynard.Improvement.WeakUpperDensity
+public import GuthMaynard.Improvement.GlobalDensityConditional
+public import MathCollab.Density.DensityTheorem
+
+@[expose] public section
 
 open MathCollab.Density
 set_option autoImplicit false

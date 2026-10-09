@@ -1,6 +1,9 @@
-import MathCollab.Density.LargeValueDefinitions
-import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
-import Mathlib.Tactic
+module
+public import MathCollab.Density.LargeValueDefinitions
+public import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 Adapted from Scott McColm, source commit 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.

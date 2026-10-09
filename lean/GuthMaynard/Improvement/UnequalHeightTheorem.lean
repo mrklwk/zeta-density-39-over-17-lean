@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.UnequalHeightReduction
-import GuthMaynard.Improvement.SparseAffineInput
-import GuthMaynard.Improvement.UniformReduction
+module
+public import GuthMaynard.Improvement.UnequalHeightReduction
+public import GuthMaynard.Improvement.SparseAffineInput
+public import GuthMaynard.Improvement.UniformReduction
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

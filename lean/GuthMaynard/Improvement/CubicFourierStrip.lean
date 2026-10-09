@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.CubicMaskedStrip
-import GuthMaynard.Improvement.CubicStripIntegral
-import GuthMaynard.Improvement.RatioFourierInput
+module
+public import GuthMaynard.Improvement.CubicMaskedStrip
+public import GuthMaynard.Improvement.CubicStripIntegral
+public import GuthMaynard.Improvement.RatioFourierInput
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

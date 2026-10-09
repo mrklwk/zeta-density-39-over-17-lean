@@ -1,7 +1,10 @@
-import MathCollab.Density.DetectorMellin
-import MathCollab.Density.DetectorGamma
-import MathCollab.Density.AbelZetaGrowth
-import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+module
+public import MathCollab.Density.DetectorMellin
+public import MathCollab.Density.DetectorGamma
+public import MathCollab.Density.AbelZetaGrowth
+public import Mathlib.MeasureTheory.Integral.IntegralEqImproper
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology

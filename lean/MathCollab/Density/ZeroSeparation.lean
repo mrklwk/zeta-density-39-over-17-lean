@@ -1,5 +1,8 @@
-import MathCollab.Density.ZetaCounting
-import MathCollab.Density.LargeValueDefinitions
+module
+public import MathCollab.Density.ZetaCounting
+public import MathCollab.Density.LargeValueDefinitions
+
+@[expose] public section
 
 open Set
 open scoped BigOperators

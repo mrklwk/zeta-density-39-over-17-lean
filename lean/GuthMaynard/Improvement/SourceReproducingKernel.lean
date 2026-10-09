@@ -1,8 +1,11 @@
-import GuthMaynard.Improvement.FixedCutoffs
-import GuthMaynard.Improvement.SourceDirichletPairing
-import GuthMaynard.Improvement.SourceCutoffConvolution
-import GuthMaynard.Improvement.ReflectedBandMeanValue
-import MathCollab.Density.Packing
+module
+public import GuthMaynard.Improvement.FixedCutoffs
+public import GuthMaynard.Improvement.SourceDirichletPairing
+public import GuthMaynard.Improvement.SourceCutoffConvolution
+public import GuthMaynard.Improvement.ReflectedBandMeanValue
+public import MathCollab.Density.Packing
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

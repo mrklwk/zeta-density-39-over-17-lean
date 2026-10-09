@@ -1,5 +1,8 @@
-import MathCollab.Density.GammaStrip
-import MathCollab.Density.MollifierDirichlet
+module
+public import MathCollab.Density.GammaStrip
+public import MathCollab.Density.MollifierDirichlet
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

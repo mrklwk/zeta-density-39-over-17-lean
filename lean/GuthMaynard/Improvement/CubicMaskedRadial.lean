@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CubicMaskPermutation
+module
+public import GuthMaynard.Improvement.CubicMaskPermutation
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

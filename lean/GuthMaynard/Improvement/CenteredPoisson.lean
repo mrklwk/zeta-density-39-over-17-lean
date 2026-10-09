@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.LogPoissonTail
-import GuthMaynard.Improvement.RetainedCubicKernel
+module
+public import GuthMaynard.Improvement.LogPoissonTail
+public import GuthMaynard.Improvement.RetainedCubicKernel
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

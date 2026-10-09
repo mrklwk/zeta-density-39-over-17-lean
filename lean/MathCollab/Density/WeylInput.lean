@@ -1,4 +1,7 @@
-import WeylPort.ActualZeta
+module
+public import WeylPort.ActualZeta
+
+@[expose] public section
 
 open Complex
 set_option autoImplicit false

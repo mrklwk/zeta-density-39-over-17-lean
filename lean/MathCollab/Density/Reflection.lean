@@ -1,4 +1,7 @@
-import MathCollab.Density.ReflectionAssembly
+module
+public import MathCollab.Density.ReflectionAssembly
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators ContDiff ComplexConjugate

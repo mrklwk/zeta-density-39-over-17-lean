@@ -1,5 +1,8 @@
-import Mathlib.Analysis.SpecialFunctions.SmoothTransition
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalDichotomy
+module
+public import Mathlib.Analysis.SpecialFunctions.SmoothTransition
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalDichotomy
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators ContDiff

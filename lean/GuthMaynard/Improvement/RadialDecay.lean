@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.RadialFamily
-import GuthMaynard.Improvement.PoissonReduction
+module
+public import GuthMaynard.Improvement.RadialFamily
+public import GuthMaynard.Improvement.PoissonReduction
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

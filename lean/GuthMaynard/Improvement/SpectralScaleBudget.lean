@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.SourceSpectralRaw
+module
+public import GuthMaynard.Improvement.SourceSpectralRaw
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

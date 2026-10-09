@@ -1,5 +1,8 @@
-import MathCollab.Density.DensitySlabBound
-import MathCollab.Density.DensityDyadicSummation
+module
+public import MathCollab.Density.DensitySlabBound
+public import MathCollab.Density.DensityDyadicSummation
+
+@[expose] public section
 
 open Real Complex Set Filter
 open scoped BigOperators Topology

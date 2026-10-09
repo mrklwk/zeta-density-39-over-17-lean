@@ -1,12 +1,15 @@
-import Mathlib.Analysis.Analytic.Order
-import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.NumberTheory.LSeries.Linearity
-import Mathlib.NumberTheory.LSeries.ZetaZeros
-import GuthMaynard.NativeSource.GuthMaynard.DyadicTransfer
-import GuthMaynard.NativeSource.GuthMaynard.InghamBound
-import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
+module
+public import Mathlib.Analysis.Analytic.Order
+public import Mathlib.Analysis.SpecialFunctions.Complex.Analytic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.LSeries.Linearity
+public import Mathlib.NumberTheory.LSeries.ZetaZeros
+public import GuthMaynard.NativeSource.GuthMaynard.DyadicTransfer
+public import GuthMaynard.NativeSource.GuthMaynard.InghamBound
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroCount
+
+@[expose] public section
 
 open Complex Finset Filter MeromorphicOn Topology
 open scoped ArithmeticFunction.Moebius BigOperators

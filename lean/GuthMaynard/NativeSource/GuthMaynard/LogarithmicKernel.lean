@@ -1,7 +1,10 @@
-import Mathlib.Analysis.Real.Sqrt
-import Mathlib.Analysis.Real.Pi.Bounds
-import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
-import GuthMaynard.NativeSource.GuthMaynard.SecondOrderMeanValue
+module
+public import Mathlib.Analysis.Real.Sqrt
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+public import GuthMaynard.NativeSource.GuthMaynard.SecondOrderMeanValue
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

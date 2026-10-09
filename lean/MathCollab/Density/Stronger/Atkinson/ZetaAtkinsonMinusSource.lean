@@ -1,11 +1,14 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Selected exact source slices and native assembly using revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1. See third_party/twelfth/ATKINSON_LOCAL_SOURCE_MANIFEST.json.
 Mathlib/PNT foundations retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.ZetaAtkinsonReducedSource
-import MathCollab.Density.Stronger.Atkinson.AtkinsonMainIntegral
+public import MathCollab.Density.Stronger.Atkinson.ZetaAtkinsonReducedSource
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonMainIntegral
+
+@[expose] public section
 
 /-!
 # The actual physical source with only its oscillatory Y0 sum remaining

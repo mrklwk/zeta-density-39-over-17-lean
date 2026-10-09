@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.OperatorFiniteCompression
+module
+public import GuthMaynard.Improvement.OperatorFiniteCompression
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory InnerProductSpace

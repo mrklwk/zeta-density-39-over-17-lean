@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.AffineFiniteCover
+module
+public import GuthMaynard.Improvement.AffineFiniteCover
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

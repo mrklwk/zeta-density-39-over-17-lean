@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.OrdinaryFourierL2
-import GuthMaynard.Improvement.MeasureGate
-import Mathlib.Analysis.Fourier.FourierTransformDeriv
+module
+public import GuthMaynard.Improvement.OrdinaryFourierL2
+public import GuthMaynard.Improvement.MeasureGate
+public import Mathlib.Analysis.Fourier.FourierTransformDeriv
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CurveModulus
+module
+public import GuthMaynard.Improvement.CurveModulus
+
+@[expose] public section
 
 open MathCollab.Density
 set_option autoImplicit false

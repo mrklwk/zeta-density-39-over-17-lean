@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.MiddleRangeScales
+module
+public import GuthMaynard.Improvement.MiddleRangeScales
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 namespace GuthMaynard.Improvement

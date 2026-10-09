@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CubicMaskedEstimate
-import GuthMaynard.Improvement.CubicRetainedPartition
+module
+public import GuthMaynard.Improvement.CubicMaskedEstimate
+public import GuthMaynard.Improvement.CubicRetainedPartition
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,3 +1,4 @@
+module
 /-
 Selected horizontal Gamma-norm differential inequality adapted from Scott
 McColm, PointMeanGammaShift.lean, exact revision
@@ -6,8 +7,10 @@ Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.jso
 Only the high-height strip needed by native point-mean is used; its digamma
 bound follows directly from the proved local DigammaLog error.
 -/
-import MathCollab.Density.Stronger.Fourth.GammaShiftLog
-import Mathlib.Analysis.ODE.Gronwall
+public import MathCollab.Density.Stronger.Fourth.GammaShiftLog
+public import Mathlib.Analysis.ODE.Gronwall
+
+@[expose] public section
 
 open Complex Set
 open MathCollab.Density.Stronger.Fourth MathCollab.Density.Stronger.Fourth.Digamma

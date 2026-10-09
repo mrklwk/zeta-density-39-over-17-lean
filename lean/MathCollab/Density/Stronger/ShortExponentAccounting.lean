@@ -1,5 +1,8 @@
-import MathCollab.Density.Stronger.ShortPoweredFamily
-import MathCollab.Density.DensityExponentAccounting
+module
+public import MathCollab.Density.Stronger.ShortPoweredFamily
+public import MathCollab.Density.DensityExponentAccounting
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

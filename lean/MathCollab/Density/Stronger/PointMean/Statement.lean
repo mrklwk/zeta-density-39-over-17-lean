@@ -1,3 +1,4 @@
+module
 /-
 Literal Heath--Brown Lemma 3 statement and coordinate bridge adapted from
 Scott McColm, PointMeanLemmaThreeStatement.lean, exact revision
@@ -5,7 +6,9 @@ Scott McColm, PointMeanLemmaThreeStatement.lean, exact revision
 Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.json and third_party/twelfth/LICENSE-MIT-0.
 The proposition is a definition; no instance is assumed.
 -/
-import MathCollab.Density.Stronger.CriticalMoment
+public import MathCollab.Density.Stronger.CriticalMoment
+
+@[expose] public section
 
 open Finset MeasureTheory
 open scoped BigOperators Interval

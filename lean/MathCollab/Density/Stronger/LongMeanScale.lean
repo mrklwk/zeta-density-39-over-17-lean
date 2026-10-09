@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.WeightedCriticalMean
+module
+public import MathCollab.Density.Stronger.WeightedCriticalMean
+
+@[expose] public section
 
 open Real
 set_option autoImplicit false

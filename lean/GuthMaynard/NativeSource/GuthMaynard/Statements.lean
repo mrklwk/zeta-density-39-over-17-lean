@@ -1,6 +1,9 @@
-import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
-import GuthMaynard.NativeSource.GuthMaynard.Separated
-import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+module
+public import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
+public import GuthMaynard.NativeSource.GuthMaynard.Separated
+public import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+
+@[expose] public section
 
 open Complex Finset
 

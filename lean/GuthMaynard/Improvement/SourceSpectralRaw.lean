@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.SpectralMassAssembly
-import GuthMaynard.Improvement.OperatorSourceMixed
-import GuthMaynard.Improvement.FixedCutoffs
+module
+public import GuthMaynard.Improvement.SpectralMassAssembly
+public import GuthMaynard.Improvement.OperatorSourceMixed
+public import GuthMaynard.Improvement.FixedCutoffs
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

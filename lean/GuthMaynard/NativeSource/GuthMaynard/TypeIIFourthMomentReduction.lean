@@ -1,7 +1,10 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalDensity
-import GuthMaynard.NativeSource.GuthMaynard.ExtractSeparated
-import GuthMaynard.NativeSource.GuthMaynard.ScaledSeparated
-import GuthMaynard.NativeSource.GuthMaynard.TypeIIContour
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalDensity
+public import GuthMaynard.NativeSource.GuthMaynard.ExtractSeparated
+public import GuthMaynard.NativeSource.GuthMaynard.ScaledSeparated
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIIContour
+
+@[expose] public section
 
 open Asymptotics Filter MeasureTheory Topology
 open Complex Finset

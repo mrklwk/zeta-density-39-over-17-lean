@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.DirichletMeanValue
-import GuthMaynard.Improvement.SourceRatioAssembly
-import GuthMaynard.Improvement.DivisorMultiplicity
-import MathCollab.Density.DivisorGrowth
+module
+public import GuthMaynard.Improvement.DirichletMeanValue
+public import GuthMaynard.Improvement.SourceRatioAssembly
+public import GuthMaynard.Improvement.DivisorMultiplicity
+public import MathCollab.Density.DivisorGrowth
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Finset

@@ -1,13 +1,16 @@
+module
 /-
 Selected proof slices adapted from Scott McColm, MIT-0,
 commit 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 See the root THIRD_PARTY_NOTICES.md (MIT-0).
 No upstream project or Architect module is imported.
 -/
-import MathCollab.Density.Stronger.Fourth.PrefixMean
-import MathCollab.Density.Stronger.CriticalMoment
-import MathCollab.Density.Stronger.DyadicMoment
-import Mathlib.MeasureTheory.Integral.Prod
+public import MathCollab.Density.Stronger.Fourth.PrefixMean
+public import MathCollab.Density.Stronger.CriticalMoment
+public import MathCollab.Density.Stronger.DyadicMoment
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 open Complex Set Finset MeasureTheory Filter
 open scoped BigOperators Interval ComplexConjugate

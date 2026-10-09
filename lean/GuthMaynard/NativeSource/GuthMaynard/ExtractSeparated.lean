@@ -1,9 +1,12 @@
-import Mathlib.Data.Finset.Max
-import Mathlib.Data.Int.Interval
-import GuthMaynard.NativeSource.GuthMaynard.Pigeonhole
-import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
-import GuthMaynard.NativeSource.GuthMaynard.Separated
-import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
+module
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Data.Int.Interval
+public import GuthMaynard.NativeSource.GuthMaynard.Pigeonhole
+public import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+public import GuthMaynard.NativeSource.GuthMaynard.Separated
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

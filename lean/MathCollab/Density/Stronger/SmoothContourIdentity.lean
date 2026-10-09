@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.SmoothContourEstimates
+module
+public import MathCollab.Density.Stronger.SmoothContourEstimates
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open MathCollab.Density.Contour

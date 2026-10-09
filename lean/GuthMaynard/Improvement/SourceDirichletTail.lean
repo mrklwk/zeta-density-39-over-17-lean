@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.SourceDirichletPairing
-import GuthMaynard.Improvement.SourceRatioBound
-import GuthMaynard.Improvement.SourceTailConditional
+module
+public import GuthMaynard.Improvement.SourceDirichletPairing
+public import GuthMaynard.Improvement.SourceRatioBound
+public import GuthMaynard.Improvement.SourceTailConditional
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

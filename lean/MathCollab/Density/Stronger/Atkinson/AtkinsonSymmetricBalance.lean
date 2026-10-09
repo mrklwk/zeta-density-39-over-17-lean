@@ -1,11 +1,14 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Selected proof slices from revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 Narrow stationary refinement; see third_party/twelfth/ATKINSON_SYMMETRIC_MANIFEST.json.
 Mathlib and previously ported PNT foundations retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonSymmetricReduction
-import MathCollab.Density.Stronger.Atkinson.AtkinsonSampleGeometry
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonSymmetricReduction
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonSampleGeometry
+
+@[expose] public section
 
 set_option backward.isDefEq.respectTransparency false
 set_option backward.isDefEq.respectTransparency.types false

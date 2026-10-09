@@ -1,12 +1,15 @@
+module
 /-
 Copyright (c) 2026 S. McColm. Released under the MIT-0 license.
 Ported from McColm 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 Narrow extraction only; see third_party/twelfth/ATKINSON_AMPLITUDE_MANIFEST.json for source and receiver hashes.
 The reused nonstationary foundation retains its Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonPowerAmplitude
-import MathCollab.Density.Stronger.Atkinson.AtkinsonAmplitudeIntegral
-import MathCollab.Density.Stronger.Atkinson.SmoothDivisorSupport
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonPowerAmplitude
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonAmplitudeIntegral
+public import MathCollab.Density.Stronger.Atkinson.SmoothDivisorSupport
+
+@[expose] public section
 
 set_option backward.isDefEq.respectTransparency false
 set_option backward.isDefEq.respectTransparency.types false

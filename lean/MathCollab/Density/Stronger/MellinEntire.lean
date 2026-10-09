@@ -1,6 +1,9 @@
-import MathCollab.Density.Stronger.DampedCutoff
-import Mathlib.Analysis.MellinTransform
-import Mathlib.Analysis.Complex.CauchyIntegral
+module
+public import MathCollab.Density.Stronger.DampedCutoff
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Analysis.Complex.CauchyIntegral
+
+@[expose] public section
 
 open Real Set MeasureTheory Filter Asymptotics
 open scoped ContDiff Topology

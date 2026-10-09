@@ -1,5 +1,8 @@
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-import Mathlib.Tactic
+module
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Real Filter
 open scoped Topology

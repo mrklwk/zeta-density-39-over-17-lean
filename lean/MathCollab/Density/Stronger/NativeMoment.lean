@@ -1,9 +1,12 @@
+module
 /-
 Native actual-zeta moment composition. The narrowly ported analytic inputs retain
 McColm's MIT-0 attribution; Mathlib dependencies retain Apache-2.0 attribution.
 See third_party/twelfth/NATIVE_ENDPOINTS_MANIFEST.json.
 -/
-import MathCollab.Density.Stronger.NativePeaks
+public import MathCollab.Density.Stronger.NativePeaks
+
+@[expose] public section
 
 open Filter MeasureTheory Set
 set_option autoImplicit false

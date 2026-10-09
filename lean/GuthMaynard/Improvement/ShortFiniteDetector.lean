@@ -1,6 +1,9 @@
+module
 /- Adapted from audited Density.FiniteDetector at eff263d7. Actual short
  parameters and exact Mobius cancellation, without a zero-detection claim. -/
-import GuthMaynard.Improvement.ShortDetectorTruncation
+public import GuthMaynard.Improvement.ShortDetectorTruncation
+
+@[expose] public section
 open Complex MeasureTheory Set Filter MathCollab.Density
 open scoped BigOperators Topology
 set_option autoImplicit false

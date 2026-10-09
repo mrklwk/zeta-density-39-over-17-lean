@@ -1,6 +1,9 @@
+module
 /- Adapted from audited Density proofs; reused scalar Taylor weights unchanged. -/
-import MathCollab.Density.DetectorBlockExpansion
-import GuthMaynard.Improvement.ShortDetectorTaylorFamily
+public import MathCollab.Density.DetectorBlockExpansion
+public import GuthMaynard.Improvement.ShortDetectorTaylorFamily
+
+@[expose] public section
 
 open Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

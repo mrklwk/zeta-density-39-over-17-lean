@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.ReflectionShellBudget
-import GuthMaynard.Improvement.ReflectionNearRow
+module
+public import GuthMaynard.Improvement.ReflectionShellBudget
+public import GuthMaynard.Improvement.ReflectionNearRow
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

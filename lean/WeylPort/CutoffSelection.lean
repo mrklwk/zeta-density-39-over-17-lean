@@ -1,7 +1,10 @@
-import Mathlib.Algebra.Order.Floor.Semiring
-import Mathlib.Analysis.Real.Sqrt
-import Mathlib.Analysis.Real.Pi.Bounds
-import Mathlib.Tactic
+module
+public import Mathlib.Algebra.Order.Floor.Semiring
+public import Mathlib.Analysis.Real.Sqrt
+public import Mathlib.Analysis.Real.Pi.Bounds
+public import Mathlib.Tactic
+
+@[expose] public section
 
 namespace WeylPort
 

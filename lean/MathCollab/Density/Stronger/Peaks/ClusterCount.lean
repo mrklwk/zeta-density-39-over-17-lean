@@ -1,3 +1,4 @@
+module
 /-
 Copyright (c) 2026 S. McColm. All rights reserved.
 Released under MIT-0; see ../../../../../third_party/twelfth/LICENSE-MIT-0.
@@ -7,8 +8,10 @@ Mathlib dependencies retain their Apache-2.0 attribution.
 PointMeanInput and LocalMeanPacketInput remain explicit unproved analytic inputs.
 No unconditional high-value, twelfth-moment or stronger-density bound is asserted.
 -/
-import MathCollab.Density.Stronger.Peaks.Clusters
-import MathCollab.Density.Stronger.FiniteOccupancy
+public import MathCollab.Density.Stronger.Peaks.Clusters
+public import MathCollab.Density.Stronger.FiniteOccupancy
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology Finset
 open scoped Interval

@@ -1,8 +1,11 @@
+module
 /- Narrow actual normalized-zeta source and kernel port from Scott McColm,
 MIT-0, exact pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 See the root THIRD_PARTY_NOTICES.md
 and the root THIRD_PARTY_NOTICES.md. -/
-import MathCollab.Density.Stronger.Fourth.SquareContour
+public import MathCollab.Density.Stronger.Fourth.SquareContour
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Set Topology
 open MathCollab.Density.Stronger MathCollab.Density.Stronger.Fourth

@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorBlockExpansion
-import MathCollab.Density.DetectorFamilyScales
+module
+public import MathCollab.Density.DetectorBlockExpansion
+public import MathCollab.Density.DetectorFamilyScales
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology

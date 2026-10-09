@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.ShortDensityConditional
-import GuthMaynard.Improvement.ShortDensityUniform
+module
+public import GuthMaynard.Improvement.ShortDensityConditional
+public import GuthMaynard.Improvement.ShortDensityUniform
+
+@[expose] public section
 
 open MathCollab.Density
 set_option autoImplicit false

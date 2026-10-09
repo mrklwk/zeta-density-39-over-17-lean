@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.MeasureGate
-import GuthMaynard.Improvement.Gate
+module
+public import GuthMaynard.Improvement.MeasureGate
+public import GuthMaynard.Improvement.Gate
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

@@ -1,9 +1,12 @@
-import Mathlib.Data.Complex.Basic
-import Mathlib.Basic.Real.Basic
-import Mathlib.Data.Finset.Basic
-import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
-import GuthMaynard.NativeSource.GuthMaynard.Separated
-import GuthMaynard.NativeSource.GuthMaynard.MeanValueProof
+module
+public import Mathlib.Data.Complex.Basic
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Finset.Basic
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
+public import GuthMaynard.NativeSource.GuthMaynard.Separated
+public import GuthMaynard.NativeSource.GuthMaynard.MeanValueProof
+
+@[expose] public section
 
 open Complex Finset
 

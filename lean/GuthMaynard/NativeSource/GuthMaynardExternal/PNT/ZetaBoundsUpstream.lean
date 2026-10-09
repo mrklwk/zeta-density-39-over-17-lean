@@ -1,15 +1,18 @@
+module
 /- Adapted from PrimeNumberTheoremAnd/ZetaBounds.lean at upstream revision
 4ecb950126c4290293c5662dfe0e884123171df5 (Apache-2.0). -/
 
-import Mathlib.MeasureTheory.Function.Floor
-import Mathlib.MeasureTheory.Order.Group.Lattice
-import Mathlib.NumberTheory.Harmonic.Bounds
-import Mathlib.NumberTheory.LSeries.Nonvanishing
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Auxiliary
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Fourier
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Log.Basic
-import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ResidueCalcOnRectangles
-import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.EulerMaclaurin
+public import Mathlib.MeasureTheory.Function.Floor
+public import Mathlib.MeasureTheory.Order.Group.Lattice
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import Mathlib.NumberTheory.LSeries.Nonvanishing
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Auxiliary
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Fourier
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import GuthMaynard.NativeSource.GuthMaynardExternal.PNT.ResidueCalcOnRectangles
+public import GuthMaynard.NativeSource.PrimeNumberTheoremAnd.EulerMaclaurin
+
+@[expose] public section
 
 open Complex Topology Filter Interval Set Asymptotics
 

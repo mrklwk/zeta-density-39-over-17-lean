@@ -1,6 +1,9 @@
-import WeylPort.Block
-import WeylPort.GrowthAlgebra
-import Mathlib.Data.Nat.Log
+module
+public import WeylPort.Block
+public import WeylPort.GrowthAlgebra
+public import Mathlib.Data.Nat.Log
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

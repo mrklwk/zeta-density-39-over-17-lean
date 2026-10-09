@@ -1,5 +1,8 @@
-import GuthMaynard.Weyl
-import Mathlib.Analysis.Real.Pi.Bounds
+module
+public import GuthMaynard.Weyl
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

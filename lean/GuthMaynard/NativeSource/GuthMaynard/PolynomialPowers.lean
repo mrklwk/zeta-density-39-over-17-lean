@@ -1,12 +1,15 @@
-import Mathlib.Basic.Complex.Basic
-import Mathlib.Basic.Real.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Complex
-import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
-import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
-import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
-import GuthMaynard.NativeSource.GuthMaynard.Pigeonhole
-import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
-import Mathlib.Tactic
+module
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Complex
+public import Mathlib.Analysis.SpecialFunctions.Pow.NNReal
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
+public import GuthMaynard.NativeSource.GuthMaynard.Asymptotics
+public import GuthMaynard.NativeSource.GuthMaynard.Pigeonhole
+public import GuthMaynard.NativeSource.GuthMaynard.DirichletPolynomial
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Complex Finset
 open scoped BigOperators

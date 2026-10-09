@@ -1,4 +1,7 @@
-import MathCollab.Density.PoweredDetectorFamily
+module
+public import MathCollab.Density.PoweredDetectorFamily
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

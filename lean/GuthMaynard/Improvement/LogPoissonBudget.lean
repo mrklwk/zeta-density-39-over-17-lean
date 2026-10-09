@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.LogPoissonTail
+module
+public import GuthMaynard.Improvement.LogPoissonTail
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

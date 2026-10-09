@@ -1,3 +1,4 @@
+module
 /-
 Selected horizontal-limit proofs adapted from Scott McColm,
 PointMeanMellinHorizontal.lean, exact revision
@@ -7,10 +8,12 @@ and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 The wide-strip Gamma bound is proved directly by three recurrences;
 local Abel growth replaces the source growth import.
 -/
-import MathCollab.Density.Stronger.PointMean.FiniteRectangle
-import MathCollab.Density.AbelZetaGrowth
-import MathCollab.Density.GammaMellin
-import Mathlib.Analysis.Real.Pi.Bounds
+public import MathCollab.Density.Stronger.PointMean.FiniteRectangle
+public import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.GammaMellin
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Contour MathCollab.Density.ZetaGrowth

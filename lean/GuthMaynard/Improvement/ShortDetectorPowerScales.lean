@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.ShortDetectorPoweredHeight
+module
+public import GuthMaynard.Improvement.ShortDetectorPoweredHeight
+
+@[expose] public section
 
 open Real Set Filter MathCollab.Density
 open scoped BigOperators Topology

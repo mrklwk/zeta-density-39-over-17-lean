@@ -1,7 +1,10 @@
-import MathCollab.Density.Stronger.LongMultiplicityReduction
-import MathCollab.Density.Stronger.LongScalarBudget
-import MathCollab.Density.Stronger.FinalParameters
-import MathCollab.Density.DensityDyadicSummation
+module
+public import MathCollab.Density.Stronger.LongMultiplicityReduction
+public import MathCollab.Density.Stronger.LongScalarBudget
+public import MathCollab.Density.Stronger.FinalParameters
+public import MathCollab.Density.DensityDyadicSummation
+
+@[expose] public section
 
 open Filter MeasureTheory Set
 open scoped BigOperators

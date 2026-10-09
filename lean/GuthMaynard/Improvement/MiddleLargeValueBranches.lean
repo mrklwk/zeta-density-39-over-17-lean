@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.MiddleRangeIdentities
-import GuthMaynard.Improvement.ClassicalLargeValues
+module
+public import GuthMaynard.Improvement.MiddleRangeIdentities
+public import GuthMaynard.Improvement.ClassicalLargeValues
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Set

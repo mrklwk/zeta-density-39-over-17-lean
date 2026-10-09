@@ -1,5 +1,8 @@
+module
 /- Extracted from pinned McColm source, MIT-0; see analytic-extraction.json. -/
-import Mathlib
+public import Mathlib
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility; kernel checking stays enabled.
 set_option backward.isDefEq.respectTransparency false

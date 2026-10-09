@@ -1,3 +1,4 @@
+module
 /-
 Selected proof adapted from Scott McColm's Lean repository, revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
@@ -6,9 +7,11 @@ See the root THIRD_PARTY_NOTICES.md and
 the root THIRD_PARTY_NOTICES.md.
 The imported DigammaSeries preserves its separate Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Fourth.DigammaSeries
-import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+public import MathCollab.Density.Stronger.Fourth.DigammaSeries
+public import Mathlib.Analysis.SpecialFunctions.Complex.LogDeriv
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
+
+@[expose] public section
 
 /-!
 # A uniform logarithmic approximation to the actual digamma function

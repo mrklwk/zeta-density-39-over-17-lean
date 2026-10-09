@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.Smoothing
+module
+public import GuthMaynard.Improvement.Smoothing
+
+@[expose] public section
 
 /-! Exact restricted-mass and L2 bounds for every positive smoothing width.
 Smoothness/Fourier decay and the published affine theorem are not asserted.

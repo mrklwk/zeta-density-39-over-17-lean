@@ -1,6 +1,9 @@
-import MathCollab.Density.DetectorFamilyScales
-import GuthMaynard.Improvement.ShortDetectorDyadic
-import Mathlib.Analysis.Complex.ExponentialBounds
+module
+public import MathCollab.Density.DetectorFamilyScales
+public import GuthMaynard.Improvement.ShortDetectorDyadic
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 open Real Set Filter MathCollab.Density
 open scoped BigOperators Topology

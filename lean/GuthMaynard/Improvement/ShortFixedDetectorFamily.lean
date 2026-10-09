@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.ShortDetectorBlockExpansion
-import GuthMaynard.Improvement.ShortDetectorFamilyScales
+module
+public import GuthMaynard.Improvement.ShortDetectorBlockExpansion
+public import GuthMaynard.Improvement.ShortDetectorFamilyScales
+
+@[expose] public section
 
 open Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

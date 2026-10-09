@@ -1,7 +1,10 @@
-import MathCollab.Density.Stronger.SmoothDetector
-import MathCollab.Density.Stronger.SmoothShortBlock
-import MathCollab.Density.Stronger.FiniteConvolution
-import MathCollab.Density.Stronger.PowerScales
+module
+public import MathCollab.Density.Stronger.SmoothDetector
+public import MathCollab.Density.Stronger.SmoothShortBlock
+public import MathCollab.Density.Stronger.FiniteConvolution
+public import MathCollab.Density.Stronger.PowerScales
+
+@[expose] public section
 
 open Complex Set Filter
 open scoped BigOperators Topology ComplexConjugate

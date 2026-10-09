@@ -1,7 +1,10 @@
-import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
-import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
-import Mathlib.NumberTheory.ArithmeticFunction.Moebius
-import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
+module
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic
+public import Mathlib.NumberTheory.ArithmeticFunction.Moebius
+public import GuthMaynard.NativeSource.GuthMaynard.ZeroDetector
+
+@[expose] public section
 
 open Asymptotics Filter MeasureTheory
 open Complex

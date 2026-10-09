@@ -1,3 +1,4 @@
+module
 /-
 Selected proof adapted from Scott McColm's Lean repository, revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
@@ -5,9 +6,11 @@ Copyright 2026 S. McColm.
 See ../../../../../third_party/twelfth/ATKINSON_PREFIX_MANIFEST.json
 and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonIndexScales
-import GuthMaynard.SecondOrderMeanValue
-import GuthMaynard.SecondDerivative
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonIndexScales
+public import GuthMaynard.SecondOrderMeanValue
+public import GuthMaynard.SecondDerivative
+
+@[expose] public section
 
 /-!
 Adapted from the inspected adjacent `GafniTao.HeathBrownAtkinsonBProcess` proof.

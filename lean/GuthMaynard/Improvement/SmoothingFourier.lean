@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.SmoothingScale
-import GuthMaynard.Improvement.PoissonReduction
+module
+public import GuthMaynard.Improvement.SmoothingScale
+public import GuthMaynard.Improvement.PoissonReduction
+
+@[expose] public section
 
 /-! Fourier transfer for actual real smoothing. Constants precede the signal
 and the smoothing width; no positive lower bound on its mass is required. -/

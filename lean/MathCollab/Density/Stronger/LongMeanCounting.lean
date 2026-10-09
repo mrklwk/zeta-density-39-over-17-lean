@@ -1,7 +1,10 @@
-import MathCollab.Density.Stronger.LongMeanScale
-import MathCollab.Density.Stronger.SeparatedCriticalSampling
-import MathCollab.Density.Stronger.LongBlockDetection
-import MathCollab.Density.Stronger.ShortPoweredFamily
+module
+public import MathCollab.Density.Stronger.LongMeanScale
+public import MathCollab.Density.Stronger.SeparatedCriticalSampling
+public import MathCollab.Density.Stronger.LongBlockDetection
+public import MathCollab.Density.Stronger.ShortPoweredFamily
+
+@[expose] public section
 open Filter MeasureTheory
 open scoped BigOperators
 set_option autoImplicit false

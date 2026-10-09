@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CompactKernel
+module
+public import GuthMaynard.Improvement.CompactKernel
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

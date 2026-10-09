@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.AmplifierArithmetic
+module
+public import GuthMaynard.Improvement.AmplifierArithmetic
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Finset

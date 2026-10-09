@@ -1,6 +1,9 @@
-import MathCollab.Density.FixedBandError
-import MathCollab.Density.AllFrequency
-import Mathlib.MeasureTheory.Integral.Prod
+module
+public import MathCollab.Density.FixedBandError
+public import MathCollab.Density.AllFrequency
+public import Mathlib.MeasureTheory.Integral.Prod
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators ContDiff ComplexConjugate

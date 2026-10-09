@@ -1,8 +1,11 @@
+module
 /- Adapted from the verified Density.DetectorGamma and DetectorError residue
 bounds. The actual residue definition is reused, with independent X and Y;
 the final specialization uses the short parameters, not the old firstDetectorX. -/
-import GuthMaynard.Improvement.ShortDetectorGamma
-import MathCollab.Density.DetectorError
+public import GuthMaynard.Improvement.ShortDetectorGamma
+public import MathCollab.Density.DetectorError
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Complex MeasureTheory Set Filter MathCollab.Density

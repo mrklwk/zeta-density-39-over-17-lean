@@ -1,4 +1,7 @@
-import MathCollab.Density.Stronger.SmoothBlockContour
+module
+public import MathCollab.Density.Stronger.SmoothBlockContour
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open scoped BigOperators Topology ContDiff

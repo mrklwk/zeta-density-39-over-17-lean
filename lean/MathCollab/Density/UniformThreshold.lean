@@ -1,6 +1,9 @@
-import MathCollab.Density.DivisorGrowth
-import MathCollab.Density.BootstrapAbsorption
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+module
+public import MathCollab.Density.DivisorGrowth
+public import MathCollab.Density.BootstrapAbsorption
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

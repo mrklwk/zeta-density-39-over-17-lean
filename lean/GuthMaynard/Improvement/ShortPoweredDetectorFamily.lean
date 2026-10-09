@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.ShortDetectorPowerScales
+module
+public import GuthMaynard.Improvement.ShortDetectorPowerScales
+
+@[expose] public section
 
 open Real Complex Set Filter MathCollab.Density
 open scoped BigOperators Topology

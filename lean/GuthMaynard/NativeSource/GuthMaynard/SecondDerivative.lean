@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynard.VanDerCorput
+module
+public import GuthMaynard.NativeSource.GuthMaynard.VanDerCorput
+
+@[expose] public section
 
 open Complex Finset Set
 open scoped BigOperators

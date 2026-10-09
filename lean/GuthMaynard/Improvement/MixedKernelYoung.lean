@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CubicTimeMeasure
-import GuthMaynard.Improvement.Smoothing
+module
+public import GuthMaynard.Improvement.CubicTimeMeasure
+public import GuthMaynard.Improvement.Smoothing
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

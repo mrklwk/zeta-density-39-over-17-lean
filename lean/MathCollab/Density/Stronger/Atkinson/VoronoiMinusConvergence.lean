@@ -1,3 +1,4 @@
+module
 /-
 Native convergence for the literal DFI minus Mellin integrand. Selected
 contour target: McColm DFIEquation29.lean at
@@ -5,9 +6,11 @@ contour target: McColm DFIEquation29.lean at
 All test-function Mellin decay and multiplier bounds are proved imports.
 Mathlib dependencies retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.VoronoiMultiplierBounds
-import MathCollab.Density.Stronger.Atkinson.VoronoiMellinDecay
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import MathCollab.Density.Stronger.Atkinson.VoronoiMultiplierBounds
+public import MathCollab.Density.Stronger.Atkinson.VoronoiMellinDecay
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Contour

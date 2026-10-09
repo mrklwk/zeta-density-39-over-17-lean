@@ -1,3 +1,4 @@
+module
 /-
 Selected native Heath--Brown point-mean contour proofs adapted from
 Scott McColm, exact revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1,
@@ -7,10 +8,12 @@ and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 The local imported rectangle residue machinery retains its Apache-2.0 attribution.
 No source project module is imported; no point-mean or moment bound is assumed.
 -/
-import MathCollab.Density.RectangleResidue
-import Mathlib.NumberTheory.LSeries.RiemannZeta
-import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
-import Mathlib.Analysis.Complex.ExponentialBounds
+public import MathCollab.Density.RectangleResidue
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Basic
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter
 open MathCollab.Density.Contour

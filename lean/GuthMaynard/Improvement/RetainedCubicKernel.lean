@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.CubicKernel
+module
+public import GuthMaynard.Improvement.CubicKernel
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory

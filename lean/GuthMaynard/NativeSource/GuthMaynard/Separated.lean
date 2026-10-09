@@ -1,7 +1,10 @@
-import Mathlib.Basic.Real.Basic
-import Mathlib.Data.Finset.Basic
-import Mathlib.Order.Interval.Set.Basic
-import Mathlib.Topology.MetricSpace.Basic
+module
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Data.Finset.Basic
+public import Mathlib.Order.Interval.Set.Basic
+public import Mathlib.Topology.MetricSpace.Basic
+
+@[expose] public section
 
 open Set Metric
 

@@ -1,5 +1,8 @@
-import MathCollab.Density.MellinKernel
-import Mathlib.Algebra.QuadraticDiscriminant
+module
+public import MathCollab.Density.MellinKernel
+public import Mathlib.Algebra.QuadraticDiscriminant
+
+@[expose] public section
 
 open MeasureTheory
 

@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CenteredKernelBridge
-import GuthMaynard.Improvement.CubicLocalError
+module
+public import GuthMaynard.Improvement.CenteredKernelBridge
+public import GuthMaynard.Improvement.CubicLocalError
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

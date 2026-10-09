@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.OperatorMixedCentered
-import GuthMaynard.Improvement.MixedKernelRow
-import GuthMaynard.Improvement.MixedCutoffEnvelope
+module
+public import GuthMaynard.Improvement.OperatorMixedCentered
+public import GuthMaynard.Improvement.MixedKernelRow
+public import GuthMaynard.Improvement.MixedCutoffEnvelope
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

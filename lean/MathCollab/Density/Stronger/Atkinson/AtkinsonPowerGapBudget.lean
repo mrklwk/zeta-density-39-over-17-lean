@@ -1,3 +1,4 @@
+module
 /-
 Selected proof adapted from Scott McColm's Lean repository, revision
 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0.
@@ -5,7 +6,9 @@ Copyright 2026 S. McColm. See third_party/twelfth/ATKINSON_PACKET_MANIFEST.json 
 third_party/twelfth/LICENSE-MIT-0.
 Mathlib dependencies retain Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonLocalizedPowers
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonLocalizedPowers
+
+@[expose] public section
 
 open Complex Finset Set Filter
 open scoped ComplexConjugate

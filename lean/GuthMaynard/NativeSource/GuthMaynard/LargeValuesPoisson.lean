@@ -1,8 +1,11 @@
-import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
-import Mathlib.Analysis.Fourier.PoissonSummation
-import Mathlib.Analysis.SpecialFunctions.Log.Deriv
-import Mathlib.Analysis.MellinInversion
-import GuthMaynard.NativeSource.GuthMaynard.TraceDispersion
+module
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
+public import Mathlib.Analysis.Fourier.PoissonSummation
+public import Mathlib.Analysis.SpecialFunctions.Log.Deriv
+public import Mathlib.Analysis.MellinInversion
+public import GuthMaynard.NativeSource.GuthMaynard.TraceDispersion
+
+@[expose] public section
 
 open Complex Filter MeasureTheory Real Set
 open scoped ContDiff FourierTransform SchwartzMap Topology

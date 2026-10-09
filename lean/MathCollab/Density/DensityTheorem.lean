@@ -1,5 +1,8 @@
-import MathCollab.Density.DensityConclusion
-import MathCollab.Density.WeylInput
+module
+public import MathCollab.Density.DensityConclusion
+public import MathCollab.Density.WeylInput
+
+@[expose] public section
 
 open Real Complex
 set_option autoImplicit false

@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.RadialCoordinates
+module
+public import GuthMaynard.Improvement.RadialCoordinates
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynard.Separated
+module
+public import GuthMaynard.NativeSource.GuthMaynard.Separated
+
+@[expose] public section
 
 open Classical
 

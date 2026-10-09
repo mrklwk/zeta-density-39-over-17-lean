@@ -1,6 +1,9 @@
+module
 /- McColm source pin 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1, MIT-0. -/
-import WeylPort.AFE.UpperModeTails
-import WeylPort.AFE.AFESecondWeights
+public import WeylPort.AFE.UpperModeTails
+public import WeylPort.AFE.AFESecondWeights
+
+@[expose] public section
 
 -- Lean 4.34 elaborator compatibility.
 set_option backward.isDefEq.respectTransparency false

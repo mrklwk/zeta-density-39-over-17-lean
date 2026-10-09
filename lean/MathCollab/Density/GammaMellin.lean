@@ -1,12 +1,15 @@
+module
 /-
 Adapted from Grogan GammaMellinInversion and the Euler-integral bound in
 MellinDetectorLeaf, exact pin f369f267b4dcfebf010c8e7baa2c9602e2960eba.
 Apache-2.0; see the root THIRD_PARTY_NOTICES.md. No upstream project module is imported.
 -/
-import Mathlib.Analysis.MellinInversion
-import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-import Mathlib.Tactic
+public import Mathlib.Analysis.MellinInversion
+public import Mathlib.Analysis.SpecialFunctions.Gamma.Deriv
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Set MeasureTheory Real Complex
 open scoped Interval

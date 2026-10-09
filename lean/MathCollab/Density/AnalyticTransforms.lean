@@ -1,14 +1,17 @@
+module
 /-
 Selected proofs adapted from Conor Grogan's prime-minor-arcs-2-15,
 commit f369f267b4dcfebf010c8e7baa2c9602e2960eba, Apache-2.0.
 See the root THIRD_PARTY_NOTICES.md.
 No upstream project module is imported.
 -/
-import Mathlib.Analysis.MellinInversion
-import Mathlib.Analysis.Fourier.PoissonSummation
-import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
-import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Analysis.MellinInversion
+public import Mathlib.Analysis.Fourier.PoissonSummation
+public import Mathlib.MeasureTheory.Measure.Haar.NormedSpace
+public import Mathlib.Analysis.Distribution.SchwartzSpace.Fourier
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators FourierTransform SchwartzMap ContDiff

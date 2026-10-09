@@ -1,4 +1,7 @@
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+module
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+
+@[expose] public section
 
 /-!
 Pure scale algebra extracted from S. McColm, commit

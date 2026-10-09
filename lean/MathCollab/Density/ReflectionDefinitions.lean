@@ -1,5 +1,8 @@
-import MathCollab.Density.UniformIBP
-import Mathlib.Analysis.PSeries
+module
+public import MathCollab.Density.UniformIBP
+public import Mathlib.Analysis.PSeries
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators ContDiff

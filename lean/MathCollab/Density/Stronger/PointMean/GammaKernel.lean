@@ -1,3 +1,4 @@
+module
 /-
 Native point-mean Gamma-kernel slice, inspired by Scott McColm's
 PointMeanGammaKernel.lean, exact revision
@@ -7,8 +8,10 @@ and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 The proof here uses local beta-strip comparison, not the source's digamma shift.
 The imported GammaStrip retains its upstream Apache-2.0 attribution.
 -/
-import MathCollab.Density.GammaStrip
-import Mathlib.Tactic
+public import MathCollab.Density.GammaStrip
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Complex
 open MathCollab.Density.GammaBounds

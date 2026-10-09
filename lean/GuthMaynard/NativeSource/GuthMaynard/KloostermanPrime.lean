@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.KloostermanCRT
-import Mathlib.Data.Fintype.Units
+module
+public import GuthMaynard.NativeSource.GuthMaynard.KloostermanCRT
+public import Mathlib.Data.Fintype.Units
+
+@[expose] public section
 
 /-!
 # Prime-modulus reduction for the Kloosterman Weil estimate

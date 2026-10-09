@@ -1,5 +1,8 @@
-import GuthMaynard.NativeSource.GuthMaynard.ClassicalLargeValues
-import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityExponents
+module
+public import GuthMaynard.NativeSource.GuthMaynard.ClassicalLargeValues
+public import GuthMaynard.NativeSource.GuthMaynard.FiniteDensityExponents
+
+@[expose] public section
 
 namespace GuthMaynard.NativeMoment
 

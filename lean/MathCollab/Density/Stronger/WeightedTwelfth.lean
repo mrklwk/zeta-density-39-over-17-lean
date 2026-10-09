@@ -1,6 +1,9 @@
-import MathCollab.Density.Stronger.SeparatedMoment
-import MathCollab.Density.Stronger.WeightedCriticalMean
-import MathCollab.Density.Stronger.CriticalMoment
+module
+public import MathCollab.Density.Stronger.SeparatedMoment
+public import MathCollab.Density.Stronger.WeightedCriticalMean
+public import MathCollab.Density.Stronger.CriticalMoment
+
+@[expose] public section
 
 open MeasureTheory Set Filter
 open scoped BigOperators

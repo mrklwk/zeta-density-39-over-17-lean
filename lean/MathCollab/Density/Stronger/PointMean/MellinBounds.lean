@@ -1,3 +1,4 @@
+module
 /-
 Selected harmless-term bounds adapted from Scott McColm,
 PointMeanMellinBounds.lean, exact revision
@@ -6,10 +7,12 @@ Copyright 2026 S. McColm. See third_party/twelfth/POINT_MEAN_NATIVE_MANIFEST.jso
 The residue estimate uses the proved explicit local DigammaLog error and
 Gamma kernel. No source Gamma displacement or moment bound is assumed.
 -/
-import MathCollab.Density.Stronger.PointMean.MovingPole
-import MathCollab.Density.Stronger.PointMean.DivisorMellin
-import MathCollab.Density.Stronger.PointMean.GammaKernel
-import Mathlib.Analysis.SpecialFunctions.Exp
+public import MathCollab.Density.Stronger.PointMean.MovingPole
+public import MathCollab.Density.Stronger.PointMean.DivisorMellin
+public import MathCollab.Density.Stronger.PointMean.GammaKernel
+public import Mathlib.Analysis.SpecialFunctions.Exp
+
+@[expose] public section
 
 open Complex Filter ArithmeticFunction
 open MathCollab.Density.Stronger.Fourth.Digamma

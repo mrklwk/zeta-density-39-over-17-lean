@@ -1,6 +1,9 @@
-import GuthMaynard.Improvement.ReflectionShellIntegral
-import GuthMaynard.Improvement.NegativeReflectedBand
-import GuthMaynard.Improvement.ReflectedBandBudget
+module
+public import GuthMaynard.Improvement.ReflectionShellIntegral
+public import GuthMaynard.Improvement.NegativeReflectedBand
+public import GuthMaynard.Improvement.ReflectedBandBudget
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

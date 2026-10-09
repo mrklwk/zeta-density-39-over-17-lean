@@ -1,3 +1,4 @@
+module
 /-
 Selected singular-kernel convolution proofs adapted from Scott McColm,
 PointMeanGammaConvolution.lean, exact revision
@@ -6,8 +7,10 @@ Copyright 2026 S. McColm. See ../../../../../third_party/twelfth/POINT_MEAN_RECT
 and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 Only mathlib integral facts are imported. No zeta or moment estimate is assumed.
 -/
-import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
-import Mathlib.Tactic
+public import Mathlib.Analysis.SpecialFunctions.ImproperIntegrals
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open MeasureTheory
 set_option autoImplicit false

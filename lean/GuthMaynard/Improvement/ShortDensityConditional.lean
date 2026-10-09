@@ -1,7 +1,10 @@
-import GuthMaynard.Improvement.ShortTypeICount
-import GuthMaynard.Improvement.ShortTypeIICount
-import GuthMaynard.Improvement.ShortDetectorCounting
-import MathCollab.Density.DensityDyadicSummation
+module
+public import GuthMaynard.Improvement.ShortTypeICount
+public import GuthMaynard.Improvement.ShortTypeIICount
+public import GuthMaynard.Improvement.ShortDetectorCounting
+public import MathCollab.Density.DensityDyadicSummation
+
+@[expose] public section
 
 open Complex Filter Set MathCollab.Density
 open scoped Topology

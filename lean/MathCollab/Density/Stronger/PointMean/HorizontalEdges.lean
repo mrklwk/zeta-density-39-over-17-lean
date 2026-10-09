@@ -1,3 +1,4 @@
+module
 /-
 Selected horizontal-edge proofs adapted from Scott McColm,
 PointMeanLemmaThreeEdges.lean, exact revision
@@ -7,10 +8,12 @@ and ../../../../../third_party/twelfth/LICENSE-MIT-0.
 Local Abel continuation and the independent explicit Gamma kernel replace
 all source growth/Gamma imports. No point-mean or moment premise is used.
 -/
-import MathCollab.Density.Stronger.PointMean.FiniteRectangle
-import MathCollab.Density.Stronger.PointMean.GammaKernel
-import MathCollab.Density.AbelZetaGrowth
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import MathCollab.Density.Stronger.PointMean.FiniteRectangle
+public import MathCollab.Density.Stronger.PointMean.GammaKernel
+public import MathCollab.Density.AbelZetaGrowth
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter
 open MathCollab.Density.Contour MathCollab.Density.ZetaGrowth

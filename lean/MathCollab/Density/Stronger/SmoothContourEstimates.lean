@@ -1,6 +1,9 @@
-import MathCollab.Density.Stronger.SmoothContour
-import MathCollab.Density.Stronger.UniformMellin
-import MathCollab.Density.DetectorEstimates
+module
+public import MathCollab.Density.Stronger.SmoothContour
+public import MathCollab.Density.Stronger.UniformMellin
+public import MathCollab.Density.DetectorEstimates
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open MathCollab.Density.ZetaGrowth MathCollab.Density.Contour

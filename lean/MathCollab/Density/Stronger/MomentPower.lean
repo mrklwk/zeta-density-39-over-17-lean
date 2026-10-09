@@ -1,12 +1,15 @@
+module
 /-
 Selected proof slices adapted from Scott McColm, MIT-0,
 commit 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 See ../../../../third_party/twelfth/SOURCE_IMPORTS.json and LICENSE-MIT-0.
 No upstream project or Architect module is imported.
 -/
-import Mathlib.Analysis.MeanInequalities
-import Mathlib.MeasureTheory.Integral.Bochner.Basic
-import Mathlib.Tactic
+public import Mathlib.Analysis.MeanInequalities
+public import Mathlib.MeasureTheory.Integral.Bochner.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open MeasureTheory Filter Set
 open scoped Interval ENNReal Topology

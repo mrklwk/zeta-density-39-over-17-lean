@@ -1,11 +1,14 @@
+module
 /- Selected high/low moment calculus adapted from Scott McColm, MIT-0,
 exact revision 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1.
 The actual fourth-moment and high-value-tail inputs remain explicit parameters.
 See ../../../../third_party/twelfth/HIGH_LOW_MOMENT_MANIFEST.json and LICENSE-MIT-0.
 -/
-import MathCollab.Density.Stronger.MomentGrowth
-import MathCollab.Density.Stronger.DyadicMoment
-import WeylPort.GrowthAlgebra
+public import MathCollab.Density.Stronger.MomentGrowth
+public import MathCollab.Density.Stronger.DyadicMoment
+public import WeylPort.GrowthAlgebra
+
+@[expose] public section
 open MeasureTheory Filter Set
 open scoped Interval
 open TaoTrudgianYang2025 (eventually_const_height_log_pow_mul_rpow_le_rpow)

@@ -1,13 +1,16 @@
+module
 /-
 Adapted from selected proofs in Scott McColm's ZeroCount.lean at
 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be; MIT.
 No upstream zero-count definition or project module is imported.
 -/
-import MathCollab.Density.AbelZetaGrowth
-import MathCollab.Density.ZetaCounting
-import Mathlib.Analysis.Complex.JensenFormula
-import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
-import Mathlib.Analysis.Real.Pi.Bounds
+public import MathCollab.Density.AbelZetaGrowth
+public import MathCollab.Density.ZetaCounting
+public import Mathlib.Analysis.Complex.JensenFormula
+public import Mathlib.NumberTheory.LSeries.HurwitzZetaValues
+public import Mathlib.Analysis.Real.Pi.Bounds
+
+@[expose] public section
 
 open Complex Filter MeromorphicOn
 open scoped Topology ArithmeticFunction.Moebius ComplexOrder

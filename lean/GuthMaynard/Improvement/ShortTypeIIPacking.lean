@@ -1,7 +1,10 @@
+module
 /- The interval-translation argument is adapted from the user-owned task6
 TypeIIFourthMomentReduction. Weighted overlap reuses audited Density.Packing;
 no donor zero-family, tail assumption, or7/10 restriction is imported. -/
-import GuthMaynard.Improvement.ShortGammaPacking
+public import GuthMaynard.Improvement.ShortGammaPacking
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open Complex MeasureTheory Set Filter MathCollab.Density

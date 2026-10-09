@@ -1,4 +1,7 @@
-import GuthMaynard.Improvement.TruncatedSourceAttachment
+module
+public import GuthMaynard.Improvement.TruncatedSourceAttachment
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

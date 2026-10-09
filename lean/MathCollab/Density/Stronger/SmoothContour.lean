@@ -1,11 +1,14 @@
+module
 /-
 The finite rectangle argument adapts the local DetectorContour proof,
 itself adapted from McColm TypeIICoverage at exact pin
 2ace9e7c09a69fdcd1edae1ab6deb7cb3b4df1be, MIT. The imported rectangle
 residue machinery retains its upstream Apache-2.0 attribution.
 -/
-import MathCollab.Density.Stronger.MellinEntire
-import MathCollab.Density.DetectorContour
+public import MathCollab.Density.Stronger.MellinEntire
+public import MathCollab.Density.DetectorContour
+
+@[expose] public section
 
 open Complex MeasureTheory Set Filter
 open MathCollab.Density.ZetaGrowth MathCollab.Density.Contour

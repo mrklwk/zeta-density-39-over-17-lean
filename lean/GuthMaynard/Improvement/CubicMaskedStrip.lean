@@ -1,5 +1,8 @@
-import GuthMaynard.Improvement.CubicMaskedRadial
-import GuthMaynard.Improvement.CubicModeCount
+module
+public import GuthMaynard.Improvement.CubicMaskedRadial
+public import GuthMaynard.Improvement.CubicModeCount
+
+@[expose] public section
 set_option autoImplicit false
 noncomputable section
 open MeasureTheory Set

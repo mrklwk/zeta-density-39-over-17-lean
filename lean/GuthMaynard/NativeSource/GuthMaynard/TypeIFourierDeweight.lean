@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynard.TypeIReflection
+module
+public import GuthMaynard.NativeSource.GuthMaynard.TypeIReflection
+
+@[expose] public section
 
 open Complex Finset MeasureTheory Real Set
 open scoped BigOperators ContDiff FourierTransform SchwartzMap

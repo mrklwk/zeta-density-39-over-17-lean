@@ -1,5 +1,8 @@
-import Mathlib.NumberTheory.Harmonic.Bounds
-import Mathlib.Tactic
+module
+public import Mathlib.NumberTheory.Harmonic.Bounds
+public import Mathlib.Tactic
+
+@[expose] public section
 
 open Finset
 open scoped BigOperators

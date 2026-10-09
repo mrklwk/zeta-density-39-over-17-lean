@@ -1,10 +1,13 @@
-import Mathlib.NumberTheory.AbelSummation
-import Mathlib.NumberTheory.LSeries.RiemannZeta
-import Mathlib.NumberTheory.LSeries.Dirichlet
-import Mathlib.NumberTheory.LSeries.SumCoeff
-import Mathlib.Analysis.MellinTransform
-import Mathlib.Analysis.Complex.RemovableSingularity
-import Mathlib.Analysis.Complex.JensenFormula
+module
+public import Mathlib.NumberTheory.AbelSummation
+public import Mathlib.NumberTheory.LSeries.RiemannZeta
+public import Mathlib.NumberTheory.LSeries.Dirichlet
+public import Mathlib.NumberTheory.LSeries.SumCoeff
+public import Mathlib.Analysis.MellinTransform
+public import Mathlib.Analysis.Complex.RemovableSingularity
+public import Mathlib.Analysis.Complex.JensenFormula
+
+@[expose] public section
 
 open Complex Filter Set MeasureTheory Asymptotics
 open scoped Topology

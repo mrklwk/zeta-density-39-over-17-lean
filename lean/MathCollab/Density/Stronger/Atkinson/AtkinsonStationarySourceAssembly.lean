@@ -1,3 +1,4 @@
+module
 /-
 Exact stationary-source-to-prefix assembly using the narrowly ported McColm
 source at 6e2d10c6c2252ee1575bb7ef12dea12e2f1a3af1. The actual stationary sum
@@ -5,8 +6,10 @@ and all analytic estimates it consumes retain MIT-0 attribution in
 third_party/twelfth/LICENSE-MIT-0. Mathlib retains Apache-2.0 attribution.
 The local actual-zeta source approximation remains an explicit premise.
 -/
-import MathCollab.Density.Stronger.Atkinson.AtkinsonStationaryDyadic
-import MathCollab.Density.Stronger.Atkinson.AtkinsonSourceAssembly
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonStationaryDyadic
+public import MathCollab.Density.Stronger.Atkinson.AtkinsonSourceAssembly
+
+@[expose] public section
 
 open Complex MeasureTheory
 set_option autoImplicit false

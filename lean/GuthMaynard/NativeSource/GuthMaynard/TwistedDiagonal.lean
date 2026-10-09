@@ -1,4 +1,7 @@
-import GuthMaynard.NativeSource.GuthMaynard.TwistedMoment
+module
+public import GuthMaynard.NativeSource.GuthMaynard.TwistedMoment
+
+@[expose] public section
 
 open Complex Finset MeasureTheory
 open scoped BigOperators Interval

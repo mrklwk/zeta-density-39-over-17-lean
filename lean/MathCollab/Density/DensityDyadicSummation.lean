@@ -1,6 +1,9 @@
-import MathCollab.Density.ZetaConjugation
-import Mathlib.Algebra.Order.Archimedean.Basic
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
+module
+public import MathCollab.Density.ZetaConjugation
+public import Mathlib.Algebra.Order.Archimedean.Basic
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

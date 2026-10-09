@@ -1,4 +1,7 @@
-import GuthMaynard.SecondDerivative
+module
+public import GuthMaynard.SecondDerivative
+
+@[expose] public section
 
 open Set
 

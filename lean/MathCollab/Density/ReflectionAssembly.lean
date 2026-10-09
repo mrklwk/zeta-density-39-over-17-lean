@@ -1,6 +1,9 @@
-import MathCollab.Density.BandEnergy
-import MathCollab.Density.DyadicBlocks
-import MathCollab.Density.LocalCover
+module
+public import MathCollab.Density.BandEnergy
+public import MathCollab.Density.DyadicBlocks
+public import MathCollab.Density.LocalCover
+
+@[expose] public section
 
 open Real Complex Set MeasureTheory
 open scoped BigOperators ContDiff ComplexConjugate

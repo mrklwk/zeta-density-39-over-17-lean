@@ -1,11 +1,14 @@
+module
 /-
 Native stronger-density composition, preserving the original actual-zero count
 and analytic multiplicities. Imported McColm proofs retain MIT-0 attribution;
 Mathlib dependencies retain Apache-2.0 attribution.
 See third_party/twelfth/NATIVE_ENDPOINTS_MANIFEST.json.
 -/
-import MathCollab.Density.Stronger.NativeMoment
-import MathCollab.Density.DensityConclusion
+public import MathCollab.Density.Stronger.NativeMoment
+public import MathCollab.Density.DensityConclusion
+
+@[expose] public section
 
 open Filter MeasureTheory Set
 set_option autoImplicit false

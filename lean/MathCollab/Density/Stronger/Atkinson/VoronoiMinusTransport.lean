@@ -1,3 +1,4 @@
+module
 /-
 Canonical minus contour transport for the literal DFI Bessel multiplier.
 Target and selected rectangle-limit proof pattern: Scott McColm,
@@ -6,8 +7,10 @@ DFIEquation29.lean and PointMeanMellinShift.lean, revision
 The existing PNT+ rectangle infrastructure retains Apache-2.0 attribution.
 The final physical identity has no convergence or contour-identity premise.
 -/
-import MathCollab.Density.Stronger.Atkinson.VoronoiMinusConvergence
-import MathCollab.Density.Stronger.Atkinson.BesselTransformBridge
+public import MathCollab.Density.Stronger.Atkinson.VoronoiMinusConvergence
+public import MathCollab.Density.Stronger.Atkinson.BesselTransformBridge
+
+@[expose] public section
 
 open Complex Set MeasureTheory Filter Topology
 open MathCollab.Density.Contour MathCollab.Density.Stronger.PointMean

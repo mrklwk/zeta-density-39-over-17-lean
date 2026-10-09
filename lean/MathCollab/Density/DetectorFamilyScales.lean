@@ -1,5 +1,8 @@
-import MathCollab.Density.DetectorDyadic
-import Mathlib.Analysis.Complex.ExponentialBounds
+module
+public import MathCollab.Density.DetectorDyadic
+public import Mathlib.Analysis.Complex.ExponentialBounds
+
+@[expose] public section
 
 open Real Set Filter
 open scoped BigOperators Topology

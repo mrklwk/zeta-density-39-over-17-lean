@@ -1,5 +1,8 @@
-import MathCollab.Density.Stronger.ShortZeroCount
-import MathCollab.Density.Stronger.LongMeanCounting
+module
+public import MathCollab.Density.Stronger.ShortZeroCount
+public import MathCollab.Density.Stronger.LongMeanCounting
+
+@[expose] public section
 
 open Real Complex Set Filter MeasureTheory
 open scoped BigOperators Topology

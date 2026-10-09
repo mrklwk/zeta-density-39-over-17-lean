@@ -1,6 +1,9 @@
+module
 /- Native point-mean producer for the actual finite-peak interface. -/
-import MathCollab.Density.Stronger.PointMean.Equation44
-import MathCollab.Density.Stronger.Peaks.Inputs
+public import MathCollab.Density.Stronger.PointMean.Equation44
+public import MathCollab.Density.Stronger.Peaks.Inputs
+
+@[expose] public section
 
 set_option autoImplicit false
 noncomputable section

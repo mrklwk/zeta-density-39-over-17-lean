@@ -1,5 +1,8 @@
-import MathCollab.Density.ReflectionApplication
-import MathCollab.Density.ProductGrouping
+module
+public import MathCollab.Density.ReflectionApplication
+public import MathCollab.Density.ProductGrouping
+
+@[expose] public section
 
 open Real Set
 open scoped BigOperators
