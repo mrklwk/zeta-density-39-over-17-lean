@@ -1,0 +1,45 @@
+Akash Levy weighted-numerator quasi-Riemann proof, theta = 10499/12000, 2026-10-09.
+Author and human contributor: Akash Levy (GitHub: akashlevy).
+GPT-6 Astra (Ultra) was used to discover the proof and perform partial formalization; Opus 5.5 Ultracode was used to complete the formalization and submit the result.
+
+This package is a derivative of the Lean development of OpenAI's "The
+Quasi-Riemann Hypothesis" in github.com/openai/math at
+fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb (Apache-2.0). The proof imports that
+development through the fork github.com/akashlevy/math at
+c388e88e6519d139ad2ca5571ef0c7fbf0e245b5 (branch qrh-23-24-pruned), which is
+openai/math fd4aeeb2e with unused declarations pruned in place plus separate
+23/24 modules that this proof does not import, and through
+Mathlib at d13f23b723b8a846827a245b89c10fc7d3f11612 (Apache-2.0). The other
+pinned dependencies are listed in formalization/lake-manifest.json; the fork's
+Lean 4.34.1 compatibility patches for PrimeNumberTheoremAnd
+c39a751132c88b6e8080b74c74023fd95b3d8be0 and rellich-kondrachov
+70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23 (both Apache-2.0) are applied by
+formalization/setup.sh. Apart from the adapted modules and the modified
+upstream files noted below, no upstream source is redistributed here; setup.sh
+and Lake fetch it at the pinned revisions. The license texts of
+openai/math, Mathlib, PrimeNumberTheoremAnd and rellich-kondrachov are
+retained in third-party-notices/. UPSTREAM-NOTICE is the tracker's supplied
+notice.
+
+New and adapted material: the 228 Lean modules in formalization/WeightedQRH/
+(48 of them adaptations of openai/math fd4aeeb2e modules, each marked as
+adapted in its header), the Lake workspace files and scripts in
+formalization/, the manuscript in manuscript/, the exponent certificate and
+the recorded check reports in evidence/. Modified upstream files:
+formalization/ComparatorChallenges/WeightedQRHDirichlet.lean and
+WeightedQRHHecke.lean are OpenAI's upstream DirichletSevenEighths and
+HeckeSevenEighths Comparator challenges (openai/math fd4aeeb2e) with only the
+theorem name and the constant changed (WeightedQRHZeta.lean is new), and
+evidence/kernels/src/Challenge.lean is the tracker's fixed three-target
+template (public/proofs/palomar-20261009/qrh/src/Challenge.lean) with only its
+rational literal changed. All of it is licensed under Apache-2.0 (LICENSE);
+the adapted and modified files also remain subject to the Apache-2.0 terms
+and notices of their sources (third-party-notices/openai-math-LICENSE.txt,
+UPSTREAM-NOTICE).
+
+The recorded checks used, without redistributing them, the official Lean
+v4.35.0-rc2 release (lake comparator, leanchecker, nanoda_bin, con-ron), Lean
+4.34.1, lean4export 076e8e57707e813375e8f9da8bf989799ace9680 and the Lean FRO
+Comparator d03acab154d269c06e60e4de7e4cc85deebff94b, under their own licenses.
+No upstream author or project, checker project, Palomar, or the tracker's
+maintainers is represented as endorsing this result.

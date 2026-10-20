@@ -1,0 +1,2 @@
+module
+public import GuthMaynard.NativeSource.GuthMaynard.MediumTypeIEndpoint.Part02

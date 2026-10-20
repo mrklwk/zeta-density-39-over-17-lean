@@ -1,0 +1,28 @@
+{
+  "verification": "Both IDs, versions, titles, repositories, commits, registration status and dates matched official current recent.json; both human entry URLs resolved on official site. Individual data entry fetches unavailable through web tool; no private submission/status URLs used.",
+  "official_record_source": "https://data.palomar-registry.org/recent.json",
+  "references": [
+    {
+      "number": 1,
+      "id": "PALOMAR-2026-10-11-000010",
+      "version": 1,
+      "title": "Zero-density estimates from an improved large-values bound",
+      "url": "https://palomar-registry.org/entry?id=PALOMAR-2026-10-11-000010&version=1",
+      "repository": "mrklwk/zeta-density-39-over-17-lean",
+      "commit": "ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0",
+      "published_at": "2026-10-11T09:00:10Z",
+      "status": "registered"
+    },
+    {
+      "number": 2,
+      "id": "PALOMAR-2026-10-09-000005",
+      "version": 1,
+      "title": "A zero-density estimate with exponent 3(1\u2212\u03c3)/(2\u03c3) for the Riemann zeta function",
+      "url": "https://palomar-registry.org/entry?id=PALOMAR-2026-10-09-000005&version=1",
+      "repository": "mrklwk/zeta-density-three-over-two-sigma-lean",
+      "commit": "804bdb55b1fc40e6a1a6878fd96078644a70e288",
+      "published_at": "2026-10-09T05:50:18Z",
+      "status": "registered"
+    }
+  ]
+}

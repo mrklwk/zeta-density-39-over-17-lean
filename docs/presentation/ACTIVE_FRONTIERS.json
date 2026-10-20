@@ -1,0 +1,382 @@
+[
+  {
+    "id": "G1",
+    "provider_id": "P1",
+    "stage": "baseline",
+    "lo": "1/2",
+    "hi": "7/10",
+    "a": "-3/(s - 2)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "G2",
+    "provider_id": "P2",
+    "stage": "baseline",
+    "lo": "7/10",
+    "hi": "19/25",
+    "a": "15/(5*s + 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "G3",
+    "provider_id": "P3",
+    "stage": "baseline",
+    "lo": "19/25",
+    "hi": "127/167",
+    "a": "9/(8*s - 2)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  },
+  {
+    "id": "G4",
+    "provider_id": "P4",
+    "stage": "baseline",
+    "lo": "127/167",
+    "hi": "13/17",
+    "a": "15/(13*s - 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  },
+  {
+    "id": "G5",
+    "provider_id": "P5",
+    "stage": "baseline",
+    "lo": "13/17",
+    "hi": "17/22",
+    "a": "6/(5*s - 1)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "G6",
+    "provider_id": "P6",
+    "stage": "baseline",
+    "lo": "17/22",
+    "hi": "41/53",
+    "a": "2/(9*s - 6)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  },
+  {
+    "id": "G7",
+    "provider_id": "P7",
+    "stage": "baseline",
+    "lo": "41/53",
+    "hi": "7/9",
+    "a": "9/(7*s - 1)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "G8",
+    "provider_id": "P8",
+    "stage": "baseline",
+    "lo": "7/9",
+    "hi": "23/29",
+    "a": "9/(16*s - 8)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  },
+  {
+    "id": "G9",
+    "provider_id": "P9",
+    "stage": "baseline",
+    "lo": "23/29",
+    "hi": "7/8",
+    "a": "3/(2*s)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "G10",
+    "provider_id": "P10",
+    "stage": "baseline",
+    "lo": "7/8",
+    "hi": "1",
+    "a": "3/(10*s - 7)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  },
+  {
+    "id": "B1",
+    "provider_id": "P1",
+    "stage": "announced",
+    "lo": "1/2",
+    "hi": "9/13",
+    "a": "-3/(s - 2)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "B2",
+    "provider_id": "P11",
+    "stage": "announced",
+    "lo": "9/13",
+    "hi": "5/7",
+    "a": "18/(7*s + 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "B3",
+    "provider_id": "P12",
+    "stage": "announced",
+    "lo": "5/7",
+    "hi": "11/15",
+    "a": "9/4",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "B4",
+    "provider_id": "P2",
+    "stage": "announced",
+    "lo": "11/15",
+    "hi": "3/4",
+    "a": "15/(5*s + 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "B5",
+    "provider_id": "P13",
+    "stage": "announced",
+    "lo": "3/4",
+    "hi": "7/8",
+    "a": "3/(2*s)",
+    "plot_lo_closed": false,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "B6",
+    "provider_id": "P10",
+    "stage": "announced",
+    "lo": "7/8",
+    "hi": "1",
+    "a": "3/(10*s - 7)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  },
+  {
+    "id": "O1",
+    "provider_id": "P1",
+    "stage": "since_announcement",
+    "lo": "1/2",
+    "hi": "9/13",
+    "a": "-3/(s - 2)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O2",
+    "provider_id": "P11",
+    "stage": "since_announcement",
+    "lo": "9/13",
+    "hi": "12/17",
+    "a": "18/(7*s + 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O3",
+    "provider_id": "P14",
+    "stage": "since_announcement",
+    "lo": "12/17",
+    "hi": "5/7",
+    "a": "6/(8*s - 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O4",
+    "provider_id": "P15",
+    "stage": "since_announcement",
+    "lo": "5/7",
+    "hi": "113/153",
+    "a": "12/(9*s - 1)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O5",
+    "provider_id": "P16",
+    "stage": "since_announcement",
+    "lo": "113/153",
+    "hi": "3/4",
+    "a": "255/(153*s + 7)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O6",
+    "provider_id": "P13",
+    "stage": "since_announcement",
+    "lo": "3/4",
+    "hi": "7/9",
+    "a": "3/(2*s)",
+    "plot_lo_closed": false,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O7",
+    "provider_id": "P17",
+    "stage": "since_announcement",
+    "lo": "7/9",
+    "hi": "29359/37574",
+    "a": "3/(11*s - 7)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O8",
+    "provider_id": "P18",
+    "stage": "since_announcement",
+    "lo": "29359/37574",
+    "hi": "1015/1294",
+    "a": "4744/(4870*s - 1283)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O9",
+    "provider_id": "P19",
+    "stage": "since_announcement",
+    "lo": "1015/1294",
+    "hi": "353/447",
+    "a": "6154/(6354*s - 1693)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O10",
+    "provider_id": "P20",
+    "stage": "since_announcement",
+    "lo": "353/447",
+    "hi": "467/586",
+    "a": "3782/(3936*s - 1065)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O11",
+    "provider_id": "P21",
+    "stage": "since_announcement",
+    "lo": "467/586",
+    "hi": "289/358",
+    "a": "2168/(2282*s - 631)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O12",
+    "provider_id": "P22",
+    "stage": "since_announcement",
+    "lo": "289/358",
+    "hi": "163/198",
+    "a": "566/(606*s - 173)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O13",
+    "provider_id": "P23",
+    "stage": "since_announcement",
+    "lo": "163/198",
+    "hi": "7873/9370",
+    "a": "31544/(35670*s - 11203)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O14",
+    "provider_id": "P24",
+    "stage": "since_announcement",
+    "lo": "7873/9370",
+    "hi": "2018/2375",
+    "a": "1261710/(1447460*s - 465509)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O15",
+    "provider_id": "P25",
+    "stage": "since_announcement",
+    "lo": "2018/2375",
+    "hi": "1959705/2298302",
+    "a": "3066/(3616*s - 1215)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O16",
+    "provider_id": "P26",
+    "stage": "since_announcement",
+    "lo": "1959705/2298302",
+    "hi": "6482825/7570038",
+    "a": "597962/(729216*s - 257415)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O17",
+    "provider_id": "P27",
+    "stage": "since_announcement",
+    "lo": "6482825/7570038",
+    "hi": "2905/3354",
+    "a": "16504356/(20732766*s - 7623595)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O18",
+    "provider_id": "P28",
+    "stage": "since_announcement",
+    "lo": "2905/3354",
+    "hi": "7/8",
+    "a": "2172/(2742*s - 1015)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O19",
+    "provider_id": "P29",
+    "stage": "since_announcement",
+    "lo": "7/8",
+    "hi": "24139/27578",
+    "a": "-1086/(5537*s - 5537)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O20",
+    "provider_id": "P30",
+    "stage": "since_announcement",
+    "lo": "24139/27578",
+    "hi": "23/26",
+    "a": "24/(30*s - 11)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O21",
+    "provider_id": "P31",
+    "stage": "since_announcement",
+    "lo": "23/26",
+    "hi": "17/19",
+    "a": "6/(s + 3)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": true
+  },
+  {
+    "id": "O22",
+    "provider_id": "P10",
+    "stage": "since_announcement",
+    "lo": "17/19",
+    "hi": "1",
+    "a": "3/(10*s - 7)",
+    "plot_lo_closed": true,
+    "plot_hi_closed": false
+  }
+]

@@ -1,0 +1,1076 @@
+{
+  "status": "PROOF_CLOSURE_SUMMARY",
+  "roots": [
+    {
+      "root": "LewkoDensityPalomar.provider_P1",
+      "declarations": 133202,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P2",
+      "declarations": 135253,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P3",
+      "declarations": 131744,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P4",
+      "declarations": 131744,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P5",
+      "declarations": 131744,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P6",
+      "declarations": 131744,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P7",
+      "declarations": 131744,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P8",
+      "declarations": 137760,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P9",
+      "declarations": 147234,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P10",
+      "declarations": 150005,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P11",
+      "declarations": 76446,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P12",
+      "declarations": 76440,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P13",
+      "declarations": 71143,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P14",
+      "declarations": 131429,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P15",
+      "declarations": 73168,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P16",
+      "declarations": 73163,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P17",
+      "declarations": 82605,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P18",
+      "declarations": 82605,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P19",
+      "declarations": 82605,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P20",
+      "declarations": 82605,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P21",
+      "declarations": 82609,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P22",
+      "declarations": 82547,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P23",
+      "declarations": 93272,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P24",
+      "declarations": 94176,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P25",
+      "declarations": 91312,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P26",
+      "declarations": 91014,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P27",
+      "declarations": 92948,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P28",
+      "declarations": 92948,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P29",
+      "declarations": 92950,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P30",
+      "declarations": 145655,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.provider_P31",
+      "declarations": 124454,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G1",
+      "declarations": 133203,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G2",
+      "declarations": 135256,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G3",
+      "declarations": 131745,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G4",
+      "declarations": 131745,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G5",
+      "declarations": 131747,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G6",
+      "declarations": 131745,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G7",
+      "declarations": 138349,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G8",
+      "declarations": 137761,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G9",
+      "declarations": 147235,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_G10",
+      "declarations": 150006,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_B1",
+      "declarations": 133203,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_B2",
+      "declarations": 76447,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_B3",
+      "declarations": 76441,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_B4",
+      "declarations": 135254,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_B5",
+      "declarations": 71144,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_B6",
+      "declarations": 150006,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O1",
+      "declarations": 133203,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O2",
+      "declarations": 76447,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O3",
+      "declarations": 131430,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O4",
+      "declarations": 73169,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O5",
+      "declarations": 73164,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O6",
+      "declarations": 71144,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O7",
+      "declarations": 82606,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O8",
+      "declarations": 82606,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O9",
+      "declarations": 82606,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O10",
+      "declarations": 82606,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O11",
+      "declarations": 82610,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O12",
+      "declarations": 82548,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O13",
+      "declarations": 93273,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O14",
+      "declarations": 94177,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O15",
+      "declarations": 91313,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O16",
+      "declarations": 91015,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O17",
+      "declarations": 92949,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O18",
+      "declarations": 92949,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O19",
+      "declarations": 92951,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O20",
+      "declarations": 145656,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O21",
+      "declarations": 124455,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.piece_O22",
+      "declarations": 150006,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.global39over17",
+      "declarations": 80361,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.uniform_P29",
+      "declarations": 92947,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.uniform_P30",
+      "declarations": 145654,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.uniform_P31",
+      "declarations": 124453,
+      "OAI_declarations": 24442,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": true
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroWeight",
+      "declarations": 52964,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroCount",
+      "declarations": 52965,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroCount_eq_finset",
+      "declarations": 52966,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroCount_le_iff",
+      "declarations": 52967,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.exact_zero_set_exists",
+      "declarations": 59732,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": false,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroCount_ne_top",
+      "declarations": 59745,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.positive_finite_multiplicity",
+      "declarations": 59711,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroCount_eq_zetaDensityCount",
+      "declarations": 59754,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    },
+    {
+      "root": "LewkoDensityPalomar.zeroCount_le_iff_project",
+      "declarations": 59755,
+      "OAI_declarations": 0,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "canonical_zeta": true,
+      "analytic_multiplicity": true,
+      "uses_actual_zero_bridge": false
+    }
+  ],
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}

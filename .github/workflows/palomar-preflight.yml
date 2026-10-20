@@ -25,4 +25,4 @@ jobs:
       request_id: ${{ inputs.request_id }}
       mode: full
       execution_profile: palomar-standard-v1
-      options: '{"authorization_relationship":"I have approval from a responsible author or maintainer","project_path":"lean","comparator_config_path":"lean/comparator.json","formalization_metadata_path":"lean/formalization.yaml"}'
+      options: '{"authorization_relationship":"I have approval from a responsible author or maintainer","project_path":".","comparator_config_path":"comparator.json","formalization_metadata_path":"formalization.yaml"}'

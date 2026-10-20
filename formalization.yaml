@@ -1,0 +1,70 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "Improved zero-density estimates for the Riemann zeta function",
+    "description": "We establish improved zero-density estimates for the Riemann zeta function relative to the bounds previously released in PALOMAR-2026-10-11-000010 v1 and PALOMAR-2026-10-09-000005 v1. Let N(σ,T) count the nontrivial zeros with Re ρ ≥ σ and |Im ρ| ≤ T, with analytic multiplicity. For T ≥ 2 and ε > 0, our bounds have the form N(σ,T) ≤ C(σ,ε)T^((1−σ)A(σ)+ε). The native quantitative bounds improve those earlier power curves for 12/17 < σ ≤ 3/4 and 7/9 < σ ≤ 7/8. The displayed power-curve comparison continues for 7/8 < σ < 17/19, where the imported OpenAI result already gives N(σ,T)=0. Later Lean-formalized refinements also give a zero-free region below 7/8 [Collet26]; our comparisons near 7/8 concern the named earlier results. Table 1 gives all the proved contribution curves and their full ranges, including A(σ)=12/(9σ−1) on [5/7,113/153] and A(σ)=255/(153σ+7) on [113/153,3/4]. Figure 1 compares the cumulative curves.",
+    "authors": [
+      "Mark Lewko"
+    ],
+    "license": "AGPL-3.0-only",
+    "responsible_maintainers": [
+      "Mark Lewko"
+    ]
+  },
+  "classification": {
+    "arxiv": [
+      "math.NT"
+    ],
+    "msc2020": [
+      "11M26"
+    ]
+  },
+  "sources": [
+    {
+      "title": "New zero-density power-curve estimates and native Dirichlet-polynomial arguments (manuscript and formalization)",
+      "type": "original-proof",
+      "relationship": "other",
+      "note": "The native quantitative power-curve comparison is relative to the two named earlier submissions. Later zero-free refinements already imply zero counts in part of the range near 7/8. Previously announced bounds and imported consequences are distinguished in README; kernel acceptance alone does not establish novelty."
+    },
+    {
+      "title": "Tao–Trudgian–Yang (2025), Table 2; Kerr, Theorem 6",
+      "relationship": "background",
+      "note": "Comparative conclusions; native domination and strict zero-freeness are used here rather than each original historical analytic argument."
+    },
+    {
+      "title": "OpenAI, The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane Re s > 7/8 (30 September 2026)",
+      "type": "paper",
+      "relationship": "other",
+      "url": "https://github.com/openai/math/blob/main/lean/docs/003.md",
+      "note": "Imported strict zero-freeness input with kernel-checked proof; credited to OpenAI and excluded from new contributions."
+    },
+    {
+      "title": "Baiying Liu, Improved zero-free half-planes for the quasi-Riemann hypothesis (12 October 2026, arXiv:2610.12234v2)",
+      "type": "paper",
+      "relationship": "background",
+      "url": "https://arxiv.org/abs/2610.12234v2",
+      "note": "Later strict zero-free boundary B∞=0.874957019420098946…; the author reports Lean source replay with pinned external artifacts. Cited as later literature; not imported into this formalization and not independently rerun here."
+    },
+    {
+      "title": "Hailey Collet, A zero-free half-plane with boundary 874861/1000000",
+      "type": "paper",
+      "relationship": "background",
+      "url": "https://haileystorm.github.io/research/cycle61-qrh-boundary/",
+      "note": "Later strict zero-free boundary Re(s)>874861/1000000. Separate public tracker verification reports Lean, NanoDa and con-ron at source commit fb6d4fd11aeaff0b37dd96bad3b274ce28a5c08b. Cited as later literature; not imported into this release’s 73-statement proof closure."
+    }
+  ],
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "framework": "Codex",
+        "tool_setup": "Lean formalization, exact expression-closure inspection, rational frontier auditing and documentation"
+      }
+    ],
+    "notes": "No human peer review is claimed."
+  },
+  "review": {
+    "status": "agent-reviewed",
+    "notes": "The 73 selected statements passed protected Linux Comparator at proof snapshot 451872fbaff36e7f042b9a69b4f206b433269421 on 20 October 2026, including Lean, NanoDa and verified con-ron. This editorial revision changes no proof source or mathematical statement. The three supplements have separate Lean 4.34.1 evidence and are outside the main selection. Hosted Palomar verification, rendering and registry review have not run."
+  }
+}

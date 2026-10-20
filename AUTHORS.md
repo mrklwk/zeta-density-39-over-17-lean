@@ -1,5 +1,5 @@
 # Authorship and assistance
 
-Project author: Mark Lewko.
+Project author and sole human responsible maintainer: Mark Lewko.
 
-The formalization and release preparation used AI assistance. Separate AI-assisted internal checks are described in VERIFICATION.json; they are not human peer review. Upstream proof authors and copyright holders retain the attribution recorded in source headers and THIRD_PARTY_NOTICES.md. Project authorship does not imply sole authorship of included upstream proofs.
+Codex assisted with Lean formalization, proof-closure inspection, rational frontier auditing and documentation. No human peer review is claimed. Upstream proof authors and copyright holders retain the attribution recorded in source headers and THIRD_PARTY_NOTICES.md.

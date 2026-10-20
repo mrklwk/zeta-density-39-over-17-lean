@@ -1,0 +1,26 @@
+{
+  "id": "EXT-OPENAI-7-8",
+  "attribution": "OpenAI",
+  "title": "The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane Re s > 7/8",
+  "date": "2026-09-30",
+  "official_scope_url": "https://github.com/openai/math/blob/main/lean/docs/003.md",
+  "official_paper_url": "https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf",
+  "official_statement_url": "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/QuasiRiemannHypothesis.lean",
+  "statement": "For every complex s with 7/8 < Re(s), riemannZeta(s) is nonzero.",
+  "count_consequence": "N(sigma,T)=0 for every sigma>7/8 and T>=2.",
+  "boundary": "7/8",
+  "boundary_included": false,
+  "plot_domain": "(7/8,1]",
+  "formal_verification_here": true,
+  "label": "OpenAI result; kernel-checked dependency; not a new contribution.",
+  "later_Liu_Collet_Gao_refinements_included": false,
+  "source_sha256": {
+    "OpenAI-003.md": "41e52ed718260e6feb1db218f8e97287e703cb63c6f16e6c36f5563e6e2395ce",
+    "OpenAI-QRH-paper.pdf": "8fe93046f8cf5ef1ba5969c89addc02d76311adc4ee907509ff9cd96f7ec99e7",
+    "OpenAI-QuasiRiemannHypothesis.lean": "065f8c9a01d28db78c8b1bfc5083b535082a2d2aac2230d563f98b8caa812cc5"
+  },
+  "verification_scope": "Imported theorem and its full proof dependency closure covered by existing Lean, NanoDa and verified con-ron checks; no new standalone external replay.",
+  "kernel_checked_theorem": "OAI.SevenEighths.ProbeFinalAssemblyUnconditional.zeta_nonzero",
+  "counted_as_new_contribution": false,
+  "new_standalone_kernel_replay": false
+}

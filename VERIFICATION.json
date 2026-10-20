@@ -1,82 +1,28 @@
 {
-  "status": "PASS: private Lean 4.35 compatibility checks; not published or submitted",
-  "baseline_public_commit": "6a2c941b69f2ae91bfa0a63a8b867bfa829db6df",
-  "toolchain": {
-    "lean": "4.35.0-rc2",
-    "compiler": "11acb17ec6b07a8f9e9173e6845197929540936b",
-    "mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
-    "transitive_pins": "lean/lake-manifest.json"
-  },
-  "project_modules": 826,
-  "regular_lean_files": 829,
-  "all_module_build": {
-    "command": "lake --no-cache build MathCollab GuthMaynard WeylPort Solution VerificationStatements Challenge",
-    "exit_code": 0,
-    "seconds": 94.54851345298812,
-    "compiler_limit": 2
-  },
-  "build_process": "Started with empty project artifacts and existing pinned dependency caches; resumed after enumerated compatibility repairs. Final all-library build passed.",
-  "source_binding": {
+  "selected_statements": 73,
+  "proof_snapshot": "451872fbaff36e7f042b9a69b4f206b433269421",
+  "proof_source_files_preserved": 4769,
+  "lean": "4.35.0-rc2",
+  "mathlib": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "protected_comparator": {
     "status": "PASS",
-    "matched_source_and_configuration_files": 833,
-    "project_olean_count": 826,
-    "mismatches": [],
-    "missing_oleans": []
+    "date": "2026-10-20",
+    "kernels": [
+      "Lean",
+      "NanoDa",
+      "con-ron --verified"
+    ],
+    "scope": "The unchanged proof snapshot; no proof kernel rerun was performed for this editorial release."
   },
-  "checks": [
-    {
-      "name": "StatementChecks",
-      "exit_code": 0,
-      "seconds": 3.468,
-      "log_sha256": "68515d3e39a48fb1e6c3f53e2e697c7e69003f11910343e3809e1881dfadab0f"
-    },
-    {
-      "name": "CoefficientChecks",
-      "exit_code": 0,
-      "seconds": 2.067,
-      "log_sha256": "7f783725e1b31b158abcf0b4244271c435a50cb0fb2df29f5e107d1b090351d5"
-    },
-    {
-      "name": "TrustReplay",
-      "exit_code": 0,
-      "seconds": 98.72,
-      "log_sha256": "04f7bf848471c56e9804415c91923324323ef3123d3cc710e16425b8d65bcb06"
-    },
-    {
-      "name": "sandbox-check",
-      "exit_code": 0,
-      "seconds": 0.008,
-      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "name": "comparator",
-      "exit_code": 0,
-      "seconds": 201.052,
-      "log_sha256": "987266d82824e454c870d67921efcc209ea8f06a97594b67659f8078d5f435d2"
-    },
-    {
-      "name": "comparator-nanoda",
-      "exit_code": 0,
-      "seconds": 223.688,
-      "log_sha256": "e08bd1d9f93d662c80e98aac395c471d91a0fabd7287e940da1465d338c62463"
-    }
+  "allowed_axioms": [
+    "Classical.choice",
+    "propext",
+    "Quot.sound"
   ],
-  "fresh_replay": {
-    "declarations": 83152,
-    "theorem_roots": 15,
-    "axioms": [
-      "propext",
-      "Classical.choice",
-      "Quot.sound"
-    ]
-  },
-  "comparator_scope": "Sandboxed build/export/Lean kernel and protected NanoDa configuration. Reused artifacts from the freshly built, source-hash-matched project; not an independent clean-source Comparator rebuild or the complete hosted preflight. No exports supplied externally; no sandbox bypass.",
-  "independent_review": "Separate AI source-equivalence and interface review of migration, split, visibility/import repairs, four theorems and three definitions. Final receipt review is recorded separately. No human peer review claimed.",
-  "metadata": "v0.4 schema and pinned Palomar mechanical metadata contract passed; final descriptive fields revalidated separately.",
-  "remaining": [
-    "Review proposed metadata and exact candidate before publication",
-    "Complete pinned hosted full preflight, including license detector match, after separate publication authorization",
-    "Separate intake authorization; registration requires explicit consent after the actual review"
-  ],
-  "public_actions": []
+  "hosted_Palomar_verification": "NOT_RUN",
+  "Palomar_registration": "NOT_PERFORMED",
+  "supplements": "Separate Lean 4.34.1 evidence; excluded from the 73 selected statements.",
+  "later_zero_free_results": "Background references only; excluded from this release’s proof dependencies.",
+  "known_diagnostics": "Four Huxley warnings and one nonfatal NanoDa axiom pretty-print diagnostic; no NanoDa typechecker errors.",
+  "human_peer_review_claimed": false
 }

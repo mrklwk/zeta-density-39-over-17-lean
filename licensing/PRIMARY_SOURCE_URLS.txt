@@ -1,0 +1,8 @@
+Read-only sources checked 2026-10-19 UTC. Exact repository bytes and Git blob receipts are preserved alongside this file.
+
+https://raw.githubusercontent.com/mrklwk/zeta-density-39-over-17-lean/6a2c941b69f2ae91bfa0a63a8b867bfa829db6df/LICENSING.md
+https://raw.githubusercontent.com/mrklwk/zeta-density-39-over-17-lean/6a2c941b69f2ae91bfa0a63a8b867bfa829db6df/THIRD_PARTY_NOTICES.md
+https://spdx.org/licenses/AGPL-3.0-only.html
+https://www.apache.org/licenses/GPL-compatibility.html
+
+The precise AGPL-only grant comes from the pinned project LICENSING/README notices. The license appendix alone does not decide only versus or-later.

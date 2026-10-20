@@ -1,6 +1,2 @@
-lean/.lake/
-*.olean
-*.ilean
-*.olean.private
-*.olean.server
+.lake/
 .DS_Store

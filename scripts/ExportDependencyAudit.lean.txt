@@ -1,0 +1,61 @@
+module
+import LeanExport.Parse
+import Lean
+
+open Lean
+
+/-- Read an already verified export without importing candidate code or replaying proofs.
+This tool extracts the actual expression dependencies, not an import-name heuristic. -/
+public def main (args : List String) : IO UInt32 := do
+  let [outPath, rootsPath, resultPath] := args |
+    throw <| IO.userError "Expected graph-output roots-json result-json; export on stdin"
+  let .ok config := Json.parse (← IO.FS.readFile rootsPath) |
+    throw <| IO.userError "Invalid roots JSON"
+  let .ok roots := config.getObjValAs? (Array String) "roots" |
+    throw <| IO.userError "Missing roots"
+  let env ← LeanExport.parseStream (← IO.getStdin)
+  let mut found : Array String := #[]
+  let mut absent : Array String := #[]
+  let mut axioms : Array String := #[]
+  let mut unsafeNames : Array String := #[]
+  let mut partialNames : Array String := #[]
+  IO.FS.withFile outPath .write fun h => do
+    for (n, ci) in env.constMap do
+      let mut ds := ci.getUsedConstantsAsSet.toArray
+      match ci with
+      | .inductInfo info => ds := ds ++ info.all.toArray ++ info.ctors.toArray
+      | .quotInfo _ => ds := ds.push ``Eq
+      | _ => pure ()
+      let td := ci.type.getUsedConstants
+      let kind := match ci with
+        | .thmInfo _ => "theorem"
+        | .defnInfo _ => "definition"
+        | .opaqueInfo _ => "opaque"
+        | .axiomInfo _ => "axiom"
+        | .inductInfo _ => "inductive"
+        | .ctorInfo _ => "constructor"
+        | .recInfo _ => "recursor"
+        | .quotInfo _ => "quotient"
+      let base := [("name", toJson n.toString), ("kind",toJson kind),
+        ("dependencies",toJson (ds.map Name.toString)),
+        ("type_dependencies",toJson (td.map Name.toString))]
+      let data := if roots.contains n.toString then
+        base ++ [("raw_type",toJson (toString ci.type))] else base
+      h.putStrLn (Json.mkObj data).compress
+  for root in roots do
+    if (env.constMap[root.toName]?).isSome then found := found.push root
+    else absent := absent.push root
+  for (n, ci) in env.constMap do
+    if ci.isAxiom then axioms := axioms.push n.toString
+    if ci.isUnsafe then unsafeNames := unsafeNames.push n.toString
+    if let .defnInfo v := ci then
+      if v.safety == .partial then partialNames := partialNames.push n.toString
+  let result := Json.mkObj [
+    ("status",toJson "ACTUAL_EXPORT_EXPRESSION_DEPENDENCIES_EXTRACTED"),
+    ("declarations",toJson env.constMap.size), ("found_roots",toJson found),
+    ("absent_roots",toJson absent), ("axioms",toJson axioms),
+    ("unsafe_declarations",toJson unsafeNames), ("partial_declarations",toJson partialNames),
+    ("candidate_code_imported",toJson false), ("kernel_replay",toJson false)]
+  IO.FS.writeFile resultPath (result.pretty ++ "\n")
+  IO.println s!"Extracted {env.constMap.size} declarations; requested roots {found.size} found, {absent.size} absent."
+  return 0

@@ -1,0 +1,13 @@
+OpenAI [3] proves N(σ,T)=0 for σ>7/8; the boundary is excluded. The imported proof is kernel-checked here and credited to OpenAI.
+
+[3] OpenAI, The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane Re s > 7/8 (30 September 2026). https://github.com/openai/math/blob/main/lean/docs/003.md
+
+The table retains consequence labels for A=6/(8σ-3), A=24/(30σ-11), and A=6/(σ+3); proof routes are summarized in README.md and docs/presentation/BOUNDS.json.
+
+Subsequent Lean-verified refinements lower the zero-free boundary below 7/8, including Hailey Collet’s strict bound Re(s)>874861/1000000=0.874861 [Collet26]. Liu’s intermediate refinement gives B∞=0.874957019420098946… [Liu26]. Our comparison near 7/8 is with the specified earlier results and does not improve the current zero-free region.
+
+The imported, kernel-checked input used by this formalization remains OpenAI’s strict 7/8 theorem. Collet’s result has separate public tracker verification with Lean, NanoDa and con-ron. Liu’s repository reports a strict Lean source replay using pinned external artifacts. These later results are cited as literature; they are not imported into this release’s 73-statement proof closure, and no new replay of them was run for this editorial revision.
+
+[Liu26] Baiying Liu, Improved zero-free half-planes for the quasi-Riemann hypothesis, arXiv:2610.12234v2 (12 October 2026). https://arxiv.org/abs/2610.12234v2
+
+[Collet26] Hailey Collet, A zero-free half-plane with boundary 874861/1000000. https://haileystorm.github.io/research/cycle61-qrh-boundary/

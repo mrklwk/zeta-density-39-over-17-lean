@@ -1,0 +1,40 @@
+{
+  "dependency_pins": [
+    {
+      "name": "mathlib",
+      "revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+    },
+    {
+      "name": "plausible",
+      "revision": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "95e037bfdc31d3916ac615446847fb01960e2719"
+    },
+    {
+      "name": "importGraph",
+      "revision": "10930f8138f0462dbd744a91fc03a16fae0e046f"
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+    },
+    {
+      "name": "aesop",
+      "revision": "75d936c7af167cc93fac0d31237682fc2204591d"
+    },
+    {
+      "name": "Qq",
+      "revision": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+    },
+    {
+      "name": "batteries",
+      "revision": "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+    },
+    {
+      "name": "Cli",
+      "revision": "2842b9871b04862f944c032e34052cb9448ccb71"
+    }
+  ]
+}

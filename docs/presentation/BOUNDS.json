@@ -1,0 +1,1449 @@
+{
+  "title": "Power zero-density bounds: chart companion",
+  "utc": "2026-10-19T21:33:34.443552+00:00",
+  "status": "PUBLIC_SOURCE_COMPANION",
+  "conventions": [
+    "N(sigma,T) is the full zeta zero count with analytic multiplicity, both signs |Im rho|<=T and 0<Re rho<1. Every main row is a full-density theorem for all real T>=2.",
+    "Every epsilon>0 allows the bound N(sigma,T)<=C*T^(p(sigma)+epsilon). Unless p is printed directly, p(sigma)=A(sigma)*(1-sigma). In formulas s means sigma.",
+    "Square brackets include endpoints; round brackets exclude them. Rows give full verified source-theorem ranges. Earlier graphic junctions may close by the equal-valued adjacent theorem; graphic endpoint flags remain in the structured mapping.",
+    "Verified means the exact row conclusion has a completed Lean proof and recorded kernel verification. This does not claim every original historical analytic route was reimplemented. Component rows are verified only for their stated different objects.",
+    "The current, previously announced, and prior published plots share source rows. Repeated stage appearances are consolidated; every active plot segment and full support piece remains mapped in the JSON. Overlapping ranges are intentional."
+  ],
+  "main_rows": [
+    {
+      "id": "P1",
+      "source_class": "prior published",
+      "formula_A": "-3/(s - 2)",
+      "formula_p": "(-3/(s - 2))*(1-sigma)",
+      "display_formula": "A = 3/(2-s)",
+      "domains": [
+        {
+          "lo": "1/2",
+          "hi": "7/10",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[1/2, 7/10]",
+      "status": "Verified",
+      "source_labels": [
+        "Ingham"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_1",
+          "source_class": "prior published",
+          "A": "-3/(s - 2)",
+          "p": "(-3/(s - 2))*(1-sigma)",
+          "domain": "[1/2, 7/10]",
+          "status": "Verified",
+          "attribution": "Ingham",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_1"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G1",
+        "B1",
+        "O1"
+      ],
+      "support_piece_ids": [
+        "S1",
+        "S11",
+        "S17"
+      ],
+      "display_source": "Ingham"
+    },
+    {
+      "id": "P2",
+      "source_class": "prior published",
+      "formula_A": "15/(5*s + 3)",
+      "formula_p": "(15/(5*s + 3))*(1-sigma)",
+      "display_formula": "A = 15/(5*s + 3)",
+      "domains": [
+        {
+          "lo": "7/10",
+          "hi": "19/25",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[7/10, 19/25)",
+      "status": "Verified",
+      "source_labels": [
+        "Guth–Maynard"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_2",
+          "source_class": "prior published",
+          "A": "15/(5*s + 3)",
+          "p": "(15/(5*s + 3))*(1-sigma)",
+          "domain": "[7/10, 19/25)",
+          "status": "Verified",
+          "attribution": "Guth–Maynard",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_2"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G2",
+        "B4"
+      ],
+      "support_piece_ids": [
+        "S2",
+        "S14"
+      ],
+      "original_chart_support_domain": "[7/10, 19/25]",
+      "display_source": "Guth–Maynard"
+    },
+    {
+      "id": "P3",
+      "source_class": "prior published",
+      "formula_A": "9/(8*s - 2)",
+      "formula_p": "(9/(8*s - 2))*(1-sigma)",
+      "display_formula": "A = 9/(8*s - 2)",
+      "domains": [
+        {
+          "lo": "19/25",
+          "hi": "127/167",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[19/25, 127/167)",
+      "status": "Verified",
+      "source_labels": [
+        "Ivić / TTY Table2"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_3",
+          "source_class": "prior published",
+          "A": "9/(8*s - 2)",
+          "p": "(9/(8*s - 2))*(1-sigma)",
+          "domain": "[19/25, 127/167)",
+          "status": "Verified",
+          "attribution": "Ivić / TTY Table2",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_3"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G3"
+      ],
+      "support_piece_ids": [
+        "S3"
+      ],
+      "display_source": "Ivić / TTY Table2"
+    },
+    {
+      "id": "P4",
+      "source_class": "prior published",
+      "formula_A": "15/(13*s - 3)",
+      "formula_p": "(15/(13*s - 3))*(1-sigma)",
+      "display_formula": "A = 15/(13*s - 3)",
+      "domains": [
+        {
+          "lo": "127/167",
+          "hi": "13/17",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[127/167, 13/17)",
+      "status": "Verified",
+      "source_labels": [
+        "TTY Table2 row4"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_4",
+          "source_class": "prior published",
+          "A": "15/(13*s - 3)",
+          "p": "(15/(13*s - 3))*(1-sigma)",
+          "domain": "[127/167, 13/17)",
+          "status": "Verified",
+          "attribution": "TTY Table2 row4",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_4"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G4"
+      ],
+      "support_piece_ids": [
+        "S4"
+      ],
+      "display_source": "TTY Table2 row4"
+    },
+    {
+      "id": "P5",
+      "source_class": "prior published",
+      "formula_A": "6/(5*s - 1)",
+      "formula_p": "(6/(5*s - 1))*(1-sigma)",
+      "display_formula": "A = 6/(5*s - 1)",
+      "domains": [
+        {
+          "lo": "13/17",
+          "hi": "17/22",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[13/17, 17/22)",
+      "status": "Verified",
+      "source_labels": [
+        "TTY Table2 row5"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_5",
+          "source_class": "prior published",
+          "A": "6/(5*s - 1)",
+          "p": "(6/(5*s - 1))*(1-sigma)",
+          "domain": "[13/17, 17/22)",
+          "status": "Verified",
+          "attribution": "TTY Table2 row5",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_5"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G5"
+      ],
+      "support_piece_ids": [
+        "S5"
+      ],
+      "original_chart_support_domain": "[13/17, 17/22]",
+      "display_source": "TTY Table2 row5"
+    },
+    {
+      "id": "P6",
+      "source_class": "prior published",
+      "formula_A": "2/(9*s - 6)",
+      "formula_p": "(2/(9*s - 6))*(1-sigma)",
+      "display_formula": "A = 2/(9*s - 6)",
+      "domains": [
+        {
+          "lo": "17/22",
+          "hi": "41/53",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[17/22, 41/53)",
+      "status": "Verified",
+      "source_labels": [
+        "TTY Table2 row6"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_6",
+          "source_class": "prior published",
+          "A": "2/(9*s - 6)",
+          "p": "(2/(9*s - 6))*(1-sigma)",
+          "domain": "[17/22, 41/53)",
+          "status": "Verified",
+          "attribution": "TTY Table2 row6",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_6"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G6"
+      ],
+      "support_piece_ids": [
+        "S6"
+      ],
+      "display_source": "TTY Table2 row6"
+    },
+    {
+      "id": "P7",
+      "source_class": "prior published",
+      "formula_A": "9/(7*s - 1)",
+      "formula_p": "(9/(7*s - 1))*(1-sigma)",
+      "display_formula": "A = 9/(7*s - 1)",
+      "domains": [
+        {
+          "lo": "41/53",
+          "hi": "7/9",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[41/53, 7/9)",
+      "status": "Verified",
+      "source_labels": [
+        "TTY Table2 row7"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_7",
+          "source_class": "prior published",
+          "A": "9/(7*s - 1)",
+          "p": "(9/(7*s - 1))*(1-sigma)",
+          "domain": "[41/53, 7/9)",
+          "status": "Verified",
+          "attribution": "TTY Table2 row7",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_7"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G7"
+      ],
+      "support_piece_ids": [
+        "S7"
+      ],
+      "original_chart_support_domain": "[41/53, 7/9]",
+      "display_source": "TTY Table2 row7"
+    },
+    {
+      "id": "P8",
+      "source_class": "prior published",
+      "formula_A": "9/(16*s - 8)",
+      "formula_p": "(9/(16*s - 8))*(1-sigma)",
+      "display_formula": "A = 9/(16*s - 8)",
+      "domains": [
+        {
+          "lo": "7/9",
+          "hi": "1867/2347",
+          "lo_closed": true,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "[7/9, 1867/2347)",
+      "status": "Verified",
+      "source_labels": [
+        "TTY Table2 row8"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_tty_8",
+          "source_class": "prior published",
+          "A": "9/(16*s - 8)",
+          "p": "(9/(16*s - 8))*(1-sigma)",
+          "domain": "[7/9, 1867/2347)",
+          "status": "Verified",
+          "attribution": "TTY Table2 row8",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_tty_8"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G8"
+      ],
+      "support_piece_ids": [
+        "S8"
+      ],
+      "original_chart_support_domain": "[7/9, 23/29)",
+      "display_source": "TTY Table2 row8"
+    },
+    {
+      "id": "P9",
+      "source_class": "prior published",
+      "formula_A": "3/(2*s)",
+      "formula_p": "(3/(2*s))*(1-sigma)",
+      "display_formula": "A = 3/(2*s)",
+      "domains": [
+        {
+          "lo": "23/29",
+          "hi": "1",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[23/29, 1]",
+      "status": "Verified",
+      "source_labels": [
+        "Kerr Theorem6"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_kerr6",
+          "source_class": "prior published",
+          "A": "3/(2*s)",
+          "p": "(3/(2*s))*(1-sigma)",
+          "domain": "[23/29, 1]",
+          "status": "Verified",
+          "attribution": "Kerr Theorem6",
+          "source": "Kerr (2019), Theorems6–7, printed p7; https://arxiv.org/html/1909.12075v1#S3",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_kerr6"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G9"
+      ],
+      "support_piece_ids": [
+        "S9"
+      ],
+      "original_chart_support_domain": "[23/29, 7/8]",
+      "display_source": "Kerr Theorem6",
+      "proof_route_in_this_formalization": "Native domination through 7/8; imported zero-freeness above 7/8."
+    },
+    {
+      "id": "P10",
+      "source_class": "prior published",
+      "formula_A": "3/(10*s - 7)",
+      "formula_p": "(3/(10*s - 7))*(1-sigma)",
+      "display_formula": "A = 3/(10*s - 7)",
+      "domains": [
+        {
+          "lo": "7/10",
+          "hi": "1",
+          "lo_closed": false,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "(7/10, 1]",
+      "status": "Verified",
+      "source_labels": [
+        "Published Heath-Brown"
+      ],
+      "source_records": [
+        {
+          "source_id": "baseline_full_hb",
+          "source_class": "prior published",
+          "A": "3/(10*s - 7)",
+          "p": "(3/(10*s - 7))*(1-sigma)",
+          "domain": "(7/10, 1]",
+          "status": "Verified",
+          "attribution": "Published Heath-Brown",
+          "source": "Tao–Trudgian–Yang (2025), Table2, printed p33; https://arxiv.org/pdf/2501.16779; Theorem50",
+          "roots": [
+            "Montgomery.LiteratureDensity.source_extra_baseline_full_hb"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "G10",
+        "B6"
+      ],
+      "support_piece_ids": [
+        "S10",
+        "S16",
+        "S38"
+      ],
+      "original_chart_support_domain": "[7/8, 1]",
+      "display_source": "Published Heath-Brown",
+      "proof_route_in_this_formalization": "Native domination through 7/8; imported zero-freeness above 7/8."
+    },
+    {
+      "id": "P11",
+      "source_class": "previously announced",
+      "formula_A": "18/(7*s+3)",
+      "formula_p": "(18/(7*s+3))*(1-sigma)",
+      "display_formula": "A = 18/(7*s+3)",
+      "domains": [
+        {
+          "lo": "9/13",
+          "hi": "5/7",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[9/13, 5/7]",
+      "status": "Verified",
+      "source_labels": [
+        "Mark Lewko,9October2026 announcement and pinned original source theorem."
+      ],
+      "source_records": [
+        {
+          "source_id": "announced_left1",
+          "source_class": "previously announced",
+          "A": "18/(7*s+3)",
+          "p": "(18/(7*s+3))*(1-sigma)",
+          "domain": "[9/13, 5/7]",
+          "status": "Verified",
+          "attribution": "Mark Lewko,9October2026 announcement and pinned original source theorem.",
+          "source": "Mark Lewko, Zulip message630330489, 9Oct2026; https://leanprover.zulipchat.com/#narrow/channel/423402-PrimeNumberTheorem.2B/topic/Some.20improved.20zero-density.20estimates/near/630330489; https://leanprover.zulipchat.com/user_uploads/3121/D9NYnfSeQZFV1AiL1Ueb3M9x/zeroDensity10062026.png",
+          "roots": [
+            "GuthMaynard.Improvement.short_density"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "B2",
+        "O2"
+      ],
+      "support_piece_ids": [
+        "S12",
+        "S18"
+      ],
+      "display_source": "Lewko, announced"
+    },
+    {
+      "id": "P12",
+      "source_class": "previously announced",
+      "formula_A": "9/4",
+      "formula_p": "(9/4)*(1-sigma)",
+      "display_formula": "A = 9/4",
+      "domains": [
+        {
+          "lo": "5/7",
+          "hi": "3/4",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[5/7, 3/4]",
+      "status": "Verified",
+      "source_labels": [
+        "Mark Lewko,9October2026 announcement and pinned original source theorem."
+      ],
+      "source_records": [
+        {
+          "source_id": "announced_left2",
+          "source_class": "previously announced",
+          "A": "9/4",
+          "p": "(9/4)*(1-sigma)",
+          "domain": "[5/7, 3/4]",
+          "status": "Verified",
+          "attribution": "Mark Lewko,9October2026 announcement and pinned original source theorem.",
+          "source": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/6a2c941b69f2ae91bfa0a63a8b867bfa829db6df/README.md",
+          "roots": [
+            "GuthMaynard.Improvement.upper_curve_density"
+          ],
+          "note": "Exact original nine-fourths theorem and literal actual-count wrappers freshly replayed; closed endpoints. C may depend on sigma and epsilon."
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "B3"
+      ],
+      "support_piece_ids": [
+        "S13"
+      ],
+      "display_source": "Lewko, announced"
+    },
+    {
+      "id": "P13",
+      "source_class": "previously announced",
+      "formula_A": "3/(2*s)",
+      "formula_p": "(3/(2*s))*(1-sigma)",
+      "display_formula": "A = 3/(2*s)",
+      "domains": [
+        {
+          "lo": "3/4",
+          "hi": "1",
+          "lo_closed": false,
+          "hi_closed": false
+        }
+      ],
+      "display_domain": "(3/4, 1)",
+      "status": "Verified",
+      "source_labels": [
+        "Mark Lewko,9October2026 announcement and pinned original source theorem."
+      ],
+      "source_records": [
+        {
+          "source_id": "announced_strict_right",
+          "source_class": "previously announced",
+          "A": "3/(2*s)",
+          "p": "(3/(2*s))*(1-sigma)",
+          "domain": "(3/4, 1)",
+          "status": "Verified",
+          "attribution": "Mark Lewko,9October2026 announcement and pinned original source theorem.",
+          "source": "Mark Lewko, Zulip message630330489, 9Oct2026; https://leanprover.zulipchat.com/#narrow/channel/423402-PrimeNumberTheorem.2B/topic/Some.20improved.20zero-density.20estimates/near/630330489",
+          "roots": [
+            "MathCollab.Density.Stronger.stronger_density_bound_native"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "B5",
+        "O6"
+      ],
+      "support_piece_ids": [
+        "S15",
+        "S22"
+      ],
+      "display_source": "Lewko, announced"
+    },
+    {
+      "id": "P14",
+      "source_class": "proved new",
+      "formula_A": "6/(8*s-3)",
+      "formula_p": "(6/(8*s-3))*(1-s)",
+      "display_formula": "A = 6/(8*s-3)",
+      "domains": [
+        {
+          "lo": "7/10",
+          "hi": "5/7",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[7/10, 5/7]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_1",
+          "source_class": "proved new",
+          "A": "6/(8*s-3)",
+          "p": "(6/(8*s-3))*(1-s)",
+          "domain": "[12/17, 5/7]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P14; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.two_term_density_first"
+          ]
+        },
+        {
+          "source_id": "v7_A_1",
+          "source_class": "proved new",
+          "A": "6/(8*s-3)",
+          "p": "(6/(8*s-3))*(1-s)",
+          "domain": "[7/10, 12/17]",
+          "status": "Verified",
+          "attribution": "Supplied recovered density manuscripts, exact source references below",
+          "source": "Solution.lean: provider_P14; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.WrittenDensity.uniform_source_v7_A_1"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O3"
+      ],
+      "support_piece_ids": [
+        "S19"
+      ],
+      "note": "The left subinterval[7/10,12/17] is supplied by the checked recovered uniform source; the native first branch covers[12/17,5/7]. Closed junction12/17.",
+      "display_source": "Lewko, domination/native",
+      "proof_route_in_this_formalization": "Domination on [7/10,12/17]; native two-term argument on (12/17,5/7]; zero-free branch unreachable."
+    },
+    {
+      "id": "P15",
+      "source_class": "proved new",
+      "formula_A": "12/(9*s-1)",
+      "formula_p": "(12/(9*s-1))*(1-s)",
+      "display_formula": "A = 12/(9*s-1)",
+      "domains": [
+        {
+          "lo": "5/7",
+          "hi": "113/153",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[5/7, 113/153]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_2",
+          "source_class": "proved new",
+          "A": "12/(9*s-1)",
+          "p": "(12/(9*s-1))*(1-s)",
+          "domain": "[5/7, 113/153]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P15; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.adjacent_density_second"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O4"
+      ],
+      "support_piece_ids": [
+        "S20"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P16",
+      "source_class": "proved new",
+      "formula_A": "255/(153*s+7)",
+      "formula_p": "(255/(153*s+7))*(1-s)",
+      "display_formula": "A = 255/(153*s+7)",
+      "domains": [
+        {
+          "lo": "113/153",
+          "hi": "3/4",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[113/153, 3/4]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_3",
+          "source_class": "proved new",
+          "A": "255/(153*s+7)",
+          "p": "(255/(153*s+7))*(1-s)",
+          "domain": "[113/153, 3/4]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P16; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.third_density_segment"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O5"
+      ],
+      "support_piece_ids": [
+        "S21"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P17",
+      "source_class": "proved new",
+      "formula_A": "3/(11*s-7)",
+      "formula_p": "(3/(11*s-7))*(1-s)",
+      "display_formula": "A = 3/(11*s-7)",
+      "domains": [
+        {
+          "lo": "7/9",
+          "hi": "29359/37574",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[7/9, 29359/37574]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_4",
+          "source_class": "proved new",
+          "A": "3/(11*s-7)",
+          "p": "(3/(11*s-7))*(1-s)",
+          "domain": "[7/9, 29359/37574]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P17; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_right_solid_first"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O7"
+      ],
+      "support_piece_ids": [
+        "S23"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P18",
+      "source_class": "proved new",
+      "formula_A": "4744/(4870*s-1283)",
+      "formula_p": "(4744/(4870*s-1283))*(1-s)",
+      "display_formula": "A = 4744/(4870*s-1283)",
+      "domains": [
+        {
+          "lo": "29359/37574",
+          "hi": "1015/1294",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[29359/37574, 1015/1294]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_5",
+          "source_class": "proved new",
+          "A": "4744/(4870*s-1283)",
+          "p": "(4744/(4870*s-1283))*(1-s)",
+          "domain": "[29359/37574, 1015/1294]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P18; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_right_solid_second"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O8"
+      ],
+      "support_piece_ids": [
+        "S24"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P19",
+      "source_class": "proved new",
+      "formula_A": "6154/(6354*s-1693)",
+      "formula_p": "(6154/(6354*s-1693))*(1-s)",
+      "display_formula": "A = 6154/(6354*s-1693)",
+      "domains": [
+        {
+          "lo": "1015/1294",
+          "hi": "353/447",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[1015/1294, 353/447]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_6",
+          "source_class": "proved new",
+          "A": "6154/(6354*s-1693)",
+          "p": "(6154/(6354*s-1693))*(1-s)",
+          "domain": "[1015/1294, 353/447]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P19; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_right_solid_third"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O9"
+      ],
+      "support_piece_ids": [
+        "S25"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P20",
+      "source_class": "proved new",
+      "formula_A": "3782/(3936*s-1065)",
+      "formula_p": "(3782/(3936*s-1065))*(1-s)",
+      "display_formula": "A = 3782/(3936*s-1065)",
+      "domains": [
+        {
+          "lo": "353/447",
+          "hi": "467/586",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[353/447, 467/586]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_7",
+          "source_class": "proved new",
+          "A": "3782/(3936*s-1065)",
+          "p": "(3782/(3936*s-1065))*(1-s)",
+          "domain": "[353/447, 467/586]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P20; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_right_solid_fourth"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O10"
+      ],
+      "support_piece_ids": [
+        "S26"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P21",
+      "source_class": "proved new",
+      "formula_A": "2168/(2282*s-631)",
+      "formula_p": "(2168/(2282*s-631))*(1-s)",
+      "display_formula": "A = 2168/(2282*s-631)",
+      "domains": [
+        {
+          "lo": "467/586",
+          "hi": "289/358",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[467/586, 289/358]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_8",
+          "source_class": "proved new",
+          "A": "2168/(2282*s-631)",
+          "p": "(2168/(2282*s-631))*(1-s)",
+          "domain": "[467/586, 4/5]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P21; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_right_solid_fifth"
+          ]
+        },
+        {
+          "source_id": "original_9",
+          "source_class": "proved new",
+          "A": "2168/(2282*s-631)",
+          "p": "(2168/(2282*s-631))*(1-s)",
+          "domain": "[4/5, 289/358]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P21; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_dashed_first"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O11"
+      ],
+      "support_piece_ids": [
+        "S27"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P22",
+      "source_class": "proved new",
+      "formula_A": "566/(606*s-173)",
+      "formula_p": "(566/(606*s-173))*(1-s)",
+      "display_formula": "A = 566/(606*s-173)",
+      "domains": [
+        {
+          "lo": "289/358",
+          "hi": "163/198",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[289/358, 163/198]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_10",
+          "source_class": "proved new",
+          "A": "566/(606*s-173)",
+          "p": "(566/(606*s-173))*(1-s)",
+          "domain": "[289/358, 163/198]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P22; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.density_dashed_second"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O12"
+      ],
+      "support_piece_ids": [
+        "S28"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P23",
+      "source_class": "proved new",
+      "formula_A": "31544/(35670*s-11203)",
+      "formula_p": "(31544/(35670*s-11203))*(1-s)",
+      "display_formula": "A = 31544/(35670*s-11203)",
+      "domains": [
+        {
+          "lo": "163/198",
+          "hi": "7873/9370",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[163/198, 7873/9370]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_11",
+          "source_class": "proved new",
+          "A": "31544/(35670*s-11203)",
+          "p": "(31544/(35670*s-11203))*(1-s)",
+          "domain": "[163/198, 7873/9370]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P23; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.Physical.density_cube_row3"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O13"
+      ],
+      "support_piece_ids": [
+        "S29"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P24",
+      "source_class": "proved new",
+      "formula_A": "1261710/(1447460*s-465509)",
+      "formula_p": "(1261710/(1447460*s-465509))*(1-s)",
+      "display_formula": "A = 1261710/(1447460*s-465509)",
+      "domains": [
+        {
+          "lo": "7873/9370",
+          "hi": "2018/2375",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[7873/9370, 2018/2375]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_12",
+          "source_class": "proved new",
+          "A": "1261710/(1447460*s-465509)",
+          "p": "(1261710/(1447460*s-465509))*(1-s)",
+          "domain": "[7873/9370, 2018/2375]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P24; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.Physical.density_universal_row4"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O14"
+      ],
+      "support_piece_ids": [
+        "S30"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P25",
+      "source_class": "proved new",
+      "formula_A": "3066/(3616*s-1215)",
+      "formula_p": "(3066/(3616*s-1215))*(1-s)",
+      "display_formula": "A = 3066/(3616*s-1215)",
+      "domains": [
+        {
+          "lo": "2018/2375",
+          "hi": "1959705/2298302",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[2018/2375, 1959705/2298302]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_13",
+          "source_class": "proved new",
+          "A": "3066/(3616*s-1215)",
+          "p": "(3066/(3616*s-1215))*(1-s)",
+          "domain": "[2018/2375, 1959705/2298302]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P25; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.Physical.density_universal_row5"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O15"
+      ],
+      "support_piece_ids": [
+        "S31"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P26",
+      "source_class": "proved new",
+      "formula_A": "597962/(729216*s-257415)",
+      "formula_p": "(597962/(729216*s-257415))*(1-s)",
+      "display_formula": "A = 597962/(729216*s-257415)",
+      "domains": [
+        {
+          "lo": "1959705/2298302",
+          "hi": "6482825/7570038",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[1959705/2298302, 6482825/7570038]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_14",
+          "source_class": "proved new",
+          "A": "597962/(729216*s-257415)",
+          "p": "(597962/(729216*s-257415))*(1-s)",
+          "domain": "[1959705/2298302, 6482825/7570038]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P26; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.Physical.density_sharp_row6"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O16"
+      ],
+      "support_piece_ids": [
+        "S32"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P27",
+      "source_class": "proved new",
+      "formula_A": "16504356/(20732766*s-7623595)",
+      "formula_p": "(16504356/(20732766*s-7623595))*(1-s)",
+      "display_formula": "A = 16504356/(20732766*s-7623595)",
+      "domains": [
+        {
+          "lo": "6482825/7570038",
+          "hi": "2905/3354",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[6482825/7570038, 2905/3354]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_15",
+          "source_class": "proved new",
+          "A": "16504356/(20732766*s-7623595)",
+          "p": "(16504356/(20732766*s-7623595))*(1-s)",
+          "domain": "[6482825/7570038, 2905/3354]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P27; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.Physical.density_sharp_row7"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O17"
+      ],
+      "support_piece_ids": [
+        "S33"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P28",
+      "source_class": "proved new",
+      "formula_A": "2172/(2742*s-1015)",
+      "formula_p": "(2172/(2742*s-1015))*(1-s)",
+      "display_formula": "A = 2172/(2742*s-1015)",
+      "domains": [
+        {
+          "lo": "2905/3354",
+          "hi": "7/8",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[2905/3354, 7/8]",
+      "status": "Verified",
+      "source_labels": [
+        "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source."
+      ],
+      "source_records": [
+        {
+          "source_id": "original_16",
+          "source_class": "proved new",
+          "A": "2172/(2742*s-1015)",
+          "p": "(2172/(2742*s-1015))*(1-s)",
+          "domain": "[2905/3354, 7/8]",
+          "status": "Verified",
+          "attribution": "Density formalizations supplied with Mark Lewko’s project; analytic-source credits retained in the exact source.",
+          "source": "Solution.lean: provider_P28; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.RationalMoment.RightDetector.Physical.density_sharp_row8"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [
+        "O18"
+      ],
+      "support_piece_ids": [
+        "S34"
+      ],
+      "display_source": "Lewko, proved new"
+    },
+    {
+      "id": "P29",
+      "source_class": "proved new",
+      "formula_A": "1086/(5537*(1-s))",
+      "formula_p": "(1086/(5537*(1-s)))*(1-s)",
+      "display_formula": "p = 1086/5537",
+      "domains": [
+        {
+          "lo": "7/8",
+          "hi": "1",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[7/8, 1]",
+      "status": "Verified",
+      "source_labels": [
+        "M"
+      ],
+      "source_records": [
+        {
+          "source_id": "extra_monotone_plateau",
+          "source_class": "proved new",
+          "A": "1086/(5537*(1-s))",
+          "p": "(1086/(5537*(1-s)))*(1-s)",
+          "domain": "[7/8, 1339/1520]",
+          "status": "Verified",
+          "attribution": "M",
+          "source": "Solution.lean: provider_P29; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.MonotoneCurve.seven_eighths_right_uniform"
+          ],
+          "note": "p=1086/5537; C_epsilon precedes all sigma>=7/8 and T>=2."
+        }
+      ],
+      "constant_order": "epsilon>0 then C_epsilon before every sigma in the stated range and T>=2",
+      "active_chart_ids": [],
+      "support_piece_ids": [
+        "S35"
+      ],
+      "original_chart_support_domain": "[7/8, 1339/1520]",
+      "note": "The constant-exponent theorem is uniform for all sigma>=7/8; displayed here on the chart domain through1. Its original minimum-envelope plateau stops earlier.",
+      "display_source": "Monotone continuation"
+    },
+    {
+      "id": "P30",
+      "source_class": "proved new",
+      "formula_A": "24/(30*s-11)",
+      "formula_p": "(24/(30*s-11))*(1-s)",
+      "display_formula": "A = 24/(30*s-11)",
+      "domains": [
+        {
+          "lo": "19/22",
+          "hi": "23/26",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[19/22, 23/26]",
+      "status": "Verified",
+      "source_labels": [
+        "Supplied recovered density manuscripts, exact source references below"
+      ],
+      "source_records": [
+        {
+          "source_id": "oct2_mixed_4",
+          "source_class": "proved new",
+          "A": "24/(30*s-11)",
+          "p": "(24/(30*s-11))*(1-s)",
+          "domain": "[19/22, 23/26]",
+          "status": "Verified",
+          "attribution": "Supplied recovered density manuscripts, exact source references below",
+          "source": "Solution.lean: provider_P30; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.WrittenDensity.uniform_source_oct2_mixed_4"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [],
+      "support_piece_ids": [
+        "S36"
+      ],
+      "display_source": "Lewko, native/input consequence",
+      "proof_route_in_this_formalization": "Native domination on [19/22,7/8]; imported zero-freeness on (7/8,23/26]."
+    },
+    {
+      "id": "P31",
+      "source_class": "proved new",
+      "formula_A": "6/(s+3)",
+      "formula_p": "(6/(s+3))*(1-s)",
+      "display_formula": "A = 6/(s+3)",
+      "domains": [
+        {
+          "lo": "23/26",
+          "hi": "1",
+          "lo_closed": true,
+          "hi_closed": true
+        }
+      ],
+      "display_domain": "[23/26, 1]",
+      "status": "Verified",
+      "source_labels": [
+        "Supplied recovered density manuscripts, exact source references below"
+      ],
+      "source_records": [
+        {
+          "source_id": "oct2_mixed_5",
+          "source_class": "proved new",
+          "A": "6/(s+3)",
+          "p": "(6/(s+3))*(1-s)",
+          "domain": "[23/26, 1)",
+          "status": "Verified",
+          "attribution": "Supplied recovered density manuscripts, exact source references below",
+          "source": "Solution.lean: provider_P31; accompanying Lean modules supply the formal proof.",
+          "roots": [
+            "Montgomery.WrittenDensity.uniform_source_oct2_mixed_5"
+          ]
+        }
+      ],
+      "constant_order": "For each fixed sigma and epsilon>0, C(sigma,epsilon)>0 before all real T>=2; recovered source families separately have uniform-in-sigma constants.",
+      "active_chart_ids": [],
+      "support_piece_ids": [
+        "S37"
+      ],
+      "original_chart_support_domain": "[23/26, 1)",
+      "note": "The written interval has an open upper endpoint1; the exact checked actual-count uniform theorem also includes1.",
+      "display_source": "Lewko curve, zero-free consequence",
+      "proof_route_in_this_formalization": "Imported zero-free consequence on [23/26,1]."
+    }
+  ],
+  "component_rows": [
+    {
+      "id": "POLY_POINT",
+      "label": "Polynomial count at sigma=17/20",
+      "status": "Verified",
+      "object_scope": "component only; not a full-density estimate",
+      "formula": "card(W)<=C_epsilon*T^(2817/11744+epsilon)",
+      "domain": "sigma=17/20; CLOSED T^(1565/2936)<=N<=T^(4695/5872); all real T>=2, arbitrary coefficients bounded by 1, arbitrary translates and one-separated samples with polynomial modulus>=N^(17/20). This is a polynomial theorem, not a full zero count.",
+      "roots": [
+        "Montgomery.RationalMoment.Point60Polynomial.actual_count"
+      ]
+    },
+    {
+      "id": "LONG_COMPACT",
+      "label": "Canonical long-zero subset on compact sigma intervals",
+      "status": "Verified",
+      "object_scope": "component only; not a full-density estimate",
+      "formula": "Positive canonical LONG count <= C_(eta,epsilon)*T^(395*(1-sigma)/(132*(11*sigma-7))+epsilon).",
+      "domain": "For every closed [L,U] strictly inside (2243/2904,3301/4228), one delta(U)>0 is chosen before eta,epsilon,sigma,T; C before all sigma in [L,U] and all real T>=2. In particular [7/9,1561/2000] is closed. Analytic multiplicities retained.",
+      "roots": [
+        "Montgomery.RationalMoment.RightDetector.Physical.UniformLong.Compact395.actual_compact_delta_first",
+        "Montgomery.RationalMoment.RightDetector.Physical.UniformLong.Compact395.actual_closed_from_seven_ninths"
+      ]
+    },
+    {
+      "id": "SHORT_CANONICAL_PENDING",
+      "label": "Canonical short-zero subset at sigma=17/20",
+      "status": "Verified",
+      "object_scope": "component only; not a full-density estimate",
+      "formula": "Positive canonical SHORT count <= C_(delta,epsilon)*T^(2817/11744+epsilon).",
+      "domain": "sigma=17/20, detector exponent a=1565/2936; eta(epsilon)=min(1/16384,epsilon/2404) before each fixed smoothing delta; C before all T>=2. SHORT means membership in the original admissible normalized powered-polynomial family; LONG is its exact complement.",
+      "roots": [
+        "Montgomery.RationalMoment.RightDetector.Physical.Point60Short.actual_short_count_at_target",
+        "Montgomery.RationalMoment.RightDetector.Physical.Point60Short.actual_short_count_literal"
+      ]
+    }
+  ],
+  "displayed_scope": {
+    "active_chart_segments": 34,
+    "full_power_support_segments": 38,
+    "recovered_source_families_in_main_table": 2,
+    "all_recovered_families_verified": 28,
+    "source_interval_records": 33,
+    "consolidated_formula_rows": 31,
+    "connected_formula_class_domains": 31,
+    "zero_free_comparisons_included": false
+  },
+  "off_frontier_notes": [
+    "Also Verified: Mark Lewko’s previously announced global A=39/17 on CLOSED[1/2,1]. It is inactive in the cumulative minimum and excluded from the provider count.",
+    "All recovered written families are also verified; redundant off-frontier consequences are excluded from the chart progress count."
+  ]
+}

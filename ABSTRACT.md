@@ -1,12 +1,3 @@
-# Zero-density estimates from an improved large-values bound
+# Improved zero-density estimates for the Riemann zeta function
 
-Let N(σ,T) count the nontrivial zeros of the Riemann zeta function with real part at least σ and imaginary part of absolute value at most T, counted with multiplicity. For every fixed σ ∈ [1/2,1] and every ε > 0, we prove N(σ,T) ≤ Cσ,ε T^(A(σ)(1−σ)+ε) for all T ≥ 2, where
-
-| σ interval | A(σ) |
-| --- | --- |
-| [1/2,9/13] | 3/(2−σ) |
-| (9/13,5/7] | 18/(7σ+3) |
-| (5/7,3/4] | 9/4 |
-| (3/4,1] | 3/(2σ) |
-
-The maximum of this coefficient bound is 39/17, improving the coefficient 30/13 in the Guth–Maynard bound. We also prove the separate estimate N(σ,T) ≤ Cε T^((39/17)(1−σ)+ε) for every ε > 0, simultaneously for σ ∈ [1/2,1] and T ≥ 2, with a constant independent of σ and T. The improved large-values estimate and its zero-density consequences are formalized in Lean.
+We establish improved zero-density estimates for the Riemann zeta function relative to the bounds previously released in PALOMAR-2026-10-11-000010 v1 and PALOMAR-2026-10-09-000005 v1. Let N(σ,T) count the nontrivial zeros with Re ρ ≥ σ and |Im ρ| ≤ T, with analytic multiplicity. For T ≥ 2 and ε > 0, our bounds have the form N(σ,T) ≤ C(σ,ε)T^((1−σ)A(σ)+ε). The native quantitative bounds improve those earlier power curves for 12/17 < σ ≤ 3/4 and 7/9 < σ ≤ 7/8. The displayed power-curve comparison continues for 7/8 < σ < 17/19, where the imported OpenAI result already gives N(σ,T)=0. Later Lean-formalized refinements also give a zero-free region below 7/8 [Collet26]; our comparisons near 7/8 concern the named earlier results. Table 1 gives all the proved contribution curves and their full ranges, including A(σ)=12/(9σ−1) on [5/7,113/153] and A(σ)=255/(153σ+7) on [113/153,3/4]. Figure 1 compares the cumulative curves.

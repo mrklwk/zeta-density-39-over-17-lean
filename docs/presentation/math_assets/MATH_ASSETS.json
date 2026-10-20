@@ -1,0 +1,485 @@
+[
+  {
+    "key": "main_bound",
+    "math": "N(\\sigma,T)\\leq C_{\\sigma,\\varepsilon}\\,T^{p(\\sigma)+\\varepsilon},\\qquad p(\\sigma)=A(\\sigma)(1-\\sigma)",
+    "font_size": 14,
+    "pdf": "assets/main_bound.pdf",
+    "sha256": "2dec7cafbbacf8316649d65f2bc69ebd8bc7c741d21cdda5d42cb514586418d6"
+  },
+  {
+    "key": "P1_formula",
+    "math": "A=\\frac{3}{2 - \\sigma}",
+    "font_size": 12,
+    "pdf": "assets/P1_formula.pdf",
+    "sha256": "55fda744f6ace64a096b592735fc10a1cf0942d9a036a811d490e37f423bb1bc"
+  },
+  {
+    "key": "P1_range",
+    "math": "\\left[\\frac{1}{2},\\,\\frac{7}{10}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P1_range.pdf",
+    "sha256": "cded3c8c47b7013cb1adb713a2ab70c649b4b324dd3a676792c7edc95bf47333"
+  },
+  {
+    "key": "P2_formula",
+    "math": "A=\\frac{15}{5 \\sigma + 3}",
+    "font_size": 12,
+    "pdf": "assets/P2_formula.pdf",
+    "sha256": "7b6ee8f47b00b0c6b1b773f10e532c2e564cdeea69da4cd30388801312129230"
+  },
+  {
+    "key": "P2_range",
+    "math": "\\left[\\frac{7}{10},\\,\\frac{19}{25}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P2_range.pdf",
+    "sha256": "99a208222e1e4b0d6bb4f8d136f2217c81b4fd0c61e32bd01c08cd722b9ed5c2"
+  },
+  {
+    "key": "P3_formula",
+    "math": "A=\\frac{9}{8 \\sigma - 2}",
+    "font_size": 12,
+    "pdf": "assets/P3_formula.pdf",
+    "sha256": "15b9da96f530225a5a2afd35d62592ace22a5a06b6dacba5ff7fef05bd6e0d83"
+  },
+  {
+    "key": "P3_range",
+    "math": "\\left[\\frac{19}{25},\\,\\frac{127}{167}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P3_range.pdf",
+    "sha256": "826f17261ff7d9657cad36b02aa465f6a47cd0a51f064e6d86cd076b2fe3b054"
+  },
+  {
+    "key": "P4_formula",
+    "math": "A=\\frac{15}{13 \\sigma - 3}",
+    "font_size": 12,
+    "pdf": "assets/P4_formula.pdf",
+    "sha256": "e352505b5bfd4e7b6fe3b63cbbd7a383ad1ffc5cdbcfcc9bb2a5eaa12c81fe4b"
+  },
+  {
+    "key": "P4_range",
+    "math": "\\left[\\frac{127}{167},\\,\\frac{13}{17}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P4_range.pdf",
+    "sha256": "44eec76fb9456bc71cb5915cb08dded8fc2e968d1aeea9fa0b9b71b3e4e7bf41"
+  },
+  {
+    "key": "P5_formula",
+    "math": "A=\\frac{6}{5 \\sigma - 1}",
+    "font_size": 12,
+    "pdf": "assets/P5_formula.pdf",
+    "sha256": "ef765217fb28853e30f063459ab5bf37af4bcec38c3b577f69717aafa70b8277"
+  },
+  {
+    "key": "P5_range",
+    "math": "\\left[\\frac{13}{17},\\,\\frac{17}{22}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P5_range.pdf",
+    "sha256": "bf1aa2ca23e829fd8cf61a6fc57d6f089462a9662b70a8c430d09164a58fab8d"
+  },
+  {
+    "key": "P6_formula",
+    "math": "A=\\frac{2}{9 \\sigma - 6}",
+    "font_size": 12,
+    "pdf": "assets/P6_formula.pdf",
+    "sha256": "79cb16225863f0efe70489300c5a20e2f0fdb196427d19c5b855d2ef86ee2a8c"
+  },
+  {
+    "key": "P6_range",
+    "math": "\\left[\\frac{17}{22},\\,\\frac{41}{53}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P6_range.pdf",
+    "sha256": "d6f30210350b68df6ba501fac6bc4c9ad37aaeaabb579bdc27561baf5504e73c"
+  },
+  {
+    "key": "P7_formula",
+    "math": "A=\\frac{9}{7 \\sigma - 1}",
+    "font_size": 12,
+    "pdf": "assets/P7_formula.pdf",
+    "sha256": "8b9bdda813060d9c017aff5d383c779947538e9612b4548531b5bb4a80245cae"
+  },
+  {
+    "key": "P7_range",
+    "math": "\\left[\\frac{41}{53},\\,\\frac{7}{9}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P7_range.pdf",
+    "sha256": "0bc7e1d3bf0b62e296a32249fb7b1b28e274e2bcf35f4ad42dc5609bb55b9e74"
+  },
+  {
+    "key": "P8_formula",
+    "math": "A=\\frac{9}{16 \\sigma - 8}",
+    "font_size": 12,
+    "pdf": "assets/P8_formula.pdf",
+    "sha256": "0b1a864c1aa935e9f50cafde8476882af2b7ec95d15222a2343e1de90f85b0f0"
+  },
+  {
+    "key": "P8_range",
+    "math": "\\left[\\frac{7}{9},\\,\\frac{1867}{2347}\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P8_range.pdf",
+    "sha256": "6b7f3c97914bd9edd80c5dea576e636e9d540583d09752ae294da282ae4383c2"
+  },
+  {
+    "key": "P9_formula",
+    "math": "A=\\frac{3}{2 \\sigma}",
+    "font_size": 12,
+    "pdf": "assets/P9_formula.pdf",
+    "sha256": "6f1c7b632342427564fa41b16c607412e3466a510d13a6c5ddacd29413d70914"
+  },
+  {
+    "key": "P9_range",
+    "math": "\\left[\\frac{23}{29},\\,1\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P9_range.pdf",
+    "sha256": "464a22cd72ef57d05b2ae21cf052b5cba0fe66ebd4943fc1891ac5e90dd0bfb3"
+  },
+  {
+    "key": "P10_formula",
+    "math": "A=\\frac{3}{10 \\sigma - 7}",
+    "font_size": 12,
+    "pdf": "assets/P10_formula.pdf",
+    "sha256": "c1992d6077eeedae505f05ada44cdc9dd9a22cf41e45cf1d39364f20b1b16b7d"
+  },
+  {
+    "key": "P10_range",
+    "math": "\\left(\\frac{7}{10},\\,1\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P10_range.pdf",
+    "sha256": "d1d2d3a89eb0648739d8d52bffbf5173fa0f2d7ba2f6cb1722650cf974a37179"
+  },
+  {
+    "key": "P11_formula",
+    "math": "A=\\frac{18}{7 \\sigma + 3}",
+    "font_size": 12,
+    "pdf": "assets/P11_formula.pdf",
+    "sha256": "117ae1c49decd8fecf69155aa954acd9b5f02e43e98f67e447a675356d7d6a5f"
+  },
+  {
+    "key": "P11_range",
+    "math": "\\left[\\frac{9}{13},\\,\\frac{5}{7}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P11_range.pdf",
+    "sha256": "7685badabb20bbf0a9898c1c20ce3c717ed54d330fe30609e6990d137a048b09"
+  },
+  {
+    "key": "P12_formula",
+    "math": "A=\\frac{9}{4}",
+    "font_size": 12,
+    "pdf": "assets/P12_formula.pdf",
+    "sha256": "ea3702e1a0c70a72f9f6f62c06da47053c137ac3fb0ebce1c9e9810d58998972"
+  },
+  {
+    "key": "P12_range",
+    "math": "\\left[\\frac{5}{7},\\,\\frac{3}{4}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P12_range.pdf",
+    "sha256": "9e4054269a0dc97a919fce01bdbd711ef67285f0c8dad5a4b5ecee15eb9f847e"
+  },
+  {
+    "key": "P13_formula",
+    "math": "A=\\frac{3}{2 \\sigma}",
+    "font_size": 12,
+    "pdf": "assets/P13_formula.pdf",
+    "sha256": "6f1c7b632342427564fa41b16c607412e3466a510d13a6c5ddacd29413d70914"
+  },
+  {
+    "key": "P13_range",
+    "math": "\\left(\\frac{3}{4},\\,1\\right)",
+    "font_size": 11.5,
+    "pdf": "assets/P13_range.pdf",
+    "sha256": "e49342c4a5e22a2db2d5b896824fb6a00b080ccb04038c34b68ad2937069f696"
+  },
+  {
+    "key": "P14_formula",
+    "math": "A=\\frac{6}{8 \\sigma - 3}",
+    "font_size": 12,
+    "pdf": "assets/P14_formula.pdf",
+    "sha256": "09dc5d638608097e0c7bf103a2dba2cc10734864999696d9860dc194c1a17b06"
+  },
+  {
+    "key": "P14_range",
+    "math": "\\left[\\frac{7}{10},\\,\\frac{5}{7}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P14_range.pdf",
+    "sha256": "ac93ab5098ac8b64a813a02410a01fe73433cae25ea6667db1be9f0ed8c3cc64"
+  },
+  {
+    "key": "P15_formula",
+    "math": "A=\\frac{12}{9 \\sigma - 1}",
+    "font_size": 12,
+    "pdf": "assets/P15_formula.pdf",
+    "sha256": "69593a93607f212c40db1de03db160f5c4c29b1d6e6e7b78ab424ef53fe4ffb0"
+  },
+  {
+    "key": "P15_range",
+    "math": "\\left[\\frac{5}{7},\\,\\frac{113}{153}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P15_range.pdf",
+    "sha256": "ab9a6f28182b88938c65c54dc8ab7d46a3732249deee9dfcaa7d8d21fcd7c083"
+  },
+  {
+    "key": "P16_formula",
+    "math": "A=\\frac{255}{153 \\sigma + 7}",
+    "font_size": 12,
+    "pdf": "assets/P16_formula.pdf",
+    "sha256": "34c31d04732cf718b28102e85222e238e76c319945f7a98ef1465d40474841b2"
+  },
+  {
+    "key": "P16_range",
+    "math": "\\left[\\frac{113}{153},\\,\\frac{3}{4}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P16_range.pdf",
+    "sha256": "845d206e6ca350f6e19499e640dfcf32bb72affc106d595e1648613947cb3057"
+  },
+  {
+    "key": "P17_formula",
+    "math": "A=\\frac{3}{11 \\sigma - 7}",
+    "font_size": 12,
+    "pdf": "assets/P17_formula.pdf",
+    "sha256": "1c6ade779df9ea9f4f8850ac884b2d7fe5797158f4212afb140441152afcd295"
+  },
+  {
+    "key": "P17_range",
+    "math": "\\left[\\frac{7}{9},\\,\\frac{29359}{37574}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P17_range.pdf",
+    "sha256": "615be2b66d20dedb0dde660b9cff3121fbcbb8f2804efe0bfe328eb68d3f3105"
+  },
+  {
+    "key": "P18_formula",
+    "math": "A=\\frac{4744}{4870 \\sigma - 1283}",
+    "font_size": 12,
+    "pdf": "assets/P18_formula.pdf",
+    "sha256": "506cf615e392976494e71afa687adba9f83140bfe804d5025478764c8bd23f49"
+  },
+  {
+    "key": "P18_range",
+    "math": "\\left[\\frac{29359}{37574},\\,\\frac{1015}{1294}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P18_range.pdf",
+    "sha256": "62e6a1a2773be33d9f9d25dd6d0abea6471999b75396572c6add3556eb9b08a3"
+  },
+  {
+    "key": "P19_formula",
+    "math": "A=\\frac{6154}{6354 \\sigma - 1693}",
+    "font_size": 12,
+    "pdf": "assets/P19_formula.pdf",
+    "sha256": "e36bdcef187daa5b1ff32033b65f216dc9c57ec989945c750f9793d9dafe9ba0"
+  },
+  {
+    "key": "P19_range",
+    "math": "\\left[\\frac{1015}{1294},\\,\\frac{353}{447}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P19_range.pdf",
+    "sha256": "d431506977ce7ec171f52e24961393a8b24f1238751c3ba2d5bff29b9bf3d5f4"
+  },
+  {
+    "key": "P20_formula",
+    "math": "A=\\frac{3782}{3936 \\sigma - 1065}",
+    "font_size": 12,
+    "pdf": "assets/P20_formula.pdf",
+    "sha256": "6cc4e885011317bb27bcf8622e25ae365d6a7d32e73b0dd4d63a6ceaccfcc70a"
+  },
+  {
+    "key": "P20_range",
+    "math": "\\left[\\frac{353}{447},\\,\\frac{467}{586}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P20_range.pdf",
+    "sha256": "fdf1ffbcdcbb6c23524746821b97e9f6be45f944e3be924f203af7d0b6738bd4"
+  },
+  {
+    "key": "P21_formula",
+    "math": "A=\\frac{2168}{2282 \\sigma - 631}",
+    "font_size": 12,
+    "pdf": "assets/P21_formula.pdf",
+    "sha256": "d7bd36b4c02f040e8f5b961aea4265293267db210a25f3abf8d39bd26bef4ade"
+  },
+  {
+    "key": "P21_range",
+    "math": "\\left[\\frac{467}{586},\\,\\frac{289}{358}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P21_range.pdf",
+    "sha256": "d8912f3d9a9f3ef0ab9357fb0ac5101f0ab683f944b9cb258bc20d3515edb80d"
+  },
+  {
+    "key": "P22_formula",
+    "math": "A=\\frac{566}{606 \\sigma - 173}",
+    "font_size": 12,
+    "pdf": "assets/P22_formula.pdf",
+    "sha256": "8ffd6e6cea3917b85185a79fd4a1d5aee779eddf1055653de30dd2fbe798567b"
+  },
+  {
+    "key": "P22_range",
+    "math": "\\left[\\frac{289}{358},\\,\\frac{163}{198}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P22_range.pdf",
+    "sha256": "8482cceebdc85e30c6a02c49722c88989f6e776fe33196312ff0165e8c3b7406"
+  },
+  {
+    "key": "P23_formula",
+    "math": "A=\\frac{31544}{35670 \\sigma - 11203}",
+    "font_size": 12,
+    "pdf": "assets/P23_formula.pdf",
+    "sha256": "e11e7d23736d2e846ca808ebe1c7b1a7db7f265bf51b7a7b75ad813dca021018"
+  },
+  {
+    "key": "P23_range",
+    "math": "\\left[\\frac{163}{198},\\,\\frac{7873}{9370}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P23_range.pdf",
+    "sha256": "26bd13f67754944c48cc6b232b4572a014aab6aa140a73e2096a88e4441ec16a"
+  },
+  {
+    "key": "P24_formula",
+    "math": "A=\\frac{1261710}{1447460 \\sigma - 465509}",
+    "font_size": 12,
+    "pdf": "assets/P24_formula.pdf",
+    "sha256": "c6801f01c3fbf1eac009206c119ea181c9743a745509cad52164e775b1a429e4"
+  },
+  {
+    "key": "P24_range",
+    "math": "\\left[\\frac{7873}{9370},\\,\\frac{2018}{2375}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P24_range.pdf",
+    "sha256": "88a84f138cc8c80b11cdb1a519483897fb315209de392d081d710af6de592c99"
+  },
+  {
+    "key": "P25_formula",
+    "math": "A=\\frac{3066}{3616 \\sigma - 1215}",
+    "font_size": 12,
+    "pdf": "assets/P25_formula.pdf",
+    "sha256": "39fbfb0dc6fcd472572c24034cfa5126daa4dabcb01cb4a91ad3449a629f1bb8"
+  },
+  {
+    "key": "P25_range",
+    "math": "\\left[\\frac{2018}{2375},\\,\\frac{1959705}{2298302}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P25_range.pdf",
+    "sha256": "494a02e5673dff16cc96559c5a23e60dc6198c1c2bea0e1f2b2b112fc72fde4d"
+  },
+  {
+    "key": "P26_formula",
+    "math": "A=\\frac{597962}{729216 \\sigma - 257415}",
+    "font_size": 12,
+    "pdf": "assets/P26_formula.pdf",
+    "sha256": "f514b70ed64ed1687305fe25f3f2de2fb0663bf784599db0630b61e56eb55bea"
+  },
+  {
+    "key": "P26_range",
+    "math": "\\left[\\frac{1959705}{2298302},\\,\\frac{6482825}{7570038}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P26_range.pdf",
+    "sha256": "d00f165d198636651c490e83753ed27772576c3c6096cb7e028e47f82536b5e2"
+  },
+  {
+    "key": "P27_formula",
+    "math": "A=\\frac{16504356}{20732766 \\sigma - 7623595}",
+    "font_size": 12,
+    "pdf": "assets/P27_formula.pdf",
+    "sha256": "0b397e93688eb377165782123277e390d5c6d07222ca434b51afd4e70760bb7d"
+  },
+  {
+    "key": "P27_range",
+    "math": "\\left[\\frac{6482825}{7570038},\\,\\frac{2905}{3354}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P27_range.pdf",
+    "sha256": "955349fcabf8621f9321f010ec7182e4034ead1280b86a8e6906fcde3118be72"
+  },
+  {
+    "key": "P28_formula",
+    "math": "A=\\frac{2172}{2742 \\sigma - 1015}",
+    "font_size": 12,
+    "pdf": "assets/P28_formula.pdf",
+    "sha256": "020e7bd9af0dd680dcad107cf6f614e52ad5b20f68f40d25a5548cd15f829393"
+  },
+  {
+    "key": "P28_range",
+    "math": "\\left[\\frac{2905}{3354},\\,\\frac{7}{8}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P28_range.pdf",
+    "sha256": "466b4cbcc5afe40970dfa41a4b5104e0ab7be10090e6fd4d872bc61bc7136d7a"
+  },
+  {
+    "key": "P29_formula",
+    "math": "p=\\frac{1086}{5537}",
+    "font_size": 12,
+    "pdf": "assets/P29_formula.pdf",
+    "sha256": "25ba82cccd753958dfd9b4b48c5eaf48ccedd9907acd746cbb8d32813bfd0d78"
+  },
+  {
+    "key": "P29_range",
+    "math": "\\left[\\frac{7}{8},\\,1\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P29_range.pdf",
+    "sha256": "f391c8f0ba193bb2509c4e3b8c235825a10a8dbf62a5bc0c5f05863b62a7af85"
+  },
+  {
+    "key": "P30_formula",
+    "math": "A=\\frac{24}{30 \\sigma - 11}",
+    "font_size": 12,
+    "pdf": "assets/P30_formula.pdf",
+    "sha256": "f295de6625f262ca92cec4277369a72397570694dd7e556c0dea05c73b3e51fe"
+  },
+  {
+    "key": "P30_range",
+    "math": "\\left[\\frac{19}{22},\\,\\frac{23}{26}\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P30_range.pdf",
+    "sha256": "880d6253f80bbd6a6a36794fc7eaa3d2485b2391cb1d638a6f9e150be7783673"
+  },
+  {
+    "key": "P31_formula",
+    "math": "A=\\frac{6}{\\sigma + 3}",
+    "font_size": 12,
+    "pdf": "assets/P31_formula.pdf",
+    "sha256": "3f5b35eacd3aafe3586d0ed7e73d03a1a04b35cba4a26882fef9d6f915254ac8"
+  },
+  {
+    "key": "P31_range",
+    "math": "\\left[\\frac{23}{26},\\,1\\right]",
+    "font_size": 11.5,
+    "pdf": "assets/P31_range.pdf",
+    "sha256": "fb3e89887ca0486e8ce18f2188055184edf0cfa1d7e6e273bde77e9496ee6753"
+  },
+  {
+    "key": "component_poly",
+    "math": "|W|\\leq C_{\\varepsilon}T^{\\frac{2817}{11744}+\\varepsilon}",
+    "font_size": 11,
+    "pdf": "assets/component_poly.pdf",
+    "sha256": "37e1682cae26f5f314132c82124a3410185830f19fc575aceda26f7571e56c82"
+  },
+  {
+    "key": "component_poly_range",
+    "math": "\\sigma=\\frac{17}{20},\\quad T^{\\frac{1565}{2936}}\\leq N\\leq T^{\\frac{4695}{5872}}",
+    "font_size": 10.5,
+    "pdf": "assets/component_poly_range.pdf",
+    "sha256": "e46cd41fb2338d75e32c0bbe36f10c43130ecb981d3f42139f75a0a39e50ce38"
+  },
+  {
+    "key": "component_long",
+    "math": "R_{\\rm LONG}\\leq C\\,T^{\\frac{395(1-\\sigma)}{132(11\\sigma-7)}+\\varepsilon}",
+    "font_size": 11,
+    "pdf": "assets/component_long.pdf",
+    "sha256": "67e55baa96c87c86bb8cf76e09273871aad87843ad55c99de7b410488667da29"
+  },
+  {
+    "key": "component_long_range",
+    "math": "[L,U]\\subset\\left(\\frac{2243}{2904},\\frac{3301}{4228}\\right)",
+    "font_size": 10.5,
+    "pdf": "assets/component_long_range.pdf",
+    "sha256": "1ee06f5cd6ee74e828cfe3cabfed0a782fff77979093c897d6ae2a9284ecc807"
+  },
+  {
+    "key": "component_short",
+    "math": "R_{\\rm SHORT}\\leq C_{\\delta,\\varepsilon}T^{\\frac{2817}{11744}+\\varepsilon}",
+    "font_size": 11,
+    "pdf": "assets/component_short.pdf",
+    "sha256": "4bac5700f81d64003bec442c0fdebf85b0534344cb43af45849f259d587bda18"
+  },
+  {
+    "key": "component_short_range",
+    "math": "\\sigma=\\frac{17}{20},\\quad a=\\frac{1565}{2936}",
+    "font_size": 10.5,
+    "pdf": "assets/component_short_range.pdf",
+    "sha256": "3d65e0707647c59b119a7c9464e32bc35aed0a4f09a49ffda16f31bd22fb0986"
+  }
+]
