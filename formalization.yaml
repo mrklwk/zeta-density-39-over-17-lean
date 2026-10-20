@@ -6,7 +6,8 @@
     "authors": [
       "Mark Lewko"
     ],
-    "license": "AGPL-3.0-only",
+    "license": "AGPL-3.0",
+    "license_note": "The machine identifier AGPL-3.0 uses the legacy SPDX spelling. The grant is GNU AGPL version 3 only (AGPL-3.0-only), as stated in LICENSING.md; upstream licenses and notices remain unchanged.",
     "responsible_maintainers": [
       "Mark Lewko"
     ]

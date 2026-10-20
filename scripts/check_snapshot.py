@@ -61,7 +61,9 @@ def main():
         metadata=json.loads(metadata_path.read_text())
         assert metadata['project']['authors']==['Mark Lewko']
         assert metadata['project']['responsible_maintainers']==['Mark Lewko']
-        assert metadata['project']['license']=='AGPL-3.0-only'
+        assert metadata['project']['license']=='AGPL-3.0'
+        assert metadata['project']['license_note']=='The machine identifier AGPL-3.0 uses the legacy SPDX spelling. The grant is GNU AGPL version 3 only (AGPL-3.0-only), as stated in LICENSING.md; upstream licenses and notices remain unchanged.'
+        assert 'version 3 only (SPDX: AGPL-3.0-only)' in (R/'LICENSING.md').read_text()
         assert metadata['project']['description']==(R/'docs/presentation/PROPOSED_ABSTRACT.txt').read_text().strip()
     out=dict(status='PASS_SOURCE_INTEGRITY_AND_SCOPE',frozen_files=len(frozen['files']),regular_Lean_sources=len(modules),largest_Lean_physical_lines=largest,selected_theorems=73,fixed_definition_holes=0,Solution_local_import_modules=len(seen),Solution_imports_Challenge=False,compiler='4.35.0-rc2',dependency_pins=9,release_status='READY_FOR_REVIEW'if not release_blockers else'BLOCKED',release_blockers=release_blockers,hosted_Palomar_verification='NOT_RUN')
     print(json.dumps(out,indent=2))
