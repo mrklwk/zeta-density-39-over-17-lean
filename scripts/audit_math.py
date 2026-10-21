@@ -123,8 +123,13 @@ def main():
         for m in re.finditer(r'noncomputable def (zeroWeight|zeroCount)\b(.*?)(?=\n(?:noncomputable def|theorem)|\Z)',s,re.S):out[m[1]]=clean(m[2])
         return out
     assert defs(core)==defs(challenge)
-    abstract=(P/'PROPOSED_ABSTRACT.txt').read_text();assert '12/17 < σ ≤ 3/4 and 7/9 < σ ≤ 7/8'in abstract
-    assert '7/8 < σ < 17/19'in abstract
+    abstract=(P/'PROPOSED_ABSTRACT.txt').read_text()
+    assert 'A(σ)=12/(9σ−1) for 5/7 ≤ σ ≤ 113/153'in abstract
+    assert 'A(σ)=255/(153σ+7) for 113/153 ≤ σ ≤ 3/4'in abstract
+    assert '7/9 < σ ≤ 7/8'in abstract
+    discussion=(R/'README.md').read_text()
+    assert '12/17 < σ ≤ 3/4 and 7/9 < σ ≤ 7/8'in discussion
+    assert '7/8 < σ < 17/19'in discussion
     result=dict(status='PASS_FRESH_MAIN_CLAIM_AND_EXACT_FRONTIER_AUDIT',utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),selected_theorem_headers=73,fixed_count_definition_bodies=2,providers=ledger,pieces=piece_rows,uniform_roots=['LewkoDensityPalomar.'+n for n in ['global39over17','uniform_P29','uniform_P30','uniform_P31']],exact_minimum_certificates=checks,strict_power_curve_comparison_intervals=['(12/17,3/4]','(7/9,17/19)'],strict_improvement_endpoint_truth=strict_endpoints,global39over17_dominated_by_announced_and_new_frontiers=True,external_zero_free_region_excluded_from_minimum_calculation=True,actual_zero_count_at_sigma1='0; open critical strip makes region empty',new_mathematical_assumptions=False)
     print('Exact arithmetic audit passed; retained receipt is unchanged.')
     print(json.dumps({k:v for k,v in result.items()if k not in ['providers','pieces','exact_minimum_certificates']}),flush=True)
